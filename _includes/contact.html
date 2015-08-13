@@ -1,0 +1,13 @@
+<section id="contact" class="mt4 mb4 py4">
+  <h2>Contact</h2>            
+  <div class="clearfix mt3"> 
+    <div class="sm-col sm-col-4">
+      {% for external_url_hash in site.contact_urls %}
+        {% assign external_url = external_url_hash[1] %}
+        <a href="{{ external_url.url }}" class="mb2 btn btn-outline block thin link-color">
+          <i class="fa fa-{{ external_url.icon }} pr1"></i> {{ external_url.label }}
+        </a>      
+      {% endfor %}               
+    </div>
+  </div>            
+</section>

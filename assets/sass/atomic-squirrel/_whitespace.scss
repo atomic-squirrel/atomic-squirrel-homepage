@@ -1,0 +1,8 @@
+@import 'atomic-squirrel/variables';
+
+@for $i from 0 through 4 {
+  .pr#{$i} { padding-right: $paddingAmount * $i; }
+  .pl#{$i} { padding-left: $paddingAmount * $i; }
+  .pt#{$i} { padding-top: $paddingAmount * $i; }
+  .pb#{$i} { padding-bottom: $paddingAmount * $i; }
+}

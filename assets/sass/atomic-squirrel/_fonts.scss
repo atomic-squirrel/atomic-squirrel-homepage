@@ -1,0 +1,78 @@
+@import 'atomic-squirrel/variables';
+
+body, h1, h2, h3, h4, h5, p, span, div, li {
+  font-family: $defaultFontFamily;
+  color: $defaultFontColor;
+  letter-spacing: 0.015rem;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+h1, .h1 {
+  font-size: $defaultFontSize * 2.2;
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+}
+
+h2, .h2 {
+  font-size: $defaultFontSize * 1.8;
+  font-weight: 100;
+  letter-spacing: 0.3rem;
+}
+
+h3, .h3 {
+  font-size: $defaultFontSize * 1.4;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+}
+
+h4, .h4 {
+  font-size: $defaultFontSize * 1.0;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+}
+
+h5, .h5 {
+  font-size: $defaultFontSize * 0.875;
+  font-weight: 100;
+}
+
+h6, .h6 {
+  font-size: $defaultFontSize * 0.75;
+  font-weight: 100;
+}
+
+a, .link-color {
+  color: $linkColor;
+  font-weight: 300;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn:hover {
+  background-color: $linkColor;
+  border-color: $linkColor;
+  color: #fff;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.medium {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 400;
+}
+
+.subtle-gray {
+  color: #C0C0C8;
+}

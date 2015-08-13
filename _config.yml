@@ -1,0 +1,51 @@
+# Website settings
+baseurl: "/"
+url: "http://www.atomic-squirrel.net"
+
+# Bio settings
+name: "Atomic Squirrel"
+slogan: "The technology to launch your startup"
+description: "Atomic Squirrel creates high quality, battle-tested, end-to-end infrastructure that you can use as the foundation of your startup. We take care of the technology so that you can focus on what really matters: your product and your customers."
+thumbnail_path: "rocket-background.jpg"
+website_repo_url: "https://github.com/atomic-squirrel/atomic-squirrel-homepage"
+
+# URLs
+contact_urls:  
+  email: 
+    url: "mailto:info@atomic-squirrel.net"
+    label: "Email"
+    value: "info@atomic-squirrel.net"   
+    icon: "envelope-o" 
+  twitter: 
+    url: "https://twitter.com/atomic-squirrel"
+    label: "Twitter"
+    username: "@atomic-squirrel"
+    icon: "twitter"
+  linkedin: 
+    url: "https://www.linkedin.com/company/atomic-squirrel"
+    label: "LinkedIn"
+    icon: "linkedin"
+  facebook: 
+    url: "https://www.facebook.com/pages/atomic-squirrel"
+    label: "Facebook"    
+    icon: "facebook"
+  google: 
+    url: "https://plus.google.com/+atomic-squirrel/"
+    label: "Google+"
+    icon: "google-plus"    
+  github: 
+    url: "https://github.com/atomic-squirrel/"
+    label: "GitHub"
+    icon: "github"
+
+# Jekyll build settings
+sass:
+  sass_dir: "assets/sass"
+  style: :compressed  
+highlighter: pygments
+timezone: 'America/New_York'
+
+# Plugins (GitHub Pages only support a few)
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap

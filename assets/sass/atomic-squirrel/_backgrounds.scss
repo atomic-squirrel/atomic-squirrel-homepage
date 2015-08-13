@@ -1,0 +1,21 @@
+@import 'atomic-squirrel/variables';
+
+.bg-clouds-image {
+  background-image: url('/assets/images/navbar-background.jpg');
+}
+
+.bg-rocket-image {
+  background-image: url('/assets/images/rocket-background.jpg');
+}
+
+.bg-dark-blue-sky {
+  background-color: $backgroundColor;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
