@@ -6,7 +6,7 @@ url: "http://www.atomic-squirrel.net"
 name: "Atomic Squirrel"
 slogan: "The technology to launch your startup"
 description: "Atomic Squirrel creates high quality, battle-tested, end-to-end infrastructure that you can use as the foundation of your startup. We take care of the technology so that you can focus on what really matters: your product and your customers."
-thumbnail_path: "rocket-background.jpg"
+thumbnail_path: "rocket-launching.jpg"
 website_repo_url: "https://github.com/atomic-squirrel/atomic-squirrel-homepage"
 
 # URLs
