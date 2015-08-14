@@ -1,7 +1,15 @@
 @import 'atomic-squirrel/variables';
 
+.bg-grass {
+  background-image: url('/assets/images/grass.jpg');
+}
+
 .bg-rocket-launch {
   background-image: url('/assets/images/rocket-launching.jpg');
+}
+
+.bg-repeat {
+  background-repeat: repeat;
 }
 
 .bg-no-repeat {
