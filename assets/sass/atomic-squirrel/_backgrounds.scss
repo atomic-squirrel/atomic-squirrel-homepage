@@ -12,14 +12,6 @@
   background-attachment: fixed;
 }
 
-// Workaround for iPhone not handling "cover" and "fixed" correctly 
-// See http://stackoverflow.com/a/21456799/483528
-@media screen and (max-width: 40em) {
-  .bg-fixed {
-    background-attachment: scroll;
-  }
-}
-
 .bg-cover {
   background-size: cover;
   -webkit-background-size: cover;
