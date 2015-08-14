@@ -26,7 +26,7 @@
   .bg-rocket-launch {
     background-size: 215% !important;
     background-attachment: scroll !important;
-    background-position-y: 0 !important;
+    background-position: center 0 !important;    
   }
 }
 
@@ -35,8 +35,7 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
+  background-position: center center;
 }
 
 .bg-translucent-white {
