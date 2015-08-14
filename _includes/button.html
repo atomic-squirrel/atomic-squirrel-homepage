@@ -1,0 +1,7 @@
+{% capture margin_top %}{% if include.margin_top %}{{ include.margin_top }}{% else %}4{% endif %}{% endcapture %}
+<div class="center">
+  <a href="{{ include.url }}" class="btn btn-primary caps py2 px3 mt{{ margin_top }}{% if include.custom_classes %} {{ include.custom_classes }}{% endif %}">
+    {% if include.icon %}<i class="fa fa-{{ include.icon }} pr1"></i>{% endif %}
+    {{ include.text }}
+  </a>
+</div>

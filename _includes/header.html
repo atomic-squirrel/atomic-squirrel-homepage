@@ -1,5 +1,8 @@
-<header id="home" class="mt4 mb4 py4">
-  <h2 class="h1 thin">{{ site.slogan }}</h2>
-  <p class="mb3 justify">{{ site.description }}</p>        
-  <a href="#services" class="btn btn-outline btn-narrow mb4 medium link-color">Learn More</a>
+<header id="home" class="mb4 pb4 center">
+  <a href="{{ site.url }}" class="no-underline"><h1 class="caps white mb0">{{ site.name }}</h1></a>
+  <hr class="col-6 mt0">
+  <h5 class="caps white mt0">{{ site.slogan }}</h5>
+  <div class="mb8 pb8">
+    {% include button.html url="#about" text="Learn more" %}
+  </div>
 </header>

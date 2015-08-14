@@ -1,15 +1,7 @@
 @import 'atomic-squirrel/variables';
 
-.bg-clouds-image {
-  background-image: url('/assets/images/navbar-background.jpg');
-}
-
-.bg-rocket-image {
-  background-image: url('/assets/images/rocket-background.jpg');
-}
-
-.bg-dark-blue-sky {
-  background-color: $backgroundColor;
+.bg-rocket-launch {
+  background-image: url('/assets/images/rocket-launching.jpg');
 }
 
 .bg-no-repeat {
@@ -18,4 +10,12 @@
 
 .bg-fixed {
   background-attachment: fixed;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-translucent-white {
+  background-color: rgba(255, 255, 255, 0.90);
 }

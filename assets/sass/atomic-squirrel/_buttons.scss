@@ -1,0 +1,9 @@
+@import 'atomic-squirrel/variables';
+
+.btn-primary {
+  background-color: $linkColor;
+}
+
+.btn-primary:hover {
+ background-color: $linkHoverColor; 
+}
