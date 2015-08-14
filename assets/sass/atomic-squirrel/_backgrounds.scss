@@ -14,7 +14,7 @@
 
 // Workaround for iPhone not handling "cover" and "fixed" correctly 
 // See http://stackoverflow.com/a/21456799/483528
-@media (max-width: @iphone-screen) {
+@media screen and (max-width: 40em) {
   .bg-fixed {
     background-attachment: scroll;
   }
