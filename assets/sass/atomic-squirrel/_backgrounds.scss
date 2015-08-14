@@ -12,6 +12,16 @@
   background-attachment: fixed;
 }
 
+// Workaround because mobile browsers don't support background-attachment: 
+// "fixed". See http://stackoverflow.com/a/19045667/483528
+@media screen and (max-width: 40em) {
+  .bg-rocket-launch {
+    background-size: 215% !important;
+    background-attachment: scroll !important;
+    background-position-y: 0 !important;
+  }
+}
+
 .bg-cover {
   background-size: cover;
   -webkit-background-size: cover;
