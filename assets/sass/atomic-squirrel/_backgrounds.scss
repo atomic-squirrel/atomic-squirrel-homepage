@@ -14,8 +14,11 @@
 
 .bg-cover {
   background-size: cover;
-  background-position-x: 50%;
-  background-position-y: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 .bg-translucent-white {
