@@ -20,3 +20,9 @@
   .pl#{$i} { padding-left: $whitespaceAmount * $i; }
   .p#{$i} { padding: $whitespaceAmount * $i; }
 }
+
+@media screen and (max-width: 40em) {
+  .mobile-padding {
+    padding: 2rem;
+  }
+}
