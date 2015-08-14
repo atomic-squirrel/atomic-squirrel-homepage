@@ -17,9 +17,9 @@ contact_urls:
     value: "info@atomic-squirrel.net"   
     icon: "envelope-o" 
   twitter: 
-    url: "https://twitter.com/atomic-squirrel"
+    url: "https://twitter.com/AtomicSquirrelC"
     label: "Twitter"
-    username: "@atomic-squirrel"
+    username: "@AtomicSquirrelC"
     icon: "twitter"
   linkedin: 
     url: "https://www.linkedin.com/company/atomic-squirrel"
