@@ -1,3 +1,1 @@
-<!--[if lte IE 8]><img src="{{ include.path }}.png" alt="{{ include.alt }}"><![endif]-->
-<!--[if gt IE 8]><img src="{{ include.path }}.svg" alt="{{ include.alt }}"><![endif]-->
-<!--[if !IE]> --><img src="{{ include.path }}.svg" alt="{{ include.alt }}"><!-- <![endif]-->
+<img src="{{ include.path }}.svg" onerror="this.onerror=null; this.src='{{ include.path }}.png'" alt="{{ include.alt }}">
