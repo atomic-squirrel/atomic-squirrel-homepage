@@ -1,0 +1,13 @@
+<header id="home" class="center">  
+  <a href="{{ site.url }}" class="block center no-underline mt4">
+    {% include svg.html path="/assets/images/atomic-squirrel-logo-white" alt="Atomic Squirrel" width="125" height="125" %}
+    <h1 class="caps white mt0 mb0 text-shadow">{{ page.title }}</h1>
+  </a>
+  {% if page.subtitle %}
+    <hr class="col-6 mt0 big-hr">
+    <p class="caps very-bold white mt0 text-shadow">{{ page.subtitle }}</p>
+  {% endif %}
+  <div class="mt4 mb8">
+    {% include button.html url="#about" text="Learn more" %}
+  </div>
+</header>

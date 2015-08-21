@@ -1,0 +1,16 @@
+{% assign logo_height = '45' %}
+<header>  
+  <div class="clearfix mt4">
+    <a href="{{ site.url }}" class="block center no-underline mt4">
+      <div class="left mr1">{% include svg.html path="/assets/images/atomic-squirrel-logo-white" alt="Atomic Squirrel" width=logo_height height=logo_height %}</div>
+      <div class="left caps white text-shadow" style="line-height: {{ logo_height }}px">{{ site.name }}</div>
+    </a>
+  </div>
+  <div class="mb8">
+    <h1 class="caps white mt0 mb0 text-shadow">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <hr class="col-6 mt0 big-hr">
+      <p class="caps very-bold white mt0 text-shadow">{{ page.subtitle }}</p>
+    {% endif %}
+  </div>
+</header>

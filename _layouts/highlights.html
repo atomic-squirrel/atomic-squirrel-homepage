@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="bg-dark-black">
+  <div class="bg-rocket-launch bg-no-repeat bg-fixed bg-cover">
+    <div class="container">
+      <div class="clearfix">
+        <div class="sm-col sm-col-2">&nbsp;</div>
+        <div class="sm-col sm-col-8 px2">
+          {% if page.header %}
+            {% include {{ page.header }} %}      
+          {% else %}
+            {% include default-header.html %}
+          {% endif %}
+          <main class="bg-translucent-white mt4">
+            {{ content }}
+          </main>
+          {% include footer.html %}
+        </div>   
+      </div>   
+    </div>
+  </div>
+</div>

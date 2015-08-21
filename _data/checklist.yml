@@ -1,0 +1,66 @@
+- name: "Plan"
+  sublist:
+    - name: "Find a problem"
+      description: |
+        There must be a better way
+    - name: "Validate the problem"
+      description: |
+        If you don't have 10 real customers telling you they will pay for your
+        product, then your product is bullshit.
+    - name: "Check viability"
+      description: |
+        Can this project be done? (Technically, legally)
+        Can this project be done by you? (Passion, skills, resources)
+        Startups are hard.
+- name: "The legal stuff"
+  sublist:
+    - name: "Get a lawyer if you can"
+      description: |
+        Important to incorporate correctly, contract forms, questions. Find
+        someone experienced in startups. It won't be cheap. LegalZoom can be
+        a reasonable alternative for simple stuff.
+    - name: "Pick a name"
+      description: |
+        You want a name that is unique: it shouldn't be already registered in
+        your state, the trademark shouldn't be taken for your business, the
+        domain name should be available. You should also think about a logo,
+        brand identity, business cards, letterhead, etc.
+    - name: "Incorporate"
+      description: |
+        Most startups should start off as either an LLC or C Corp. If
+        you plan on raising money (especially from VCs), issuing shares of 
+        stock, or growing into a large company that gets acquired, you'll almost
+        certainly want to be a Delaware C Corp. If your plans are more modest,
+        at least in the early days, it is cheaper and easier to start off as an
+        LLC. Either one protects your personal assets from a lawsuit. Figure out
+        distribution of shares. Use eshares.
+    - name: "Get licenses and permits"
+      description: |
+        Depends on the type of business you are and what you're doing.
+    - name: "Get an EIN"
+      description: |
+        You need this for tax purposes.
+    - name: "Get a business checking account + credit card"
+      description: |
+        You must keep your finances separate from the business.
+    - name: "Get insurance"
+      description: |
+        Liability insurance at least. Property insurance if you get an office.
+- name: "Monetization"
+  sublist:
+    - name: "Business plan"
+    - name: "Raise money"
+      description: |
+        Many different options.
+      sublist:
+        - name: "Bootstrap with your own funds"
+        - name: "Loans"
+        - name: "Crowdfunding"
+        - name: "Angel investors"
+        - name: "Venture Capital"
+    - name: "Set up accounting"
+      description: |
+        Hire an accountant if you can. Use Quickbooks. Keep all receipts. Keep 
+        all business transactions separate. 
+
+
