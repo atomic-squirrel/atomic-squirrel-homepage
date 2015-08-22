@@ -41,8 +41,13 @@ this.JSON||(this.JSON={}),function(){function f(e){return e<10?"0"+e:e}function 
   };
 
   var toggleChildrenCheckboxes = function(target) {
+    var isChecked = target.prop('checked');
     var childrenCheckboxesContainer = target.attr('data-children-class');
-    $('.' + childrenCheckboxesContainer + ' .js-checklist-item').click();
+    $('.' + childrenCheckboxesContainer + ' .js-checklist-item').each(function(index, el) {
+      var $el = $(el);
+      $el.trigger('click');
+      $el.prop('checked', isChecked);
+    });
   };
 
   var toggleHiddenValue = function(target) {
