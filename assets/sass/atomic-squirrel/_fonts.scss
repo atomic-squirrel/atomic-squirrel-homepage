@@ -109,3 +109,15 @@ a.no-underline:hover {
 .narrow-font {
   letter-spacing: 0.05rem;
 }
+
+.inherit-line-height {
+  line-height: inherit;
+}
+
+.initial-line-height {
+  line-height: initial;
+}
+
+.monospace {
+  font-family: monospace;
+}

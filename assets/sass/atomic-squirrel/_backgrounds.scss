@@ -43,6 +43,13 @@
   background-color: rgba(255, 255, 255, 0.90);
 }
 
+$boxShadow: 4px 4px 20px -6px rgba(0,0,0,0.2);
 .box-shadow {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: $boxShadow;
+  -moz-box-shadow: $boxShadow;
+  box-shadow: $boxShadow;
+}
+
+.more-rounded {
+  border-radius: 10px;
 }
