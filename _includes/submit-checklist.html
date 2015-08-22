@@ -1,0 +1,20 @@
+<div id="submit-list" class="py2 px3">
+  <h2>Submit your list to Atomic Squirrel</h2>
+  <p>  
+    Need help getting some of these items done? Submit your list of unfinished 
+    items to Atomic Squirrel, and we'll help you find a way to launch your 
+    startup.
+  </p>
+</div>
+<div class="pb3 px3">
+  <label>Name</label>
+  <input type="text" class="block col-12 mb1 field" placeholder="Jane Smith" name="name">
+  <label>Email</label>
+  <input type="email" class="block col-12 mb1 field" placeholder="jsmith@yourcompany.com" name="email">
+  <label>Comments/Questions</label>
+  <textarea class="block col-12 field" name="comments"></textarea>
+  <input type="hidden" name="_subject" value="Startup checklist" />
+  <input type="hidden" name="_next" value="{{ site.url }}/startup-checklist/thanks.html" />
+  <input type="text" name="_gotcha" style="display:none" />
+  <button type="submit" class="btn btn-primary mt3 mb1">Submit</button>
+</div>

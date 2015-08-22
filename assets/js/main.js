@@ -30,15 +30,16 @@ return new Za.prototype.init(a,b,c,d,e)}m.Tween=Za,Za.prototype={constructor:Za,
   };
 
   var updateUncheckedItems = function() {
-    var uncheckedItems = $('.js-checklist-item:not(:checked)').length;
+    var uncheckedItems = $('.js-checklist-item[value=TODO]:checked').length;
     $('#unchecked-items').text(uncheckedItems);
   };
 
   var toggleChildrenCheckboxes = function(event) {
     var target = $(event.delegateTarget);
     
+    var selectedValue = target.attr('value');
     var childrenCheckboxesContainer = target.attr('data-children-class');
-    $('.' + childrenCheckboxesContainer + ' .js-checklist-item').each(function(index, el) {
+    $('.' + childrenCheckboxesContainer + ' .js-checklist-item[value=' + selectedValue + ']').each(function(index, el) {
       $(el).prop('checked', target.prop('checked'))
     });
 

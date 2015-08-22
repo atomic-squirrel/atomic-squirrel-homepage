@@ -12,6 +12,10 @@
         Can this project be done? (Technically, legally)
         Can this project be done by you? (Passion, skills, resources)
         Startups are hard.
+    - name: "Educate yourself"
+      description: |
+        Read and learn as much as you can to make sure that a startup is the 
+        right way to solve this problem. 
 - name: "The legal stuff"
   sublist:
     - name: "Get a lawyer if you can"
@@ -40,7 +44,7 @@
     - name: "Get an EIN"
       description: |
         You need this for tax purposes.
-    - name: "Get a business checking account + credit card"
+    - name: "Get a business bank account"
       description: |
         You must keep your finances separate from the business.
     - name: "Get insurance"
@@ -62,5 +66,25 @@
       description: |
         Hire an accountant if you can. Use Quickbooks. Keep all receipts. Keep 
         all business transactions separate. 
-
+- name: "Team"
+  sublist: 
+    - name: "Get an office"
+    - name: "Set up email and phone"
+    - name: "Hiring"
+    - name: "Employment contracts"
+      description: |
+        offer, NDA, assign copyrights
+- name: "Product"
+  sublist:
+    - name: "Design"
+    - name: "MVP"
+    - name: "Distribution"
+    - name: "IP"
+- name: "Technology"
+  sublist:
+    - name: "Server-side framework and language"
+    - name: "Client-side framework and language"
+    - name: "Data storage"
+    - name: "CI"
+    - name: "CD"
 

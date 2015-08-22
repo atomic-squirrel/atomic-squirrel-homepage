@@ -8,12 +8,19 @@
   {% capture item_less_icon_class %}{{ item_more_class }}-less-icon{% endcapture %}
   {% capture checkbox_children_class %}{{ item_more_class }}-checkbox{% endcapture %}
   <div class="{{ indentation }} pt1 clearfix">
-    <a href="#" class="align-top left {{ side_padding }} list-font narrow-font default-font-color no-underline more-bold js-expand {{ font_size }}" data-more-class="{{ item_more_class }}" data-more-icon-class="{{ item_more_icon_class }}" data-less-icon-class="{{ item_less_icon_class }}">
+    <a href="#" class="align-top col col-8 {{ side_padding }} list-font narrow-font default-font-color no-underline more-bold js-expand {{ font_size }}" data-more-class="{{ item_more_class }}" data-more-icon-class="{{ item_more_icon_class }}" data-less-icon-class="{{ item_less_icon_class }}">
       <i class="fa fa-plus-square-o {{ item_more_icon_class }}"></i>
       <i class="fa fa-minus-square-o {{ item_less_icon_class }}" style="display: none"></i>
       {{ include.item.name }}
     </a>
-    <input type="checkbox" class="block right {{ font_size }}-input js-checklist-item" id="{{ item_id }}" value="{{ include.item.name }}" data-children-class="{{ item_more_class }}">
+    <div class="col-right col-2 right-align">
+      <input type="radio" class="js-checklist-item mr0" id="{{ item_id }}" value="Done" name="{{ item_id }}" data-children-class="{{ item_more_class }}"> 
+      Done
+    </div>
+    <div class="col-right col-2 right-align">
+      <input type="radio" class="js-checklist-item mr0" id="{{ item_id }}" value="TODO" name="{{ item_id }}" data-children-class="{{ item_more_class }}" checked> 
+      TODO
+    </div>
   </div>
   <div class="{{ item_more_class }} {{ indentation }} display-none">
     {% if include.item.description %}
