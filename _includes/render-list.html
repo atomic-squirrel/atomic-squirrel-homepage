@@ -1,5 +1,5 @@
 <ol class="list-reset mb0">
   {% for item in include.list %}
-    {% include render-list-item.html item=item level=include.level is_last=forloop.last %}
+    {% include render-list-item.html item=item level=include.level is_last=forloop.last is_first=forloop.first %}
   {% endfor %}
 </ol>
