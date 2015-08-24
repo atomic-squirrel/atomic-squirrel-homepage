@@ -1,6 +1,12 @@
-<div class="px2 pt1 right-align">
-  <a href="#" class="btn btn-outline h6 p1 js-expand-all"><i class="fa fa-expand fa-rotate-135"></i> Expand All</a>
-  <a href="#" class="btn btn-outline h6 p1 js-collapse-all"><i class="fa fa-compress fa-rotate-135"></i> Collapse All</a>
+<div class="clearfix px2 pt1">
+  <div class="col">
+    <a href="#" class="btn btn-outline h6 p1 js-check-all"><i class="fa fa-check-square-o"></i> Check All</a>
+    <a href="#" class="btn btn-outline h6 p1 js-uncheck-all"><i class="fa fa-square-o"></i> Uncheck All</a>    
+  </div>
+  <div class="col-right right-align">
+    <a href="#" class="btn btn-outline h6 p1 js-expand-all"><i class="fa fa-expand fa-rotate-135"></i> Expand All</a>
+    <a href="#" class="btn btn-outline h6 p1 js-collapse-all"><i class="fa fa-compress fa-rotate-135"></i> Collapse All</a>
+  </div>
 </div>
 <div class="px2">
   {% include render-list.html list=site.data.checklist level="0" %}

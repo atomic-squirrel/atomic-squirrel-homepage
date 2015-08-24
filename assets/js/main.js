@@ -146,10 +146,34 @@ this.JSON||(this.JSON={}),function(){function f(e){return e<10?"0"+e:e}function 
     });
   };
 
+  var checkAll = function(event) {
+    event.preventDefault();
+    $('.js-checklist-item').each(function(index, el) {
+      var $el = $(el);
+      if (!$el.prop('checked')) {
+        $el.click();
+      }
+    });
+  };
+
+  var uncheckAll = function(event) {
+    event.preventDefault();
+    $('.js-checklist-item').each(function(index, el) {
+      var $el = $(el);
+      if ($el.prop('checked')) {
+        $el.click();
+      }
+    });
+  };
+
   $('.js-expand').on('click', toggle);
   $('.js-checklist-item').on('change', checkboxChange);
+
   $('.js-expand-all').on('click', expandAll);
   $('.js-collapse-all').on('click', collapseAll);
+
+  $('.js-check-all').on('click', checkAll);
+  $('.js-uncheck-all').on('click', uncheckAll);
 
   if (store.enabled) {
     $('input[type=text]').on('change', saveTextInputToLocalStorage);
