@@ -126,8 +126,30 @@ this.JSON||(this.JSON={}),function(){function f(e){return e<10?"0"+e:e}function 
     });
   };
 
+  var expandAll = function(event) {
+    event.preventDefault();
+    $('.js-expand').each(function(index, el) {
+      var $el = $(el);
+      if ($el.text() === "+") {
+        $el.click();
+      }
+    });
+  };
+
+  var collapseAll = function(event) {
+    event.preventDefault();
+    $('.js-expand').each(function(index, el) {
+      var $el = $(el);
+      if ($el.text() === "-") {
+        $el.click();
+      }
+    });
+  };
+
   $('.js-expand').on('click', toggle);
   $('.js-checklist-item').on('change', checkboxChange);
+  $('.js-expand-all').on('click', expandAll);
+  $('.js-collapse-all').on('click', collapseAll);
 
   if (store.enabled) {
     $('input[type=text]').on('change', saveTextInputToLocalStorage);
