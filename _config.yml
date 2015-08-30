@@ -4,6 +4,7 @@ url: "http://www.atomic-squirrel.net"
 
 # Bio settings
 name: "Atomic Squirrel"
+name_full: "Atomic Squirrel, LLC"
 slogan: "The technology to launch your startup"
 description: "Atomic Squirrel creates high quality, battle-tested, end-to-end infrastructure that you can use as the foundation of your startup. We take care of the technology so that you can focus on what really matters: your product and your customers."
 thumbnail_path: "atomic-squirrel-logo.png"
