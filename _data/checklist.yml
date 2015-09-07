@@ -2,89 +2,293 @@
   sublist:
     - name: "Find a problem"
       description: |
-        There must be a better way
+        Look for problems in your day-to-day life. 
+        <a href="https://gettingreal.37signals.com/ch02_Whats_Your_Problem.php" target="_blank">Scratch your own itch</a>.
+        Keep an 
+        <a href="http://inkwellscholars.org/4-reasons-to-keep-an-idea-journal/" target="_blank">idea journal</a> 
+        of problems and solutions. Every time you think to yourself 
+        "<a href="https://www.youtube.com/watch?v=bPwgkf1aZ9I" target="_blank">this is stupid, there must be a better way</a>,"
+        write it down. For more inspiration and tools, see
+        <a href="http://www.hello-startup.net/resources/startup-ideas/?ref=startup-checklist" target="_blank">Startup Ideas</a>.
     - name: "Validate the problem"
       description: |
-        If you don't have 10 real customers telling you they will pay for your
-        product, then your product is bullshit.
+        Get out of the building, find real customers, and validate that this is 
+        a problem they actually have and that they are willing to buy your 
+        product to solve it. <a href="http://blog.asmartbear.com/customer-validation.html" target="_blank">
+        If you can’t find ten people who say they’ll buy it, your company is 
+        bullshit</a>. For more information, see 
+        <a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705">The Four Steps to the Epiphany</a>
+        by Steve Blank.
+    - name: "Size the market"
+      description: |
+        How big is the market for this idea? How many customers want this? How
+        many competitors are there? For more information, see
+        <a href="http://www.hello-startup.net/resources/idea-validation/?ref=startup-checklist">market sizing resources</a>.
     - name: "Check viability"
       description: |
-        Can this project be done? (Technically, legally)
-        Can this project be done by you? (Passion, skills, resources)
-        Startups are hard.
+        Answer two questions. The first question is, "Can this problem be 
+        solved?" This is a question of market realities. Do the technologies 
+        exist? Is there a market? Is it economically feasible? Or, as Sequoia likes to ask,
+        "<a href="http://pando.com/2013/02/20/sequoias-why-now/" target="_blank">Why now?</a>"
+        The second question is, "Can this problem be solved by <em>you</em>? 
+        This is a question of both your personal assets (skills, money, 
+        connections) and passions. Building a successful company takes on the 
+        order of 10 years, so make sure this is an idea you want to work on for 
+        a decade.
+    - name: "Consider alternatives"
+      description: |
+        Are you sure you want to build a startup to solve this problem? Perhaps
+        you could solve it better by creating a lifestyle business? Or by 
+        joining someone else's company? Or by doing research at a university?
+        Remember, 
+        <a href="https://al3x.net/2013/05/23/letter-to-a-young-programmer.html" target="_blank">a startup is just a means to an end</a>.
     - name: "Educate yourself"
       description: |
-        Read and learn as much as you can to make sure that a startup is the 
-        right way to solve this problem. 
+        How do you build a startup? How do you design products? How do you build
+        the technology? How do you hire people? Before you dive in, do your
+        homework and learn everything you can. Using this checklist is a good 
+        start! For more information, check out 
+        <a href="http://www.hello-startup.net/?ref=startup-checklist" target="_blank">Hello, Startup</a>
+        and the 
+        <a href="https://www.goodreads.com/list/show/88189.Hello_Startup_Reading_List" target="_blank">Hello, Startup Reading List</a>.
+    - name: "Talk to your friends and family"
+      description: |
+        A startup is a big commitment. Make sure everyone is on board before
+        you get started.
 - name: "The legal stuff"
   sublist:
-    - name: "Get a lawyer if you can"
+    - name: "Hire a lawyer"
       description: |
-        Important to incorporate correctly, contract forms, questions. Find
-        someone experienced in startups. It won't be cheap. LegalZoom can be
-        a reasonable alternative for simple stuff.
-    - name: "Pick a name"
+        Running a company involves many tricky legal questions. How do I 
+        incorporate? What should I include in a contract? What do I need to
+        do in terms of trademarks, copyrights, and patents? What are all of 
+        these conditions on the term sheet? The best way to answer these 
+        questions is to hire a lawyer who is experienced with helping startups. 
+        If you can't afford that, services like 
+        <a href="https://www.legalzoom.com" target="_blank">LegalZoom</a> and
+        <a href="http://www.rocketlawyer.com" target="_blank">RocketLawyer</a> 
+        are your next best bet.
+    - name: "Register a name"
       description: |
-        You want a name that is unique: it shouldn't be already registered in
-        your state, the trademark shouldn't be taken for your business, the
-        domain name should be available. You should also think about a logo,
-        brand identity, business cards, letterhead, etc.
+        Pick a name that is unique: it should be memorable, stand out from the
+        competition, and there should be a matching domain name available. Make
+        sure the name isn't already registered in your state and that it does
+        not infringe on another company's trademark in the same industry. For 
+        more information, see 
+        <a href="https://www.sba.gov/content/how-name-business" target="_blank">How to Name a Business</a>.
     - name: "Incorporate"
       description: |
-        Most startups should start off as either an LLC or C Corp. If
-        you plan on raising money (especially from VCs), issuing shares of 
-        stock, or growing into a large company that gets acquired, you'll almost
-        certainly want to be a Delaware C Corp. If your plans are more modest,
-        at least in the early days, it is cheaper and easier to start off as an
-        LLC. Either one protects your personal assets from a lawsuit. Figure out
-        distribution of shares. Use eshares.
+        Incorporating yoru business is important to protect your personal assets 
+        from any law suits that come up against your startup. Startups that are 
+        planning on raising money from VCs, issuing shares of stock, having an 
+        IPO, or getting acquired should incorporate as Delaware C Corp. Other
+        types of startups should incorporate as an LLC or S Corp. See
+        <a href="http://www.amazon.com/The-Entrepreneurs-Guide-Business-Edition/dp/0538466464" target="_blank">The Entrepreneur's Guide to Business Law</a>
+        for more information.
     - name: "Get licenses and permits"
       description: |
-        Depends on the type of business you are and what you're doing.
+        Depending on the type of business you started and where you live, you
+        may have to apply for licenses and permits.
     - name: "Get an EIN"
       description: |
-        You need this for tax purposes.
+        For tax purposes, you need to request a Federal Employer Identification 
+        Number (EIN) from the IRS. Some states also have a separate state tax
+        identification number that you'll have to request.
     - name: "Get a business bank account"
       description: |
-        You must keep your finances separate from the business.
+        It is essential to keep your personal finances separate from your 
+        business finances. Apply for a business checking account and credit
+        card as soon as you've incorporated. See NerdWallet's 
+        <a href="http://www.nerdwallet.com/business-checking-accounts/" target="_blank">Business Checking</a>
+        and 
+        <a href="https://www.nerdwallet.com/business-credit-cards" target="_blank">Business Credit Card</a>
+        guides for more information.
     - name: "Get insurance"
       description: |
-        Liability insurance at least. Property insurance if you get an office.
-- name: "Monetization"
+        Most companies will need general liability insurance, workers comp, 
+        unemployment insurance, disability insurance, and property insurance.
+    - name: "Intellectual Property"  
+      description: |
+        Once you start working, you'll need to file for trademarks and patents.              
+    - name: "Contracts"
+      description: |
+        Work with your lawyer to draft contracts, for your customers, employees,
+        contractors, partners, suppliers, and so on.
+- name: "The financial stuff"
   sublist:
+    - name: "Hire an accountant"
+      description: |
+        Running a company involves many tricky financial questions. How do I 
+        pay corporate taxes? How do I write off business expenses? When will my
+        company be profitable? The best way to answer them is to hire an 
+        accountant who has experience working with startups. If you can't 
+        afford that, your next best bet is a service like 
+        <a href="http://www.hrblock.com/" target="_blank">H&R Block</a>.
+    - name: "Accounting system"
+      description: |
+        Every company needs to track its income, expenses, assets, liabilities,
+        and equity. Work with your accountant to figure out the best accounting
+        system for your business. For small companies, a tool like 
+        <a href="http://quickbooks.intuit.com/" target="_blank">Quickbooks</a>
+        is usually your best bet. Use it to track all purchases, keep track of
+        all receipts, send invoices to customers, track services you're paying 
+        for, and to set up payroll. Make sure you learn and comply with all 
+        government requirements around payroll taxes, self-employment taxes, 
+        workers compensation, and so on.
+    - name: "Taxes and annual reports"
+      description: |
+        Every year, you must pay taxes and file annual reports to state and 
+        federal governments. These are due at different times throughout the 
+        year, so make sure to figure out the deadlines ahead of time and get 
+        them plugged into your calendar.
     - name: "Business plan"
+      description: |
+        Writing out a business plan is a great way to force yourself to think
+        through many of the major questions of running a business. What does
+        your company do? How will people find it? Who are the competitors? How
+        will you build it? How will you fund the business? How will you make 
+        money? When will you break even? 
+    - name: "Pitch deck"
+      description: |
+        Before you can raise money from outsiders, you'll need not only a 
+        business plan, but also a pitch deck. The pitch deck is a presentation
+        designed to convince investors that they should give you money. It will
+        include a brief overview of your business plan, but instead of a formal
+        and stuffy document, it should tell a story, engage the viewer 
+        emotionally, show off the team you've built, and make it clear what 
+        you're looking for. For more information, see
+        <a href="http://www.amazon.com/The-Art-Pitch-Persuasion-Presentation/dp/0230120512" target="_blank">The Art of the Pitch</a>
+        and
+        <a href="http://www.amazon.com/Pitch-Anything-Innovative-Presenting-Persuading/dp/0071752854" target="_blank">Pitch Anything</a>.
     - name: "Raise money"
       description: |
-        Many different options.
+        How will you fund your company before it starts to bring in revenue and
+        pay for itself?
       sublist:
-        - name: "Bootstrap with your own funds"
+        - name: "Bootstrap"
+          description: |
+            If you've got the money for it, you can fund the business out of 
+            your own savings. This works best for businesses that have low
+            up-front costs and can start making money very early in their lives, 
+            such as a service business that can start charging clients 
+            immediately.
         - name: "Loans"
+          description: |
+            Raise money by promising to pay it back in the future, usually with 
+            interest. The advantage of a loan versus equity financing is that you 
+            keep control over your business. The disadvantage of a loan is that
+            you eventually have to pay it back, usually with interest, whether
+            or not your company is successful. If you're very confident your 
+            business will be making enough money by the time the loan payments 
+            are due, a loan can be great, but for many startups, equity-based 
+            fundraising is a better option.
+        - name: "Equity financing"
+          description: |
+            Raise money from investors in exchange for a part of the company.
+            The advantage of equity financing is that you can raise very large
+            amounts of money, which is important for business that have large
+            up-front costs (e.g., SpaceX) or cannot be monetized for a long time
+            (e.g., Facebok). The disadvantage of equity financing is that to
+            raise more money, you have to give up control of more of your 
+            company. If you give up too much control, you may find the company
+            moving in a direction you don't like (e.g., the investors force you
+            to go public because they want to see a return on their investment)
+            or you may even get fired from your own business. See 
+            <a href="http://www.amazon.com/Venture-Deals-Smarter-Lawyer-Capitalist/dp/1118443616" target="_blank">Venture Deals</a>
+            and
+            <a href="http://www.amazon.com/Mastering-VC-Game-Venture-Start-up/dp/1591844444" target="_blank">Mastering the VC Game</a> 
+            for more information.
         - name: "Crowdfunding"
-        - name: "Angel investors"
-        - name: "Venture Capital"
-    - name: "Set up accounting"
-      description: |
-        Hire an accountant if you can. Use Quickbooks. Keep all receipts. Keep 
-        all business transactions separate. 
-- name: "Team"
-  sublist: 
-    - name: "Get an office"
-    - name: "Set up email and phone"
-    - name: "Hiring"
-    - name: "Employment contracts"
-      description: |
-        offer, NDA, assign copyrights
+          description: |
+            Instead of raising a large amount money from a small number of 
+            investors, you can use crowdfunding platforms to raise a small 
+            amount of money from a large number of people online. There are
+            three primary types of crowdfunding platforms: rewards-based, where
+            you offer rewards or the actual product in exchange for the money (e.g.,
+            <a href="https://www.kickstarter.com/" target="_blank">KickStarter</a>,
+            <a href="https://www.indiegogo.com/" target="_blank">IndieGoGo</a>);
+            debt-based, where you eventually pay the money back, similar to a 
+            loan (e.g., 
+            <a href="https://www.lendingclub.com/" target="_blank">Lending Club</a>,
+            <a href="https://www.prosper.com/" target="_blank">Prosper</a>);
+            and equity-based, where you give investors part-ownership of your
+            company in exchange for the money (e.g., 
+            <a href="https://www.crowdfunder.com/" target="_blank">Crowdfunder</a>,
+            <a href="https://wefunder.me/" target="_blank">Wefunder</a>).
 - name: "Product"
   sublist:
     - name: "Design"
+      sublist:
+        - name: "Usability testing"
+        - name: "Personas"
+        - name: "Brand"
     - name: "MVP"
+    - name: "Data-driven development"
+    - name: "Platform"
+      description: |
+        Mobile-first? Desktop? Hardware?
     - name: "Distribution"
-    - name: "IP"
+      sublist:
+        - name: "Corporate homepage"
+        - name: "Social media accounts"
+        - name: "Word of mouth"
+        - name: "Marketing"
+        - name: "Sales"
+        - name: "Branding"
+          description: |
+            Business cards, customer service        
 - name: "Technology"
   sublist:
     - name: "Server-side framework and language"
     - name: "Client-side framework and language"
+    - name: "Monetization"
+      description: |
+        Credit card processing? Invoicing?
     - name: "Data storage"
     - name: "CI"
     - name: "CD"
-
+    - name: "Security"
+- name: "Team"
+  sublist: 
+    - name: "Define your mission and values"
+    - name: "Get an office"
+      sublist: 
+        - name: "Type of office"
+          description: |
+            What can you afford? Your own leased office space? A co-working 
+            space? Or just everyone works from home?
+        - name: "Pick a location"
+          description: |
+            Check zoning laws to make sure you can legally operate your type of
+            business in this location. This applies even to home-based 
+            businesses.
+        - name: "Negotiate a lease"
+        - name: "Figure out power, lighting, AC, heating"
+        - name: "Figure out security"
+          description: |
+            Locks, access badges, fire safety, security guards
+        - name: "Purchase office furniture"
+        - name: "Purchase equipment"
+          description: |
+            Computers, monitors, keyboards, phones, tablets, printers
+    - name: "Set up communication"
+      description: |
+        Email, phone, fax, chat (e.g. Slack), letterhead, business cards.
+    - name: "Organizational design"
+      description: |
+        How will teams be organized? Who will priortize work, evaluate 
+        performance, hire and fire, and motivate and train? Will you have 
+        managers or a flat organization? Will you have titles? Will you have a
+        career ladder?
+    - name: "Hire employees"
+      sublist:
+        - name: "Employees vs contractors"
+        - name: "Compensation"
+          description: |
+            Salary vs equity, benefits, vacation, hours.
+    - name: "Find advisors"
+      description: |
+        Board of directors
+    - name: "Employment contracts"
+      description: |
+        offer, NDA, assign copyrights
