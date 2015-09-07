@@ -13,7 +13,7 @@
     {% endunless %}
     <div class="{% unless include.level == "0" %}col {% endunless %}px2 py2 border more-rounded clearfix bg-white {% if include.is_last %} mt2{% endif %}"{% unless include.level == "0" %} style="width: 97%"{% endunless %}>
       <div class="col mr1">
-        <input type="checkbox" name="{{ item_id }}" value="done" class="js-checklist-item" data-children-class="{{ item_more_class }}" data-hidden-class="{{ item_hidden_class }}">  
+        <input type="checkbox" name="{{ item_id }}" value="done" class="js-checklist-item" data-children-class="{{ item_more_class }}" data-hidden-class="{{ item_hidden_class }}" data-parent-checkbox-name="{{ include.parent_checkbox_name }}">  
         <input type="hidden" name="{{ item_id }}" value="todo" class="{{ item_hidden_class }}">
       </div>
       <div class="col col-9">
@@ -30,7 +30,7 @@
   <div class="{{ item_more_class }} display-none">
     {% if include.item.sublist %}
       {% capture next_level %}{{ include.level | plus: '1' }}{% endcapture %}
-      {% include render-list.html list=include.item.sublist level=next_level %}
+      {% include render-list.html list=include.item.sublist level=next_level parent_checkbox_name=item_id %}
     {% endif %}
   </div>
 </li>
