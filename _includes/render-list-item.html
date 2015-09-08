@@ -1,4 +1,4 @@
-{% capture item_id %}{{ include.item.name | slugify }}{% endcapture %}
+{% capture item_id %}checklist-{{ include.item.name | slugify }}{% endcapture %}
 {% capture item_more_class %}js-{{ item_id }}{% endcapture %}
 {% capture item_more_icon_class %}{{ item_more_class }}-more-icon{% endcapture %}
 {% capture item_less_icon_class %}{{ item_more_class }}-less-icon{% endcapture %}

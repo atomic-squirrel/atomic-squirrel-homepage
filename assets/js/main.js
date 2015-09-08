@@ -155,6 +155,29 @@ this.JSON||(this.JSON={}),function(){function f(e){return e<10?"0"+e:e}function 
     });
   };
 
+  var validate = function(inputSelector, errorSelector) {
+    var input = $(inputSelector);
+    var error = $(errorSelector);
+
+    if (input.val()) {
+      input.removeClass('is-error');
+      error.hide();
+      return true;
+    } else {
+      input.addClass('is-error');
+      error.show();
+      return false;
+    }
+  };
+
+  var validateChecklistForm = function(event) {
+    var nameValid = validate('[name=name]', '.name-error');
+    var emailValid = validate('[name=email]', '.email-error');
+    if (!nameValid || !emailValid) {
+      event.preventDefault();
+    }    
+  };
+
   $('.js-expand').on('click', toggle);
   $('.js-checklist-item').on('change', checkboxChange);
 
@@ -163,6 +186,8 @@ this.JSON||(this.JSON={}),function(){function f(e){return e<10?"0"+e:e}function 
 
   $('.js-check-all').on('click', checkAll);
   $('.js-uncheck-all').on('click', uncheckAll);
+
+  $('.js-checklist-form').on('submit', validateChecklistForm);
 
   if (store.enabled) {
     $('input[type=text]').on('change', saveTextInputToLocalStorage);

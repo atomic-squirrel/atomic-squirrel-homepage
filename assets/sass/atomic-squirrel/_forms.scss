@@ -15,3 +15,7 @@
 .h5-input {
   height: 1.4rem;
 }
+
+.field:invalid {
+  border-color: rgba(0,0,0,.125);
+}

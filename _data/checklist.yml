@@ -94,15 +94,6 @@
         For tax purposes, you need to request a Federal Employer Identification 
         Number (EIN) from the IRS. Some states also have a separate state tax
         identification number that you'll have to request.
-    - name: "Get a business bank account"
-      description: |
-        It is essential to keep your personal finances separate from your 
-        business finances. Apply for a business checking account and credit
-        card as soon as you've incorporated. See NerdWallet's 
-        <a href="http://www.nerdwallet.com/business-checking-accounts/" target="_blank">Business Checking</a>
-        and 
-        <a href="https://www.nerdwallet.com/business-credit-cards" target="_blank">Business Credit Card</a>
-        guides for more information.
     - name: "Get insurance"
       description: |
         Most companies will need general liability insurance, workers comp, 
@@ -141,6 +132,15 @@
         federal governments. These are due at different times throughout the 
         year, so make sure to figure out the deadlines ahead of time and get 
         them plugged into your calendar.
+    - name: "Get a business bank account"
+      description: |
+        It is essential to keep your personal finances separate from your 
+        business finances. Apply for a business checking account and credit
+        card as soon as you've incorporated. See NerdWallet's 
+        <a href="http://www.nerdwallet.com/business-checking-accounts/" target="_blank">Business Checking</a>
+        and 
+        <a href="https://www.nerdwallet.com/business-credit-cards" target="_blank">Business Credit Card</a>
+        guides for more information.        
     - name: "Business plan"
       description: |
         Writing out a business plan is a great way to force yourself to think
@@ -219,39 +219,314 @@
   sublist:
     - name: "Design"
       sublist:
-        - name: "Usability testing"
+        - name: "User stories"
         - name: "Personas"
-        - name: "Brand"
+        - name: "Usability testing"
+        - name: "Copywriting"
+        - name: "Design reuse"
+        - name: "Platform"
+          description: "Mobile first?"
     - name: "MVP"
-    - name: "Data-driven development"
-    - name: "Platform"
-      description: |
-        Mobile-first? Desktop? Hardware?
+      sublist:
+        - name: "Understand the MVP"
+          description: "Car images. It's OK to do things that don't scale."
+        - name: "Pick the right type of MVP"
+          sublist:
+            - name: "Landing page"
+            - name: "Explainer video"
+            - name: "Crowdfunding campaign"
+            - name: "Wizard of Oz MVP"
+            - name: "Piecemeal MVP"
+        - name: "Focus on the differentiators"
+          description: |
+            Competitive advantage. Remarkable. 10x better.            
+        - name: "Get customers to buy the MVP"
+          description: |
+            Yes, buy it. Look for earlyvangelists.
+        - name: "MVP resources"
+          description: |
+            Hello, Startup page
+    - name: "Data"
+      sublist:
+        - name: "Why measure?"
+          description: |
+            Humans are bad at it. Adam Nash "what game are we playing" blog 
+            post. How to measure anything.
+        - name: "What metrics to track"
+          description: |
+            AARRR. Other recent article in toread list.
+        - name: "The magic number"
+          description: |
+            Facebook 7 friends in 10 days.
+        - name: "Data-driven development"
+          description: |
+            McKinley's data-driven post. A/B testing tools.
     - name: "Distribution"
+      description: |
+        The best product doesn't always win. It's the best product the customer
+        knows about that wins.
       sublist:
         - name: "Corporate homepage"
         - name: "Social media accounts"
         - name: "Word of mouth"
         - name: "Marketing"
+          sublist: 
+            - name: "Places to submit your company after launch"
         - name: "Sales"
         - name: "Branding"
           description: |
             Business cards, customer service        
 - name: "Technology"
   sublist:
-    - name: "Server-side framework and language"
-    - name: "Client-side framework and language"
-    - name: "Monetization"
+    - name: "Server-side"
+      sublist:
+        - name: "Pick a programming language"
+          description: |
+            Community, problem fit, maturity, paradigm (OO, functional, static 
+            typing, memory management), performance (concurrency, GC), 
+            productivity (conciseness, available libraries, ease of use)
+        - name: "Pick a server-side framework"
+          description: |
+            Minimal vs full stack framework, problem fit, data manipulation, 
+            view technologies, testability, scalability, deployment, security.
+            See my talk on Play vs Node.            
+        - name: "Pick an architecture"
+          description: |
+            Monolithic, microservices, reactive, stream-based
+    - name: "Client-side"
       description: |
-        Credit card processing? Invoicing?
+        What clients do you support?
+      sublist:
+        - name: "Web"
+          sublist: 
+            - name: "SEO"
+            - name: "Accessibility"
+            - name: "Meta tags"
+            - name: "Share tags"
+            - name: "Mobile web"
+            - name: "Cookie policy"
+            - name: "Favicon"
+        - name: "Mobile"
+          sublist:
+            - name: "Developer accounts"
+              description: |
+                App store, Play store, etc
+            - name: "Native or not"
+              description: |
+                Write multiple apps in multiple languages (Objective C, Java, etc)
+                or write all in one common language (HTML5)
+            - name: "Monitoring"
+              description: |
+                Crash reporting
+            - name: "Notifications"
+              description: |
+                3rd party services can be helpful
+        - name: "IoT"
     - name: "Data storage"
-    - name: "CI"
-    - name: "CD"
+      sublist:
+        - name: "Pick a database"
+          description: |
+            Understand SQL, NoSQL, and NewSQL. Understand trade-offs between
+            them: maturity, reading data (supported access patterns, support 
+            for primary/secondary indices and joins, mapping), writing data 
+            (aggregates, atomic updates, transactions), schemas, scalability, 
+            failure modes. See Hello, Startup, Intensive Data, and NoSQL 
+            Distilled.
+        - name: "Schema management"
+          description: |
+            You must define a schema somewhere. Think about integrity 
+            constraints, schema evolution, managing schemas in dev, test, and
+            production.
+        - name: "Partitioning"
+          description: |
+            Useful for scaling to more traffic and larger teams. Comes at a 
+            significant cost (JOINs, transactions, integrity constraints, 
+            migrations, updates, backup, id generation) so best avoided until
+            absolutely necessary.
+        - name: "Replication"
+          description: |
+            Essential for backup, at least as a passive replica (cold standby).
+            Useful for scaling with active replicas (either master-slave or 
+            multi-master). 
+        - name: "Data processing"
+          description: |
+            Data warehousing, ETL, Kafka, Storm
+    - name: "Continuous Integration"
+      sublist:
+        - name: "VCS"
+          description: |
+            Git vs SVN. Set up pre-commit hooks. Decide on branching strategy.
+        - name: "Build system"
+        - name: "Dependency management"
+          description: |
+            Explicitly declare dependencies, use build system to manage 
+            transitive dependnecies.
+        - name: "Automated tests"
+          description: |
+            Unit tests, integration tests; client-side tests; cross-browser,
+            cross-platform, cross-email-client tests. Chaos monkey.
+        - name: "Automated builds"
+        - name: "Static analysis"
+          description: |
+            Compiler, Build System, Code Climate, Codacy, etc.
+    - name: "Continuous Deployment"
+      description: |
+        DevOps. Deploy any time you want, or even after each check-in (which
+        is continuous deployment).
+      sublist: 
+        - name: "Multiple environments"
+          description: |
+            Dev, Test, Prod
+        - name: "Hosting"
+          description: |
+            Your own data center vs cloud hosting. 
+        - name: "Configuration management"
+          description: |
+            Checked into VCS, customizable per environment. App configuration,
+            VMs, containers, orchestration tools.
+        - name: "Automated deployment"
+          description: |
+            Infrastructure as code. Use orchestration tools.
+          sublist: 
+            - name: "Canary releases"
+            - name: "Feature flags"
+            - name: "Backwards compatibility"
+        - name: "Change management"
+          description: |
+            Informed style dashboard
+        - name: "Logging"
+          sublist:
+            - name: "Log naming and levels"
+            - name: "Log format"
+            - name: "Log rotation"
+            - name: "Log aggregation"
+        - name: "Monitoring"
+          description: |
+            Point to Quora post
+          sublist: 
+            - name: "Availability metrics"
+            - name: "Business metrics"
+            - name: "Application metrics"
+            - name: "Process metrics"
+            - name: "Code metrics"
+            - name: "Server metrics"
+        - name: "Alerting"
+          description: |
+            Rules when to notify, tools to manage on-call rotation and contact
+            information (PagerDuty, VictorOps).
+        - name: "A/B testing"
+          description: |
+            See data-driven development, feature flags. Use the following
+            tools to be able to do it.
     - name: "Security"
+      sublist:
+        - name: "SSL"
+        - name: "VPN"
+        - name: "Password and secret storage"
+          description: |
+            How to store user passwords. How to store internal secrets.
+        - name: "User Authentication"
+          description: |
+            Login + session management
+        - name: "Server security"
+          description: |
+            Limit production access; *nix permissions, user accounts, quotas.
+            Lock down login options (e.g., MongoDB not secure).
+        - name: "CSRF, XSS"
+        - name: "Injection attacks"
+        - name: "Security headers"
+        - name: "Audits"
+        - name: "Security advisories"
+        - name: "Spam and fraud"
+          description: |
+            Captcha, fraud team
+    - name: "Scalability"
+      sublist:
+        - name: "Scaling to a larger team"
+          sublist:
+            - name: "Define coding standards"
+              description: |
+                Coding conventions, testing requirements, code ownership, 
+                design reviews, code reviews, pair coding.
+            - name: "Code reviews"
+              description: |
+                Tools (GitHub, Phabricator, ReviewBoard).
+            - name: "Documentation"
+              description: |
+                My blog post on documentation.
+            - name: "Versioned artifacts"
+            - name: "Microservices"
+        - name: "Scaling to more traffic"
+          sublist: 
+            - name: "Profiling"
+            - name: "Stress testing"
+            - name: "Client-side optimizations"
+              description: |
+                Concat, minify, sprite, preload, stream, lazy load, YSlow and
+                PageSpeed, CDN
+            - name: "Database optimizations"
+              description: |
+                Indices, query tuning, caching, vertical scaling, horizontal scaling
+                (replication, partitioning)
+            - name: "Server-side optimizations"
+              description: |
+                Algorithm tuning, caching, non-blocking I/O, stateless, divide
+                and conquer (MapReduce), redundancy (replication), vertical 
+                scaling (faster hardware)
+    - name: "Common functionality"
+      sublist:
+        - name: "Search"
+        - name: "Email"
+        - name: "Notifications"
+        - name: "Social login"
+        - name: "News feed"
+        - name: "Monetization"
+          description: |
+            Credit card processing, Invoicing, ads, store front
+        - name: "Microservice management"
+          description: |
+            service discovery, serialization, RESTful tools
 - name: "Team"
   sublist: 
-    - name: "Define your mission and values"
-    - name: "Get an office"
+    - name: "Culture"
+      description: |
+        Don't fuck up the culture. 
+      sublist: 
+        - name: "Define your mission and values"
+        - name: "Act on your mission and values"        
+          description: |
+            Defining is good (e.g., Netflix and HubSpot culture deck), but you
+            have to act on these values every day for them to actually be
+            meaningful. Culture is action, not words.
+        - name: "Organizational design"
+          description: |
+            How will teams be organized? Who will priortize work, evaluate 
+            performance, hire and fire, and motivate and train? Will you have 
+            managers or a flat organization? Will you have titles? Will you have a
+            career ladder?
+        - name: "Process"
+          description: |
+            Most startups don't need much. Keep it minimal at first. Consider
+            Agile. Use good judgment. 
+        - name: "Communication"
+          description: |
+            How transparent will you be? What will you reveal? Buffer example.
+        - name: "Motivation"
+          description: |
+            Focus on intrisinc drive. Dan Pink video.
+          sublist: 
+            - name: "Autonomy"
+              description: |
+                Pick your own projects, schedule, teammates. Valve example.
+                HackDays, 20% time.
+            - name: "Mastery"
+              description: |
+                Reimburse classes, tech talks, switch teams regularly.
+            - name: "Purpose"
+              description: |
+                Mission. Give people a big honking goal to aim for. Make them
+                feel connected.
+    - name: "Office"
       sublist: 
         - name: "Type of office"
           description: |
@@ -267,28 +542,56 @@
         - name: "Figure out security"
           description: |
             Locks, access badges, fire safety, security guards
-        - name: "Purchase office furniture"
-        - name: "Purchase equipment"
+        - name: "Purchase office furniture & equpiment"
           description: |
-            Computers, monitors, keyboards, phones, tablets, printers
-    - name: "Set up communication"
-      description: |
-        Email, phone, fax, chat (e.g. Slack), letterhead, business cards.
-    - name: "Organizational design"
-      description: |
-        How will teams be organized? Who will priortize work, evaluate 
-        performance, hire and fire, and motivate and train? Will you have 
-        managers or a flat organization? Will you have titles? Will you have a
-        career ladder?
-    - name: "Hire employees"
-      sublist:
-        - name: "Employees vs contractors"
-        - name: "Compensation"
+            Desk, chair, fast computers, monitors, keyboards, phones, tablets, 
+            printers.
+        - name: "Set up places for deep concentration"
           description: |
-            Salary vs equity, benefits, vacation, hours.
-    - name: "Find advisors"
-      description: |
-        Board of directors
-    - name: "Employment contracts"
-      description: |
-        offer, NDA, assign copyrights
+            Private offices. Open offices are awful. Comic about distractions.
+        - name: "Set up places for collaboration"
+          description: |
+            Meeting rooms
+        - name: "Set up communication"
+          description: |
+            Email, phone, fax, chat (e.g. Slack, IRC), wiki, JIRA, letterhead, 
+            business cards.
+    - name: "Bring in other people"
+      sublist: 
+        - name: "Find co-founders"
+          description: |
+            Paul Graham's post on why you need them. Look for people with opposite
+            skills. 2-3 works best. See my deck on hiring.
+        - name: "Find advisors"
+          description: |
+            Board of directors. Different skills + network important. Trust very 
+            important as they could fire you.
+        - name: "Hire employees"
+          description: |
+            See my deck on startup hiring.
+          sublist:
+            - name: "Employees vs contractors"
+            - name: "Compensation"
+              description: |
+                Salary vs equity, benefits, vacation, hours.
+            - name: "Promotions"            
+              description: |
+                Avoid the Peter Principal. Equal career ladders. McKinley's post on
+                thoughts on the technical career track.
+        - name: "Referrals"
+          description: |
+            Best way to get new hires. Get the flywheel turning. Link to Sequoia
+            blog post.
+        - name: "Employer branding"
+          description: |
+            Blog, talks, open source. Do them regularly. Inbound marketing.
+        - name: "Job boards"
+          description: |
+            Mostly useless. Most candidates are passive, so reach out. Link to
+            your job posting sucks.
+        - name: "The interview"
+          description: |
+            White board coding sucks. Be kind. 
+        - name: "Employment contracts"
+          description: |
+            offer, NDA, assign copyrights

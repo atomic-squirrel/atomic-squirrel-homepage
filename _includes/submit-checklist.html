@@ -7,14 +7,17 @@
   </p>
 </div>
 <div class="pb3 px3">
-  <label>Name</label>
-  <input type="text" class="block col-12 mb1 field" placeholder="Jane Smith" name="name">
-  <label>Email</label>
-  <input type="email" class="block col-12 mb1 field" placeholder="jsmith@yourcompany.com" name="email">
-  <label>Comments/Questions</label>
+  <label for="name">Name*</label>
+  <span class="h6 red name-error right display-none">Name is required</span>
+  <input type="text" class="block col-12 mb1 field" placeholder="Jane Smith" name="name" required>
+  <label for="email">Email*</label>
+  <span class="h6 red email-error right display-none">Email is required</span>
+  <input type="email" class="block col-12 mb1 field" placeholder="jsmith@yourcompany.com" name="email" required>
+  <label for="comments">Comments/Questions</label>
   <textarea class="block col-12 field" name="comments"></textarea>
   <input type="hidden" name="_subject" value="Startup checklist" />
   <input type="hidden" name="_next" value="{{ site.url }}/startup-checklist/thanks.html" />
   <input type="text" name="_gotcha" style="display:none" />
   <button type="submit" class="btn btn-primary mt3 mb1">Submit</button>
+  <small class="h6 block mt2 gray">Your information is completely confidential. You won't get any spam from us, ever.</small>
 </div>
