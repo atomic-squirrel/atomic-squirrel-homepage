@@ -55,7 +55,7 @@
       description: |
         A startup is a big commitment. Make sure everyone is on board before
         you get started.
-- name: "The legal stuff"
+- name: "Legal"
   sublist:
     - name: "Hire a lawyer"
       description: |
@@ -114,7 +114,7 @@
       description: |
         Work with your lawyer to draft contracts, for your customers, employees,
         contractors, partners, suppliers, and so on.
-- name: "The financial stuff"
+- name: "Financial"
   sublist:
     - name: "Hire an accountant"
       description: |

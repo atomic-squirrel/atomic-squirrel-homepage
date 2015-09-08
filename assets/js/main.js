@@ -40,18 +40,6 @@ this.JSON||(this.JSON={}),function(){function f(e){return e<10?"0"+e:e}function 
     $('#unchecked-items').text(uncheckedItems);
   };
 
-  var toggleChildrenCheckboxes = function(target) {
-    var isChecked = target.prop('checked');
-    var childrenCheckboxesContainer = target.attr('data-children-class');
-    $('.' + childrenCheckboxesContainer + ' .js-checklist-item').each(function(index, el) {
-      var $el = $(el);
-      if ($el.prop('checked') !== isChecked) {
-        console.log($el.attr('name') + '.checked = ' + $el.prop('checked') + ', ' + target.attr('name') + '.checked = ' + isChecked + ', different? ' + ($el.prop('checked') !== isChecked));
-        $el.trigger('click');
-      }
-    });
-  };
-
   var toggleHiddenValue = function(target) {
     var isChecked = target.prop('checked');
     var hiddenValue = isChecked ? '' : 'todo';
@@ -60,28 +48,9 @@ this.JSON||(this.JSON={}),function(){function f(e){return e<10?"0"+e:e}function 
     $('.' + hiddenInput).val(hiddenValue);
   };
 
-  var toggleParent = function(target) {
-    var parentName = target.attr('data-parent-checkbox-name');
-
-    if (parentName) {
-      var parent = $('[name=' + parentName + ']');
-      var allSiblings = $('[data-parent-checkbox-name=' + parentName + ']');
-      var checkedSiblings = $('[data-parent-checkbox-name=' + parentName + ']:checked');
-
-      var allSiblingsChecked = allSiblings.length === checkedSiblings.length;
-      var parentChecked = parent.prop('checked');
-
-      if ((allSiblingsChecked && !parentChecked) || (!allSiblingsChecked && parentChecked)) {
-        parent.trigger('click');
-      }
-    }
-  };
-
   var checkboxChange = function(event) {
     var target = $(event.delegateTarget);
     toggleHiddenValue(target);
-    toggleChildrenCheckboxes(target);
-    toggleParent(target);
     updateUncheckedItems();
   };
 
