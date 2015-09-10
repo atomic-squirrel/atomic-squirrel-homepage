@@ -1,22 +1,22 @@
-- name: "Plan"
+- name: "Idea"
   sublist:
     - name: "Find a problem"
       description: |
-        Look for problems in your day-to-day life. 
+        Look for problems in your day-to-day life.
         <a href="https://gettingreal.37signals.com/ch02_Whats_Your_Problem.php" target="_blank">Scratch your own itch</a>.
-        Keep an 
-        <a href="http://inkwellscholars.org/4-reasons-to-keep-an-idea-journal/" target="_blank">idea journal</a> 
-        of problems and solutions. Every time you think to yourself 
+        Keep an
+        <a href="http://inkwellscholars.org/4-reasons-to-keep-an-idea-journal/" target="_blank">idea journal</a>
+        of problems and solutions. Every time you think to yourself
         "<a href="https://www.youtube.com/watch?v=bPwgkf1aZ9I" target="_blank">this is stupid, there must be a better way</a>,"
         write it down. For more inspiration and tools, see
         <a href="http://www.hello-startup.net/resources/startup-ideas/?ref=startup-checklist" target="_blank">Startup Ideas</a>.
     - name: "Validate the problem"
       description: |
-        Get out of the building, find real customers, and validate that this is 
-        a problem they actually have and that they are willing to buy your 
+        Get out of the building, find real customers, and validate that this is
+        a problem they actually have and that they are willing to buy your
         product to solve it. <a href="http://blog.asmartbear.com/customer-validation.html" target="_blank">
-        If you can’t find ten people who say they’ll buy it, your company is 
-        bullshit</a>. For more information, see 
+        If you can’t find ten people who say they’ll buy it, your company is
+        bullshit</a>. For more information, see
         <a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705">The Four Steps to the Epiphany</a>
         by Steve Blank.
     - name: "Size the market"
@@ -26,30 +26,30 @@
         <a href="http://www.hello-startup.net/resources/idea-validation/?ref=startup-checklist">market sizing resources</a>.
     - name: "Check viability"
       description: |
-        Answer two questions. The first question is, "Can this problem be 
-        solved?" This is a question of market realities. Do the technologies 
+        Answer two questions. The first question is, "Can this problem be
+        solved?" This is a question of market realities. Do the technologies
         exist? Is there a market? Is it economically feasible? Or, as Sequoia likes to ask,
         "<a href="http://pando.com/2013/02/20/sequoias-why-now/" target="_blank">Why now?</a>"
-        The second question is, "Can this problem be solved by <em>you</em>? 
-        This is a question of both your personal assets (skills, money, 
-        connections) and passions. Building a successful company takes on the 
-        order of 10 years, so make sure this is an idea you want to work on for 
+        The second question is, "Can this problem be solved by <em>you</em>?
+        This is a question of both your personal assets (skills, money,
+        connections) and passions. Building a successful company takes on the
+        order of 10 years, so make sure this is an idea you want to work on for
         a decade.
     - name: "Consider alternatives"
       description: |
         Are you sure you want to build a startup to solve this problem? Perhaps
-        you could solve it better by creating a lifestyle business? Or by 
+        you could solve it better by creating a lifestyle business? Or by
         joining someone else's company? Or by doing research at a university?
-        Remember, 
+        Remember,
         <a href="https://al3x.net/2013/05/23/letter-to-a-young-programmer.html" target="_blank">a startup is just a means to an end</a>.
     - name: "Educate yourself"
       description: |
         How do you build a startup? How do you design products? How do you build
         the technology? How do you hire people? Before you dive in, do your
-        homework and learn everything you can. Using this checklist is a good 
-        start! For more information, check out 
+        homework and learn everything you can. Using this checklist is a good
+        start! For more information, check out
         <a href="http://www.hello-startup.net/?ref=startup-checklist" target="_blank">Hello, Startup</a>
-        and the 
+        and the
         <a href="https://www.goodreads.com/list/show/88189.Hello_Startup_Reading_List" target="_blank">Hello, Startup Reading List</a>.
     - name: "Talk to your friends and family"
       description: |
@@ -59,103 +59,109 @@
   sublist:
     - name: "Hire a lawyer"
       description: |
-        Running a company involves many tricky legal questions. How do I 
+        Running a company involves many tricky legal questions. How do I
         incorporate? What should I include in a contract? What do I need to
-        do in terms of trademarks, copyrights, and patents? What are all of 
-        these conditions on the term sheet? The best way to answer these 
-        questions is to hire a lawyer who is experienced with helping startups. 
-        If you can't afford that, services like 
+        do in terms of trademarks, copyrights, and patents? What are all of
+        these conditions on the term sheet? The best way to answer these
+        questions is to hire a lawyer who is experienced with helping startups.
+        If you can't afford that, services like
         <a href="https://www.legalzoom.com" target="_blank">LegalZoom</a> and
-        <a href="http://www.rocketlawyer.com" target="_blank">RocketLawyer</a> 
+        <a href="http://www.rocketlawyer.com" target="_blank">RocketLawyer</a>
         are your next best bet.
     - name: "Register a name"
       description: |
         Pick a name that is unique: it should be memorable, stand out from the
         competition, and there should be a matching domain name available. Make
         sure the name isn't already registered in your state and that it does
-        not infringe on another company's trademark in the same industry. For 
-        more information, see 
+        not infringe on another company's trademark in the same industry. For
+        more information, see
         <a href="https://www.sba.gov/content/how-name-business" target="_blank">How to Name a Business</a>.
     - name: "Incorporate"
       description: |
-        Incorporating yoru business is important to protect your personal assets 
-        from any law suits that come up against your startup. Startups that are 
-        planning on raising money from VCs, issuing shares of stock, having an 
+        Incorporating yoru business is important to protect your personal assets
+        from any law suits that come up against your startup. Startups that are
+        planning on raising money from VCs, issuing shares of stock, having an
         IPO, or getting acquired should incorporate as Delaware C Corp. Other
         types of startups should incorporate as an LLC or S Corp. See
         <a href="http://www.amazon.com/The-Entrepreneurs-Guide-Business-Edition/dp/0538466464" target="_blank">The Entrepreneur's Guide to Business Law</a>
         for more information.
+    - name: "Figure out equity"
+      description: |
+        Split up ownership of the company amongst the founders. An equal split
+        is usually a good idea, and a vesting schedule is an absolute
+        requirement. This way, everyone is bought in for the long term.
     - name: "Get licenses and permits"
       description: |
         Depending on the type of business you started and where you live, you
         may have to apply for licenses and permits.
     - name: "Get an EIN"
       description: |
-        For tax purposes, you need to request a Federal Employer Identification 
+        For tax purposes, you need to request a Federal Employer Identification
         Number (EIN) from the IRS. Some states also have a separate state tax
         identification number that you'll have to request.
     - name: "Get insurance"
       description: |
-        Most companies will need general liability insurance, workers comp, 
+        Most companies will need general liability insurance, workers comp,
         unemployment insurance, disability insurance, and property insurance.
-    - name: "Intellectual Property"  
+    - name: "Intellectual Property"
       description: |
-        Once you start working, you'll need to file for trademarks and patents.              
+        Once you start working, you'll need to file for trademarks and patents.
     - name: "Contracts"
       description: |
-        Work with your lawyer to draft contracts, for your customers, employees,
+        Work with your lawyer to draft contracts for your customers, employees,
         contractors, partners, suppliers, and so on.
 - name: "Financial"
   sublist:
     - name: "Hire an accountant"
       description: |
-        Running a company involves many tricky financial questions. How do I 
+        Running a company involves many tricky financial questions. How do I
         pay corporate taxes? How do I write off business expenses? When will my
-        company be profitable? The best way to answer them is to hire an 
-        accountant who has experience working with startups. If you can't 
-        afford that, your next best bet is a service like 
+        company be profitable? The best way to answer them is to hire an
+        accountant (CPA) who has experience working with startups. If you can't
+        afford that, your next best bet is a service like
         <a href="http://www.hrblock.com/" target="_blank">H&R Block</a>.
     - name: "Accounting system"
       description: |
         Every company needs to track its income, expenses, assets, liabilities,
         and equity. Work with your accountant to figure out the best accounting
-        system for your business. For small companies, a tool like 
+        system for your business. For small companies, a tool like
         <a href="http://quickbooks.intuit.com/" target="_blank">Quickbooks</a>
         is usually your best bet. Use it to track all purchases, keep track of
-        all receipts, send invoices to customers, track services you're paying 
-        for, and to set up payroll. Make sure you learn and comply with all 
-        government requirements around payroll taxes, self-employment taxes, 
+        all receipts, send invoices to customers, track services you're paying
+        for, and set up payroll. Make sure you learn and comply with all
+        government requirements around payroll taxes, self-employment taxes,
         workers compensation, and so on.
     - name: "Taxes and annual reports"
       description: |
-        Every year, you must pay taxes and file annual reports to state and 
-        federal governments. These are due at different times throughout the 
-        year, so make sure to figure out the deadlines ahead of time and get 
+        Every year, you must pay taxes and file annual reports to state and
+        federal governments. These are due at different times throughout the
+        year, so make sure to figure out the deadlines ahead of time and get
         them plugged into your calendar.
     - name: "Get a business bank account"
       description: |
-        It is essential to keep your personal finances separate from your 
+        It is essential to keep your personal finances separate from your
         business finances. Apply for a business checking account and credit
-        card as soon as you've incorporated. See NerdWallet's 
+        card as soon as you've incorporated. See NerdWallet's
         <a href="http://www.nerdwallet.com/business-checking-accounts/" target="_blank">Business Checking</a>
-        and 
+        and
         <a href="https://www.nerdwallet.com/business-credit-cards" target="_blank">Business Credit Card</a>
-        guides for more information.        
+        guides for more information.
     - name: "Business plan"
       description: |
         Writing out a business plan is a great way to force yourself to think
         through many of the major questions of running a business. What does
         your company do? How will people find it? Who are the competitors? How
-        will you build it? How will you fund the business? How will you make 
-        money? When will you break even? 
+        will you build it? How much money do you need to get started? How will
+        you get this money? How will your business make money? When will you
+        break even? What is your backup plan in case things don't work out?
     - name: "Pitch deck"
       description: |
-        Before you can raise money from outsiders, you'll need not only a 
+        Before you can raise money from outsiders, you'll need not only a
         business plan, but also a pitch deck. The pitch deck is a presentation
         designed to convince investors that they should give you money. It will
         include a brief overview of your business plan, but instead of a formal
-        and stuffy document, it should tell a story, engage the viewer 
-        emotionally, show off the team you've built, and make it clear what 
+        and stuffy document, it should tell a story, engage the viewer
+        emotionally, show off the team you've built, and make it clear what
         you're looking for. For more information, see
         <a href="http://www.amazon.com/The-Art-Pitch-Persuasion-Presentation/dp/0230120512" target="_blank">The Art of the Pitch</a>
         and
@@ -167,90 +173,174 @@
       sublist:
         - name: "Bootstrap"
           description: |
-            If you've got the money for it, you can fund the business out of 
+            If you've got the money for it, you can fund the business out of
             your own savings. This works best for businesses that have low
-            up-front costs and can start making money very early in their lives, 
-            such as a service business that can start charging clients 
+            up-front costs and can start making money early in their lives,
+            such as a service business that can start charging clients
             immediately.
         - name: "Loans"
           description: |
-            Raise money by promising to pay it back in the future, usually with 
-            interest. The advantage of a loan versus equity financing is that you 
+            Raise money by promising to pay it back in the future, usually with
+            interest. The advantage of a loan versus equity financing is that you
             keep control over your business. The disadvantage of a loan is that
             you eventually have to pay it back, usually with interest, whether
-            or not your company is successful. If you're very confident your 
-            business will be making enough money by the time the loan payments 
-            are due, a loan can be great, but for many startups, equity-based 
-            fundraising is a better option.
+            or not your company is successful. If you're very confident your
+            business will be making enough money by the time the loan payments
+            are due, a loan can be great, but for many startups, equity
+            financing is a better option.
         - name: "Equity financing"
           description: |
             Raise money from investors in exchange for a part of the company.
             The advantage of equity financing is that you can raise very large
-            amounts of money, which is important for business that have large
+            amounts of money, which is important for businesses that have large
             up-front costs (e.g., SpaceX) or cannot be monetized for a long time
             (e.g., Facebok). The disadvantage of equity financing is that to
-            raise more money, you have to give up control of more of your 
+            raise more money, you have to give up control of more of your
             company. If you give up too much control, you may find the company
             moving in a direction you don't like (e.g., the investors force you
             to go public because they want to see a return on their investment)
-            or you may even get fired from your own business. See 
+            or you may even get fired from your own business. See
             <a href="http://www.amazon.com/Venture-Deals-Smarter-Lawyer-Capitalist/dp/1118443616" target="_blank">Venture Deals</a>
             and
-            <a href="http://www.amazon.com/Mastering-VC-Game-Venture-Start-up/dp/1591844444" target="_blank">Mastering the VC Game</a> 
+            <a href="http://www.amazon.com/Mastering-VC-Game-Venture-Start-up/dp/1591844444" target="_blank">Mastering the VC Game</a>
             for more information.
         - name: "Crowdfunding"
           description: |
-            Instead of raising a large amount money from a small number of 
-            investors, you can use crowdfunding platforms to raise a small 
+            Instead of raising a large amount money from a small number of
+            investors, you can use crowdfunding platforms to raise a small
             amount of money from a large number of people online. There are
             three primary types of crowdfunding platforms: rewards-based, where
             you offer rewards or the actual product in exchange for the money (e.g.,
             <a href="https://www.kickstarter.com/" target="_blank">KickStarter</a>,
             <a href="https://www.indiegogo.com/" target="_blank">IndieGoGo</a>);
-            debt-based, where you eventually pay the money back, similar to a 
-            loan (e.g., 
+            debt-based, where you eventually pay the money back, similar to a
+            loan (e.g.,
             <a href="https://www.lendingclub.com/" target="_blank">Lending Club</a>,
             <a href="https://www.prosper.com/" target="_blank">Prosper</a>);
             and equity-based, where you give investors part-ownership of your
-            company in exchange for the money (e.g., 
+            company in exchange for the money (e.g.,
             <a href="https://www.crowdfunder.com/" target="_blank">Crowdfunder</a>,
             <a href="https://wefunder.me/" target="_blank">Wefunder</a>).
 - name: "Product"
   sublist:
     - name: "Design"
       sublist:
-        - name: "User stories"
         - name: "Personas"
-        - name: "Usability testing"
-        - name: "Copywriting"
+          description: |
+            Never design software for the average user. Instead, come up with
+            <a href="https://en.wikipedia.org/wiki/Persona_(user_experience)">personas</a>,
+            or fictional characters that represent specific users of your product.
+            Each persona should have a name, picture, and a list of behavior
+            patterns, goals, skills, and attitudes. Define several primary
+            personas who's goals <em>must</em> be met, or your product is a
+            failure. Design the software for those personas. For more info, see
+            <a href="http://www.amazon.com/The-Inmates-Are-Running-Asylum/dp/0672326140" target="_blank">The Inmates Are Running the Asylum</a>
+            and
+            <a href="http://www.ux-lady.com/diy-user-personas/" target="_blank">DIY User Personas</a>.
+        - name: "User stories"
+          description: |
+            Once you know who your users are (see personas), come up with a
+            list of user stories that captures what the user wants and why. In
+            other words, before you start working on features and get lost in
+            implementation details, clearly define the <em>goals</em> of your
+            users. As you design your product, frequently check to make sure
+            that you are meeting these goals.
         - name: "Design reuse"
+          description: |
+            Good software developers reuse as much battle-tested code as
+            possible. Good designers reuse as many battle-tested designs as
+            possible. There are many web design templates, mobile templates,
+            stock photos, icons, fonts, and other design resources available
+            all over the Internet, both for free and for pay. See
+            <a href="http://www.hello-startup.net/resources/design/" target="_blank">Design Resources</a>
+            and
+            <a href="http://www.hello-startup.net/resources/images-photos-graphics/" target="_blank">Photos and Graphics Resources</a>
+            for more information.
+        - name: "Copywriting"
+          description: |
+            Most design is about the text and not the colors, borders, pictures,
+            and fancy animations. In fact, you could take away all the colors,
+            borders, pictures, and fancy animations, and as long as the text was
+            still there, the product is probably still usable. Your software
+            has a voice, and it's talking to your users all the time. What are
+            you telling them? What kind of voice will you use? What is the name
+            and tag line for your product that will make users click on it when
+            it comes up in a search or in their news feed? What is the call to
+            action on the landing page that will get them to click through?
+            Don't put off copywriting to the end and don't replace it with
+            lorem ipsum. See
+            <a href="https://gettingreal.37signals.com/" target="_blank">Getting Real</a>
+            for more information.
+        - name: "Usability testing"
+          description: |
+            Every few weeks, bring in real users, and observe them as they use
+            your product to solve problems. Watching outsiders interact with
+            your design is an eye-opening experience and one of the most best
+            bang-for-the-buck tools for improving a design. For more information, see
+            <a href="http://www.amazon.com/gp/product/0321965515/" target="_blank">Don't Make Me Think</a>.
         - name: "Platform"
-          description: "Mobile first?"
+          description: |
+            What platforms will you need to support? Desktop web? Mobile web?
+            Native mobile apps (iOS, Android, etc.)? Which form factors?
+            Desktop? Phone? Tablet? Wearable? And what design philosophy will
+            you use? Mobile first? Web first? Phone first?
     - name: "MVP"
+      description: |
+        A Minimal Viable Product (MVP) is a version of a new product that allows
+        you to learn the most about your customers for the least amount of
+        effort. It's not a one-time activity, but a repeated philosophy of how
+        you approach every product: always validate your ideas as cheaply as
+        possible before investing further.
       sublist:
         - name: "Understand the MVP"
-          description: "Car images. It's OK to do things that don't scale."
+          description: |
+            There are many misconceptions about what an MVP is. To learn how an
+            MVP really works, see
+            <a href="http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898" target="_blank">The Lean Startup</a>,
+            <a href="http://www.amazon.com/The-guide-Minimum-Viable-Product-ebook/dp/B00ORWJ0GC" target="_blank">The guide to Minimum Viable Product</a>,
+            and
+            <a href="http://blog.crisp.se/wp-content/uploads/2014/10/Screen-Shot-2014-10-07-at-08.20.00.png" target="_blank">this wonderful illustration</a>
+            by <a href="http://blog.crisp.se/2014/10/08/henrikkniberg/what-is-scrum" target="_blank">Henrik Kniberg</a>).
         - name: "Pick the right type of MVP"
-          sublist:
-            - name: "Landing page"
-            - name: "Explainer video"
-            - name: "Crowdfunding campaign"
-            - name: "Wizard of Oz MVP"
-            - name: "Piecemeal MVP"
+          description: |
+            An MVP does not have to be a full implementation of your product
+            idea. There are many types of MVPs that are simpler and cheaper to
+            build, but still do a great job of validating your hypothesis, such
+            as landing pages, explainer videos, crowdfunding campaigns, Wizard
+            of Oz MVPs, and Piecemeal MVPs. See
+            <a href="http://scalemybusiness.com/the-ultimate-guide-to-minimum-viable-products/" target="_blank">The Ultimate Guide to Minimum Viable Products</a>,
+            for more information.
         - name: "Focus on the differentiators"
           description: |
-            Competitive advantage. Remarkable. 10x better.            
-        - name: "Get customers to buy the MVP"
+            For a product to be successful, it's can't be just a little better
+            than the alternatives; it needs to be 10x better. Your ideas must
+            be <a href="http://www.ted.com/talks/seth_godin_on_sliced_bread?language=en" target="_blank">remarkable</a>
+            if you want them to spread. And
+            <a href="http://paulbuchheit.blogspot.it/2010/02/if-your-product-is-great-it-doesnt-need.html" target="_blank">if your product is great, it doesn't need to be good</a>.
+        - name: "Target earlyvangelists"
           description: |
-            Yes, buy it. Look for earlyvangelists.
-        - name: "MVP resources"
+            What kind of customer is going to trust a no-name startup with a
+            buggy, incomplete product? Steve Blank called them
+            <a href="https://en.wikipedia.org/wiki/Earlyvangelist">earlyvangelists</a>:
+            they have a problem, they are aware of the problem, they have been
+            actively looking for a solution, they have jury-rigged their own
+            workarounds, and they have the money to spend on a better solution.
+            In the early days of a startup, the only way to succeed early on is
+            to identify and target earlyvangelists. See
+            <a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705">The Four Steps to the Epiphany</a>
+            for more information.
+        - name: "MVP tools and resources"
           description: |
-            Hello, Startup page
+            There are many useful tools available for building your MVP: landing
+            page services, A/B testing tools, explainer video software, rapid
+            prototyping tools, and so on. See
+            <a href="http://www.hello-startup.net/resources/mvp/" target="_blank">Minimal Viable Product Resources</a>
+            for more information.
     - name: "Data"
       sublist:
         - name: "Why measure?"
           description: |
-            Humans are bad at it. Adam Nash "what game are we playing" blog 
+            Humans are bad at it. Adam Nash "what game are we playing" blog
             post. How to measure anything.
         - name: "What metrics to track"
           description: |
@@ -266,30 +356,48 @@
         The best product doesn't always win. It's the best product the customer
         knows about that wins.
       sublist:
-        - name: "Corporate homepage"
-        - name: "Social media accounts"
         - name: "Word of mouth"
+          sublist:
+            - name: "Build a better product"
+            - name: "Customer service"
+            - name: "Viral loops"
         - name: "Marketing"
-          sublist: 
-            - name: "Places to submit your company after launch"
+          description: |
+            Links to places to submit your company after launch.
+          sublist:
+            - name: "Advertising"
+            - name: "PR and media"
+            - name: "SEO"
+            - name: "Social media"
+              description: |
+                Facebook, Twitter, LinkedIn, Google Plus, Instagram, Pinterest.
+            - name: "Inbound marketing"
+              description: |
+                Blog, home page, talks, open source.
         - name: "Sales"
+          sublist:
+            - name: "Automated sales"
+            - name: "Inside sales"
+            - name: "Outside sales"
         - name: "Branding"
           description: |
-            Business cards, customer service        
+            Business cards, customer service, ads, logos, website, product
+            appearance. It's your promise. Steve Jobs "Think Different"
+            campaign. It's about benefits, not features image with Mario.
 - name: "Technology"
   sublist:
     - name: "Server-side"
       sublist:
         - name: "Pick a programming language"
           description: |
-            Community, problem fit, maturity, paradigm (OO, functional, static 
-            typing, memory management), performance (concurrency, GC), 
+            Community, problem fit, maturity, paradigm (OO, functional, static
+            typing, memory management), performance (concurrency, GC),
             productivity (conciseness, available libraries, ease of use)
         - name: "Pick a server-side framework"
           description: |
-            Minimal vs full stack framework, problem fit, data manipulation, 
+            Minimal vs full stack framework, problem fit, data manipulation,
             view technologies, testability, scalability, deployment, security.
-            See my talk on Play vs Node.            
+            See my talk on Play vs Node.
         - name: "Pick an architecture"
           description: |
             Monolithic, microservices, reactive, stream-based
@@ -298,13 +406,14 @@
         What clients do you support?
       sublist:
         - name: "Web"
-          sublist: 
+          sublist:
             - name: "SEO"
             - name: "Accessibility"
             - name: "Meta tags"
             - name: "Share tags"
             - name: "Mobile web"
             - name: "Cookie policy"
+            - name: "Terms & conditions, privacy policy"
             - name: "Favicon"
         - name: "Mobile"
           sublist:
@@ -327,27 +436,27 @@
         - name: "Pick a database"
           description: |
             Understand SQL, NoSQL, and NewSQL. Understand trade-offs between
-            them: maturity, reading data (supported access patterns, support 
-            for primary/secondary indices and joins, mapping), writing data 
-            (aggregates, atomic updates, transactions), schemas, scalability, 
-            failure modes. See Hello, Startup, Intensive Data, and NoSQL 
+            them: maturity, reading data (supported access patterns, support
+            for primary/secondary indices and joins, mapping), writing data
+            (aggregates, atomic updates, transactions), schemas, scalability,
+            failure modes. See Hello, Startup, Intensive Data, and NoSQL
             Distilled.
         - name: "Schema management"
           description: |
-            You must define a schema somewhere. Think about integrity 
+            You must define a schema somewhere. Think about integrity
             constraints, schema evolution, managing schemas in dev, test, and
             production.
         - name: "Partitioning"
           description: |
-            Useful for scaling to more traffic and larger teams. Comes at a 
-            significant cost (JOINs, transactions, integrity constraints, 
+            Useful for scaling to more traffic and larger teams. Comes at a
+            significant cost (JOINs, transactions, integrity constraints,
             migrations, updates, backup, id generation) so best avoided until
             absolutely necessary.
         - name: "Replication"
           description: |
             Essential for backup, at least as a passive replica (cold standby).
-            Useful for scaling with active replicas (either master-slave or 
-            multi-master). 
+            Useful for scaling with active replicas (either master-slave or
+            multi-master).
         - name: "Data processing"
           description: |
             Data warehousing, ETL, Kafka, Storm
@@ -359,7 +468,7 @@
         - name: "Build system"
         - name: "Dependency management"
           description: |
-            Explicitly declare dependencies, use build system to manage 
+            Explicitly declare dependencies, use build system to manage
             transitive dependnecies.
         - name: "Automated tests"
           description: |
@@ -373,13 +482,13 @@
       description: |
         DevOps. Deploy any time you want, or even after each check-in (which
         is continuous deployment).
-      sublist: 
+      sublist:
         - name: "Multiple environments"
           description: |
             Dev, Test, Prod
         - name: "Hosting"
           description: |
-            Your own data center vs cloud hosting. 
+            Your own data center vs cloud hosting.
         - name: "Configuration management"
           description: |
             Checked into VCS, customizable per environment. App configuration,
@@ -387,7 +496,7 @@
         - name: "Automated deployment"
           description: |
             Infrastructure as code. Use orchestration tools.
-          sublist: 
+          sublist:
             - name: "Canary releases"
             - name: "Feature flags"
             - name: "Backwards compatibility"
@@ -403,7 +512,7 @@
         - name: "Monitoring"
           description: |
             Point to Quora post
-          sublist: 
+          sublist:
             - name: "Availability metrics"
             - name: "Business metrics"
             - name: "Application metrics"
@@ -446,7 +555,7 @@
           sublist:
             - name: "Define coding standards"
               description: |
-                Coding conventions, testing requirements, code ownership, 
+                Coding conventions, testing requirements, code ownership,
                 design reviews, code reviews, pair coding.
             - name: "Code reviews"
               description: |
@@ -457,7 +566,7 @@
             - name: "Versioned artifacts"
             - name: "Microservices"
         - name: "Scaling to more traffic"
-          sublist: 
+          sublist:
             - name: "Profiling"
             - name: "Stress testing"
             - name: "Client-side optimizations"
@@ -471,7 +580,7 @@
             - name: "Server-side optimizations"
               description: |
                 Algorithm tuning, caching, non-blocking I/O, stateless, divide
-                and conquer (MapReduce), redundancy (replication), vertical 
+                and conquer (MapReduce), redundancy (replication), vertical
                 scaling (faster hardware)
     - name: "Common functionality"
       sublist:
@@ -487,34 +596,34 @@
           description: |
             service discovery, serialization, RESTful tools
 - name: "Team"
-  sublist: 
+  sublist:
     - name: "Culture"
       description: |
-        Don't fuck up the culture. 
-      sublist: 
+        Don't fuck up the culture.
+      sublist:
         - name: "Define your mission and values"
-        - name: "Act on your mission and values"        
+        - name: "Act on your mission and values"
           description: |
             Defining is good (e.g., Netflix and HubSpot culture deck), but you
             have to act on these values every day for them to actually be
             meaningful. Culture is action, not words.
         - name: "Organizational design"
           description: |
-            How will teams be organized? Who will priortize work, evaluate 
-            performance, hire and fire, and motivate and train? Will you have 
+            How will teams be organized? Who will priortize work, evaluate
+            performance, hire and fire, and motivate and train? Will you have
             managers or a flat organization? Will you have titles? Will you have a
             career ladder?
         - name: "Process"
           description: |
             Most startups don't need much. Keep it minimal at first. Consider
-            Agile. Use good judgment. 
+            Agile. Use good judgment.
         - name: "Communication"
           description: |
             How transparent will you be? What will you reveal? Buffer example.
         - name: "Motivation"
           description: |
             Focus on intrisinc drive. Dan Pink video.
-          sublist: 
+          sublist:
             - name: "Autonomy"
               description: |
                 Pick your own projects, schedule, teammates. Valve example.
@@ -527,25 +636,28 @@
                 Mission. Give people a big honking goal to aim for. Make them
                 feel connected.
     - name: "Office"
-      sublist: 
+      sublist:
         - name: "Type of office"
           description: |
-            What can you afford? Your own leased office space? A co-working 
+            What can you afford? Your own leased office space? A co-working
             space? Or just everyone works from home?
         - name: "Pick a location"
           description: |
-            Check zoning laws to make sure you can legally operate your type of
-            business in this location. This applies even to home-based 
-            businesses.
+            What kind of commute will you and your employees have? Is there
+            parking available? Are there places to eat nearby? Is there room
+            for future growth? What are the zoning laws for this type of
+            business?
         - name: "Negotiate a lease"
         - name: "Figure out power, lighting, AC, heating"
         - name: "Figure out security"
           description: |
             Locks, access badges, fire safety, security guards
-        - name: "Purchase office furniture & equpiment"
+        - name: "Purchase office furniture"
+        - name: "Set up IT"
           description: |
-            Desk, chair, fast computers, monitors, keyboards, phones, tablets, 
-            printers.
+            What hardware do employees need (e.g., computer, monitor, keyboard,
+            mouse)? What software do employees need (e.g., Google Apps, Office,
+            Photoshop, IDE)?
         - name: "Set up places for deep concentration"
           description: |
             Private offices. Open offices are awful. Comic about distractions.
@@ -554,17 +666,18 @@
             Meeting rooms
         - name: "Set up communication"
           description: |
-            Email, phone, fax, chat (e.g. Slack, IRC), wiki, JIRA, letterhead, 
+            Email, phone, fax, chat (e.g. Slack, IRC), wiki, JIRA, letterhead,
             business cards.
     - name: "Bring in other people"
-      sublist: 
+      sublist:
         - name: "Find co-founders"
           description: |
             Paul Graham's post on why you need them. Look for people with opposite
             skills. 2-3 works best. See my deck on hiring.
         - name: "Find advisors"
           description: |
-            Board of directors. Different skills + network important. Trust very 
+            Board of directors. Mentors. Technical & business advisors with
+            relevant experience.Different skills + network important. Trust very
             important as they could fire you.
         - name: "Hire employees"
           description: |
@@ -574,7 +687,7 @@
             - name: "Compensation"
               description: |
                 Salary vs equity, benefits, vacation, hours.
-            - name: "Promotions"            
+            - name: "Promotions"
               description: |
                 Avoid the Peter Principal. Equal career ladders. McKinley's post on
                 thoughts on the technical career track.
@@ -591,7 +704,7 @@
             your job posting sucks.
         - name: "The interview"
           description: |
-            White board coding sucks. Be kind. 
+            White board coding sucks. Be kind.
         - name: "Employment contracts"
           description: |
             offer, NDA, assign copyrights
