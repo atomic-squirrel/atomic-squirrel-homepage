@@ -281,7 +281,7 @@
         - name: "Platform"
           description: |
             What platforms will you need to support? Desktop web? Mobile web?
-            Native mobile apps (iOS, Android, etc.)? Which form factors?
+            Native mobile apps (iOS, Android, etc.)? IoT? Which form factors?
             Desktop? Phone? Tablet? Wearable? And what design philosophy will
             you use? Mobile first? Web first? Phone first?
     - name: "MVP"
@@ -337,100 +337,237 @@
             <a href="http://www.hello-startup.net/resources/mvp/" target="_blank">Minimal Viable Product Resources</a>
             for more information.
     - name: "Data"
+      description: |
+        It is the product manager's job to define
+        <a href="http://blog.adamnash.com/2011/12/16/be-a-great-product-leader/" target="_blank">(1) What game are we playing? and (2) How do we keep score?</a>.
+        The best way to keep score is use data.
       sublist:
-        - name: "Why measure?"
+        - name: "AARRR Metrics"
           description: |
-            Humans are bad at it. Adam Nash "what game are we playing" blog
-            post. How to measure anything.
-        - name: "What metrics to track"
-          description: |
-            AARRR. Other recent article in toread list.
+            Every startup needs to track at least 5 key metrics: Acquisition,
+            Activation, Retention, Referral, and Revenue (easy to remember by
+            the acronymn AARRR from Dave McClure's
+            <a href="http://500hats.typepad.com/500blogs/2007/09/startup-metrics.html" target="_blank">Start Metrics for Pirates</a>).
         - name: "The magic number"
           description: |
-            Facebook 7 friends in 10 days.
+            The magic number is a metric that represents the moment your users
+            have an "aha" experience with your product&mdash;that is, they
+            finally get the value and become highly engaged users. For Facebook,
+            it was connecting with 7 friends in the first 10 days; for Twitter,
+            it was 30 follows; for DropBox, it was 1 file upload (see
+            <a href="http://www.growhack.com/2012/12/04/discovering-your-aha-moment/">here</a>
+            for more). Find the magic number for your business, and suddenly,
+            decision making and priotization across the company becomes much
+            easier, as everyone can rally behind a single, simple concept.
+            For more information, see
+            <a href="http://www.quora.com/Growth-Hacking/How-do-you-find-insights-like-Facebooks-7-friends-in-10-days-to-grow-your-product-faster">How do you find insights like Facebook's "7 friends in 10 days" to grow your product faster?</a>.
         - name: "Data-driven development"
           description: |
-            McKinley's data-driven post. A/B testing tools.
+            Gathering data to see how past product decisions worked out is good.
+            Using data <em>drive</em> future product decisions is even better.
+            See <a href="http://mcfunley.com/data-driven-products-now">Data Driven Products Now!</a>
+            for a guide.
     - name: "Distribution"
       description: |
         The best product doesn't always win. It's the best product the customer
-        knows about that wins.
+        knows about that wins. See
+        <a href="https://en.wikipedia.org/wiki/Browser_wars" target="_blank">browser wars</a>
+        and
+        <a href="http://thenumbersguru.blogspot.ca/2008/08/tivo-market-share.html" target="_blank">TiVo</a>.
+        Distribution is how you get customers to know about your product.
       sublist:
-        - name: "Word of mouth"
-          sublist:
-            - name: "Build a better product"
-            - name: "Customer service"
-            - name: "Viral loops"
+        - name: "Word-of-mouth"
+          description: |
+            Word-of-mouth marketing is where your current customers tell new
+            customers about your product. Products where interacting with other
+            users is an inherent part of the experience, such as social
+            networks and collaboration tools, can benefit from viral growth. See
+            <a href="http://www.amazon.com/Viral-Loop-Facebook-Businesses-Themselves/dp/1401323499" target="_blank">Viral Loop</a>
+            and
+            <a href="http://blog.adamnash.com/2012/04/04/user-acquisition-viral-factor-basics/" target="_blank">User Acquisition: Viral Factor Basics</a>
+            for more information.
         - name: "Marketing"
           description: |
-            Links to places to submit your company after launch.
+            Marketing is where you tell new users about your product. There are
+            many different ways to do this. See
+            <a href="https://github.com/mmccaff/PlacesToPostYourStartup" target="_blank">Places To Post Your Startup</a>
+            for a great list.
           sublist:
             - name: "Advertising"
+              description: |
+                There are many different advertising tools: TV ads, newspaper
+                ads, billboards, and, of course, countless digital ad networks,
+                such as
+                <a href="https://www.google.com/adwords/" target="_blank">Google Adwords</a>,
+                <a href="https://www.facebook.com/business/products/ads" target="_blank">Facebook ads</a>,
+                <a href="https://ads.twitter.com/" target="_blank">Twitter ads</a>,
+                <a href="https://www.linkedin.com/ads/" target="_blank">LinkedIn ads</a>,
+                and
+                <a href="https://www.google.com/admob/" target="_blank">AdMob</a>.
             - name: "PR and media"
-            - name: "SEO"
+              description: |
+                Form relationships with bloggers, journalists, and news agencies,
+                and get them to talk about your product. If you don't have those
+                connections already, see
+                <a href="http://www.quora.com/What-is-the-best-free-media-contact-database" target="_blank">best media contact databases</a>,
+                <a href="https://justreachout.io/" target="_blank">JustReachOut</a>,
+                <a href="http://buzzsumo.com/" target="_blank">BuzzSumo</a>,
+                and
+                <a href="https://www.hey.press/" target="_blank">hey.press</a>.
+            - name: "Search Engines"
+              description: |
+                Search Engine Optimization (SEO) is how you make your website
+                rank highly in search results. Google gets trillions of searches
+                per year, so you can build a massive business by carving out
+                just a small portion of this query volume. See
+                <a href="http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf" target="_blank">The Google Search Engine Optimization Starter Guide</a>,
+                <a href="https://moz.com/beginners-guide-to-seo" target="_blank">Moz Beginner's Guide to SEO</a>,
+                and
+                <a href="http://searchengineland.com/guide/seo" target="_blank">Search Engine Land’s Guide To SEO</a>.
             - name: "Social media"
               description: |
-                Facebook, Twitter, LinkedIn, Google Plus, Instagram, Pinterest.
+                Social media sites offer a way to build a community around
+                your business. Put up company pages on Facebook, Twitter,
+                LinkedIn, Google Plus, Instagram, and Pinterest, and update
+                them frequently.
             - name: "Inbound marketing"
               description: |
-                Blog, home page, talks, open source.
+                Create valuable content that attracts your audience. This can
+                be a blog, YouTube channel, home page, talks at conferences,
+                and open source software. See
+                <a href="http://www.hubspot.com/inbound-marketing" target="_blank">What is Inbound Marketing?</a>
+                and
+                <a href="http://www.inboundmarketing.com/" target="_blank">Inbound Marketing</a>
+                for more information.
         - name: "Sales"
-          sublist:
-            - name: "Automated sales"
-            - name: "Inside sales"
-            - name: "Outside sales"
+          description: |
+            Marketing gets customers in the door. Sales is how you close the
+            deal. There are several different types of sales, including
+            automated sales (e.g., checkout page on an e-commerce website),
+            inside sales (e.g., a salesperson contacting customers via phone,
+            email, and chat), and outside sales (e.g., a salesperson going to
+            customer sites for demos and negotiations). Most startup founders
+            should do all the sales themselves in the early days of their
+            company (see <a href="http://paulgraham.com/ds.html" target="_blank">Do Things That Don't Scale</a>).
         - name: "Branding"
           description: |
-            Business cards, customer service, ads, logos, website, product
-            appearance. It's your promise. Steve Jobs "Think Different"
-            campaign. It's about benefits, not features image with Mario.
+            Branding isn't about a single ad campaign or a logo or any one
+            thing, but the sum total of all the ways you interact with the
+            customer and how they think about your business. It's not about
+            features or specs, but about the promise you're making to your customers. See
+            <a href="http://www.useronboard.com/features-vs-benefits/" target="_blank">Features vs Benefits</a>
+            and
+            <a href="https://www.youtube.com/watch?v=9GMQhOm-Dqo" target="_blank">Steve Jobs on "Think Different"</a>
+            for more information.
 - name: "Technology"
   sublist:
     - name: "Server-side"
       sublist:
         - name: "Pick a programming language"
           description: |
-            Community, problem fit, maturity, paradigm (OO, functional, static
-            typing, memory management), performance (concurrency, GC),
-            productivity (conciseness, available libraries, ease of use)
+            Key aspects to consider: community, problem fit, maturity,
+            paradigm (OO, functional, static typing, memory management),
+            performance (concurrency, GC), and productivity
+            (conciseness, available libraries, ease of use).
         - name: "Pick a server-side framework"
           description: |
-            Minimal vs full stack framework, problem fit, data manipulation,
-            view technologies, testability, scalability, deployment, security.
-            See my talk on Play vs Node.
+            Key aspects to consider: minimal vs full stack framework, problem
+            fit, data manipulation, view technologies, testability,
+            scalability, deployment, security. See
+            <a href="http://www.ybrikman.com/writing/2014/09/29/nodejs-vs-play-framework/" target="_blank">Node.js vs Play Framework</a>
+            for an example of how to compare frameworks.
         - name: "Pick an architecture"
           description: |
-            Monolithic, microservices, reactive, stream-based
+            Will you build a single, monolithic app? A number of small, loosely
+            coupled microservices? Will use a reactive architecture? What about
+            <a href="http://www.confluent.io/blog/making-sense-of-stream-processing/" target="_blank">Stream processing, Event sourcing, CQRS</a>?
     - name: "Client-side"
       description: |
-        What clients do you support?
+        What clients do you support? Desktop web? Mobile web? Native mobile apps
+        (iOS, Android, etc.)? Wearables? IoT?
       sublist:
-        - name: "Web"
-          sublist:
-            - name: "SEO"
-            - name: "Accessibility"
-            - name: "Meta tags"
-            - name: "Share tags"
-            - name: "Mobile web"
-            - name: "Cookie policy"
-            - name: "Terms & conditions, privacy policy"
-            - name: "Favicon"
-        - name: "Mobile"
-          sublist:
-            - name: "Developer accounts"
-              description: |
-                App store, Play store, etc
-            - name: "Native or not"
-              description: |
-                Write multiple apps in multiple languages (Objective C, Java, etc)
-                or write all in one common language (HTML5)
-            - name: "Monitoring"
-              description: |
-                Crash reporting
-            - name: "Notifications"
-              description: |
-                3rd party services can be helpful
-        - name: "IoT"
+        - name: "Devices"
+          description: |
+            What devices and screen sizes do you support? Desktop? Phone?
+            Tablet? Wearable? Are you using responsive design? Are you using
+            graceful degradation or progressive enhancement? Does your
+            site scale properly on mobile screens? Does it respond correctly
+            to touch events? Does it rely on hover menus?
+        - name: "Native apps, cross-platform app, or web-app"
+          description: |
+            Write multiple apps in multiple native languages (Objective C or
+            Swift, Java, C#, etc.), or write all in one common language that is
+            transcompiled to native languages
+            (<a href="http://phonegap.com/" target="_blank">PhoneGap</a>,
+            <a href="http://www.appcelerator.com/product/" target="_blank">Titanium</a>,
+            <a href="https://www.parse.com/" target="_blank">Parse</a>, etc.),
+            or write only for the web (HTML5).
+        - name: "Client-side framework"
+          description: |
+            Will you use jQuery or Zepto? Backbone, React, Ember, or Angular?
+            RequireJS, Browserify, or Webpack? Less or Sass?
+        - name: "SEO"
+          description: |
+            Have you optimized your website's links, headers, URLs, and
+            meta tags for search engine crawlers? For a guide, see
+            <a href="http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf" target="_blank">The Google Search Engine Optimization Starter Guide</a>,
+            <a href="https://moz.com/beginners-guide-to-seo" target="_blank">Moz Beginner's Guide to SEO</a>,
+            and
+            <a href="http://searchengineland.com/guide/seo" target="_blank">Search Engine Land’s Guide To SEO</a>.
+        - name: "Accessibility"
+          description: |
+            Is your website accessible to people with disabilities? Do all
+            images have alternate text? Can everything be navigated using
+            just a keyboard? Do you have captions for videos? Is there
+            enough contrast in your color choices? Are the font sizes big
+            enough? For more information, see
+            <a href="https://www.w3.org/WAI/intro/accessibility.php" target="_blank">Introduction to Web Accessibility</a>,
+            <a href="http://a11yproject.com/" target="_blank">The Accessibility Project</a>,
+            <a href="https://github.com/addyosmani/a11y" target="_blank">a11y</a>,
+            and
+            <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA" target="_blank">ARIA</a>.
+        - name: "Meta tags"
+          description: |
+            Do you have the proper meta tags to specify the website
+            character set, canonical URL, title, description, and robots
+            directives (see
+            <a href="http://searchenginewatch.com/sew/how-to/2067564/how-to-use-html-meta-tags">How to Use HTML Meta Tags</a>)?
+            Did you add meta tags to your webpage so it shows up correctly
+            when shared on social media sites (see
+            <a href="https://developers.facebook.com/docs/sharing/webmasters#markup" target="_blank">Facebook Open Graph Markup</a>
+            and
+            <a href="https://dev.twitter.com/cards/overview" target="_blank">Twitter Cards</a>)?
+            Did you add a favicon that works on all devices (see
+            <a href="http://realfavicongenerator.net/" target="_blank">Favicon Generator</a>)?
+        - name: "Terms & conditions and privacy policy"
+          description: |
+            Some states and countries require websites to specify their
+            terms & conditions and privacy policies in a clear place,
+            especially if those websites collect any personal data or sell
+            any sort of product. Similarly, some countries (especially
+            Europe) require websites to clearly disclose any use of cookies.
+            For more information, and some free legal templates, see
+            <a href="https://termsfeed.com" target="_blank">TermsFeed</a>,
+            <a href="https://www.pandadoc.com/website-standard-terms-and-conditions-template" target="_blank">Website Terms and Conditions Template</a>,
+            and
+            <a href="https://www.upcounsel.com/privacy-policy-template" target="_blank">Privacy Policy Template</a>.
+        - name: "Developer accounts"
+          description: |
+            Set up developer accounts for the app stores need:
+            <a href="https://developer.apple.com/programs/" target="_blank">Apple Developer Program</a>,
+            <a href="https://play.google.com/apps/publish/signup/" target="_blank">Google Play Developer</a>,
+            <a href="https://dev.windows.com/en-us/join" target="_blank">Windows App Developer</a>,
+            and
+            <a href="http://developer.blackberry.com/" target="_blank">BlackBerry Developer</a>.
+        - name: "Notifications and messaging"
+          description: |
+            Set up a service to handle push notifications and messaging (e.g.,
+            SMS). See
+            <a href="https://aws.amazon.com/sns/" target="_blank">Amazon SNS</a>,
+            <a href="https://www.twilio.com/" target="_blank">Twilio</a>,
+            <a href="http://urbanairship.com/" target="_blank">Urban Airship</a>,
+            and
+            <a href="https://pushover.net/" target="_blank">Pushover</a>.
     - name: "Data storage"
       sublist:
         - name: "Pick a database"
@@ -439,24 +576,32 @@
             them: maturity, reading data (supported access patterns, support
             for primary/secondary indices and joins, mapping), writing data
             (aggregates, atomic updates, transactions), schemas, scalability,
-            failure modes. See Hello, Startup, Intensive Data, and NoSQL
-            Distilled.
+            failure modes. For more information, see
+            <a href="http://dataintensive.net/" target="_blank">Designing Data-Intensive Applications</a>
+            and
+            <a href="http://www.amazon.com/NoSQL-Distilled-Emerging-Polyglot-Persistence/dp/0321826620" target="_blank">NoSQL Distilled</a>.
         - name: "Schema management"
           description: |
-            You must define a schema somewhere. Think about integrity
-            constraints, schema evolution, managing schemas in dev, test, and
-            production.
-        - name: "Partitioning"
-          description: |
-            Useful for scaling to more traffic and larger teams. Comes at a
-            significant cost (JOINs, transactions, integrity constraints,
-            migrations, updates, backup, id generation) so best avoided until
-            absolutely necessary.
+            <a href="https://www.vividcortex.com/blog/2015/02/24/schemaless-databases-dont-exist/" target="_blank">Schemaless databases don't exist</a>.
+            Either the schema is defined in the database itself or it's defined
+            in your application code. Either way, you need to think about
+            managing schemas in dev, test, and production, enforcing integrity
+            constraints, and schema evolution.
         - name: "Replication"
           description: |
-            Essential for backup, at least as a passive replica (cold standby).
-            Useful for scaling with active replicas (either master-slave or
-            multi-master).
+            <a href="https://en.wikipedia.org/wiki/Replication_(computing)" target="_blank">Replication</a>
+            is essential to backup your database, so you always want to have at
+            least one passive replica. It can also be useful for horizontal
+            scaling with active replicas (either master-slave or multi-master
+            replication).
+        - name: "Partitioning"
+          description: |
+            <a href="https://en.wikipedia.org/wiki/Partition_(database)">Partioning</a>
+            a database can be useful for improving availability and horizontal
+            scalability. However, it always comes at a steep cost (harder or
+            impossible to do JOINs, transactions, indices, integrity
+            constraints, migrations, updates, backups, and id generation), so
+            it's best avoided until absolutely necessary.
         - name: "Data processing"
           description: |
             Data warehousing, ETL, Kafka, Storm
@@ -599,76 +744,186 @@
   sublist:
     - name: "Culture"
       description: |
-        Don't fuck up the culture.
+        Culture is not a soft, squishy topic that you can ignore. It is the very
+        essence of what it means to be a company and you need to figure it out
+        right at the start. Otherwise, it's a bit like launching a rocket:
+        <a href="https://www.linkedin.com/pulse/20121029044359-22330283-to-manage-hyper-growth-get-your-launch-trajectory-right" target="_blank">if your trajectory is off by inches at launch, you can be off by miles out in orbit</a>.
+        <a href="https://hbr.org/2011/03/culture-trumps-strategy-every">Culture trumps strategy, every time</a>,
+        so while you can get a lot of things wrong in a startup, make sure you
+        <a href="https://medium.com/@bchesky/dont-fuck-up-the-culture-597cde9ee9d4" target="_blank">don't fuck up the culture</a>.
       sublist:
-        - name: "Define your mission and values"
-        - name: "Act on your mission and values"
+        - name: "Mission and values"
           description: |
-            Defining is good (e.g., Netflix and HubSpot culture deck), but you
-            have to act on these values every day for them to actually be
-            meaningful. Culture is action, not words.
+            Your company's mission is it's destination&mdash;it explains
+            <em>why</em> you exist and where you are going. Your company's
+            values are the principles you use to decide <em>how</em> to get
+            there. Make sure to define both early in your company's existance
+            (the
+            <a href="http://www.slideshare.net/reed2001/culture-1798664" target="_blank">Netflix Culture Deck</a>
+            and
+            <a href="http://www.slideshare.net/HubSpot/the-hubspot-culture-code-creating-a-company-we-love" target="_blank">HubSpot Culture Code</a>
+            are great examples). Both are important, but remember, great leaders
+            always start with
+            <a href="http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en">why</a>,
+            and merely defining your culture is not enough: you also have to act
+            on it every day.
         - name: "Organizational design"
           description: |
-            How will teams be organized? Who will priortize work, evaluate
-            performance, hire and fire, and motivate and train? Will you have
-            managers or a flat organization? Will you have titles? Will you have a
-            career ladder?
+            How will teams be organized? How will you priortize work, evaluate
+            performance, motivate and train, and hire and fire? What will your
+            <a href="http://www.bonkersworld.net/organizational-charts/" target="_blank">org chart</a>
+            look like: will you have a hierarchical organization with lots of
+            managers or a flat organization? Will you have titles? Will you have
+            a career ladder? Will you have a separate management track and
+            <a href="http://mcfunley.com/thoughts-on-the-technical-track" target="_blank">technical track</a>?
         - name: "Process"
           description: |
-            Most startups don't need much. Keep it minimal at first. Consider
-            Agile. Use good judgment.
+            Small startups don't need much process
+            <a href="http://www.slideshare.net/HubSpot/the-hubspot-culture-code-creating-a-company-we-love" target="_blank">use good judgment</a>
+            is usually enough. Only when good judgment has been repeatedly shown
+            not to work should you consider adding any sort of process, and even
+            then, do so carefully, revisit often, and prefer automation to
+            manual processes (see
+            <a href="http://www.agilemanifesto.org/" target="_blank">The Agile Manifesto</a>).
         - name: "Communication"
           description: |
-            How transparent will you be? What will you reveal? Buffer example.
+            How will you communicate with people within the company? How will
+            you communicate with people outside? How transparent will you be?
+            What information will you reveal? Most startups should err on the
+            side of maximal transparency, as transparency breeds trust. For a
+            radical example, check out the startup
+            <a href="https://buffer.com/transparency" target="_blank">Buffer</a>,
+            which has open salaries, open equity, open financials, and more.
         - name: "Motivation"
           description: |
-            Focus on intrisinc drive. Dan Pink video.
+            How will you motivate employees? Offering competitive compensation
+            is important, but beyond a base level of income, it
+            <a href="http://content.time.com/time/magazine/article/0,9171,2019628,00.html" target="_blank">does not increase happiness</a>,
+            and in some cases, offering monetary rewards can actually
+            <a href="http://www.ted.com/talks/dan_pink_on_motivation?language=en" target="_blank"><em>decrease</em> motivation</a>.
+            Therefore, you instead have to focus on intrinsic motivators, such
+            as autonomy, mastery, and purpose.
           sublist:
             - name: "Autonomy"
               description: |
-                Pick your own projects, schedule, teammates. Valve example.
-                HackDays, 20% time.
+                Autonomy is the desire to control your own life. So as a
+                manager, quit bossing people around, and instead, let them
+                pick their own projects, determine their schedule, and even pick
+                their own teammates. Examples:
+                <a href="https://engineering.linkedin.com/tags/hackday" target="_blank">LinkedIn HackDays</a>,
+                <a href="http://googleblog.blogspot.it/2006/05/googles-20-percent-time-in-action.html" target="_blank">Google 20% time</a>,
+                and
+                <a href="http://www.valvesoftware.com/company/Valve_Handbook_LowRes.pdf" target="_blank">Valve's 100% time</a>.
             - name: "Mastery"
               description: |
-                Reimburse classes, tech talks, switch teams regularly.
+                Mastery is the desire to get better at things. To enable this,
+                host talks, reimburse classes, and let people take on new
+                projects and join new teams on a regular basis.
             - name: "Purpose"
               description: |
-                Mission. Give people a big honking goal to aim for. Make them
-                feel connected.
+                Purpose is the desire to work on something greater than
+                yourself. It's not about making money, but about accomplishing
+                a great mission. "If you want to build a ship, don't drum up
+                the men to gather wood, divide the work and give orders.
+                Instead, teach them to yearn for the vast and endless sea."
     - name: "Office"
       sublist:
         - name: "Type of office"
           description: |
-            What can you afford? Your own leased office space? A co-working
-            space? Or just everyone works from home?
-        - name: "Pick a location"
+            Will you lease an office? Join a co-working space? Work out of your
+            living room or garage? Or will you build a distributed company
+            where there is no office, and everyone works from home?
+        - name: "Location"
           description: |
             What kind of commute will you and your employees have? Is there
             parking available? Are there places to eat nearby? Is there room
             for future growth? What are the zoning laws for this type of
             business?
-        - name: "Negotiate a lease"
-        - name: "Figure out power, lighting, AC, heating"
-        - name: "Figure out security"
-          description: |
-            Locks, access badges, fire safety, security guards
-        - name: "Purchase office furniture"
-        - name: "Set up IT"
-          description: |
-            What hardware do employees need (e.g., computer, monitor, keyboard,
-            mouse)? What software do employees need (e.g., Google Apps, Office,
-            Photoshop, IDE)?
-        - name: "Set up places for deep concentration"
-          description: |
-            Private offices. Open offices are awful. Comic about distractions.
-        - name: "Set up places for collaboration"
-          description: |
-            Meeting rooms
-        - name: "Set up communication"
-          description: |
-            Email, phone, fax, chat (e.g. Slack, IRC), wiki, JIRA, letterhead,
-            business cards.
-    - name: "Bring in other people"
+        - name: "Office basics"
+          sublist:
+            - name: "Electrical"
+              description: |
+                Make sure the building is wired for power, lighting, Internet
+                (Wi-Fi and ethernet), and phone. Make sure there is enough
+                power for the number of employees. Consider backup power so your
+                business remains operational despite a power outage.
+            - name: "Temperature control"
+              description: |
+                Heating, air conditioning, windows, shades.
+            - name: "Bathroom facilities"
+              description: |
+                Make sure there are enough for the number of employees.
+            - name: "Kitchen facilities"
+              description: |
+                At the very least, you need easy access to water, coffee, and
+                basic snacks.
+            - name: "Access control"
+              description: |
+                Keys and/or swipe cards at every exterior door. Consider if you
+                need to hire security guards.
+            - name: "Fire safety measures"
+              description: |
+                Fire extinguishers, smoke detectors, sprinklers, emergency
+                exits.
+            - name: "Space for focused work"
+              description: |
+                Offices, cubicals, open floor plans. Beware of the
+                <a href="http://www.newyorker.com/business/currency/the-open-office-trap" target="_blank">Open-Office Trap</a>
+                and
+                <a href="http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/" target="_blank">Why You Shouldn't Interrupt a Programmer</a>.
+            - name: "Space for collaborative work"
+              description: |
+                Conference rooms and common areas.
+        - name: "Office furniture & supplies"
+          sublist:
+            - name: "Desks & chairs"
+            - name: "Cubicles"
+            - name: "Filing cabinets, folders"
+            - name: "Lamps"
+            - name: "Conference tables, chairs"
+            - name: "White boards, markers, erasers"
+            - name: "TVs, projectors"
+            - name: "Paper, notepads, sticky notes"
+            - name: "Pens, pencils"
+            - name: "Envelopes, stamps"
+            - name: "Computers, monitors, keyboards, mice"
+            - name: "Software: Google Apps, Microsoft Office, Adobe Photoshop, etc"
+            - name: "Printers, copiers, fax"
+            - name: "Phones"
+        - name: "Office communication"
+          sublist:
+            - name: "Email"
+              description: |
+                <a href="https://www.google.com/work/apps/business/" target="_blank">Google Apps for Business</a>
+                is easy to setup and use.
+            - name: "Chat"
+              description: |
+                <a href="https://slack.com/" target="_blank">Slack</a> has
+                become very popular amongst startups.
+            - name: "Phone & fax"
+              description: |
+                Check out
+                <a href="http://grasshopper.com/" target="_blank">Grasshopper</a>,
+                <a href="https://www.google.com/voice" target="_blank">Google Voice</a>,
+                and
+                <a href="http://talkroute.com/" target="_blank">Talkroute</a>.
+            - name: "Wiki"
+              description: |
+                Check out
+                <a href="https://www.mediawiki.org/wiki/MediaWiki" target="_blank">MediaWiki</a>,
+                <a href="https://www.atlassian.com/software/confluence" target="_blank">Atlassian Confluence</a>,
+                and
+                <a href="https://slimwiki.com/" target="_blank">SlimWiki</a>,
+            - name: "Project management & issue tracker"
+              description: |
+                Check out
+                <a href="https://trello.com/">Trello</a> and
+                <a href="https://asana.com/">Asana</a>.
+            - name: "Business cards"
+              description: |
+                Check out
+                <a href="http://www.vistaprint.com/" target="_blank">Vistaprint</a>.
+    - name: "Hiring"
       sublist:
         - name: "Find co-founders"
           description: |

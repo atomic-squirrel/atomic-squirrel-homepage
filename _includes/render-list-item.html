@@ -13,17 +13,19 @@
     {% endunless %}
     <div class="{% unless include.level == "0" %}col {% endunless %}px2 py2 border more-rounded clearfix bg-white {% if include.is_last %} mt2{% endif %}"{% unless include.level == "0" %} style="width: 97%"{% endunless %}>
       <div class="col mr1">
-        <input type="checkbox" name="{{ item_id }}" value="done" class="js-checklist-item" data-children-class="{{ item_more_class }}" data-hidden-class="{{ item_hidden_class }}" data-parent-checkbox-name="{{ include.parent_checkbox_name }}">  
+        <input type="checkbox" name="{{ item_id }}" value="done" class="js-checklist-item" data-children-class="{{ item_more_class }}" data-hidden-class="{{ item_hidden_class }}" data-parent-checkbox-name="{{ include.parent_checkbox_name }}">
         <input type="hidden" name="{{ item_id }}" value="todo" class="{{ item_hidden_class }}">
       </div>
       <div class="col col-9">
         <div class="more-bold">{{ include.item.name }}</div>
         {% if include.item.description %}
           <div class="mt1 h5 display-none {{ item_more_class }}">{{ include.item.description }}</div>
-        {% endif %}                
+        {% endif %}
       </div>
       <div class="col-right right-align">
-        <a href="#" id="{{ item_id }}-expand-link" class="h3 monospace no-underline more-bold initial-line-height default-font-color js-expand" data-more-class="{{ item_more_class }}">+</a>      
+        {% if include.item.description or include.item.sublist %}
+          <a href="#" id="{{ item_id }}-expand-link" class="h3 monospace no-underline more-bold initial-line-height default-font-color js-expand" data-more-class="{{ item_more_class }}">+</a>
+        {% endif %}
       </div>
     </div>
   </div>
