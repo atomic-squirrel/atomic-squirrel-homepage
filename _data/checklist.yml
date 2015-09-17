@@ -604,130 +604,400 @@
             it's best avoided until absolutely necessary.
         - name: "Data processing"
           description: |
-            Data warehousing, ETL, Kafka, Storm
+            Most startups need to process data in a variety of ways, including
+            offline analytics (e.g., in a data warehouse), batch processing
+            (e.g., <a href="https://hadoop.apache.org/" target="_blank">Hadoop</a>),
+            or real-time processing (e.g.,
+            <a href="http://kafka.apache.org/" target="_blank">Kafka</a>,
+            <a href="http://samza.apache.org/" target="_blank">Samza</a>,
+            <a href="http://spark.apache.org/" target="_blank">Spark</a>).
     - name: "Continuous Integration"
+      description: |
+        The idea behind Continuous Integration (CI) is to merge all changes
+        together on a regular basis (e.g., multiple times per day or after
+        every single commit) to ensure that conflicts and integration issues
+        are identified immediately after they happen (when they are easiest to
+        fix) instead of a long time later (i.e., during "merge hell").
       sublist:
-        - name: "VCS"
+        - name: "Version Control System (VCS)"
           description: |
-            Git vs SVN. Set up pre-commit hooks. Decide on branching strategy.
+            Your code should be stored in a version control system such as
+            Git or SVN. You should also pick a branching strategy. To support
+            continuous integration at most companies, your best bet is to use
+            <a href="http://paulhammant.com/2013/04/05/what-is-trunk-based-development/" target="_blank">trunk-based development</a>.
         - name: "Build system"
+          description: |
+            Use an open source build system to compile, test, and package your
+            code for production.
         - name: "Dependency management"
           description: |
-            Explicitly declare dependencies, use build system to manage
-            transitive dependnecies.
+            Your code modules should explicitly declare versioned dependencies
+            on other code modules. You should use a build system to manage
+            these dependencies, as well as any transitive dependencies they
+            pull in.
         - name: "Automated tests"
           description: |
-            Unit tests, integration tests; client-side tests; cross-browser,
-            cross-platform, cross-email-client tests. Chaos monkey.
-        - name: "Automated builds"
+            You should define a suite of tests that verify your code is working.
+            This includes unit tests, integration tests, acceptance tests, and
+            performance tests. You should use the build system to run all the
+            tests with a single command, and use it regularly during
+            development.
+        - name: "Automated build servers"
+          description: |
+            Use pre-commit and post-commit hooks in your VCS to build and test
+            every check in. This is easy to set up with tools like
+            <a href="https://travis-ci.org/" target="_blank">Travis CI</a>,
+            <a href="https://circleci.com/" target="_blank">Circle CI</a>,
+            and
+            <a href="https://jenkins-ci.org/" target="_blank">Jenkins</a>.
         - name: "Static analysis"
           description: |
-            Compiler, Build System, Code Climate, Codacy, etc.
-    - name: "Continuous Deployment"
+            You can use a variety of automated tools to check the quality of
+            your code. For compiled languages, the compiler is of course the
+            first line of defense, but there are a variety of other
+            <a href="https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis" target="_blank">static analysis</a>
+            and
+            <a href="https://en.wikipedia.org/wiki/Code_coverage" target="_blank">code coverage</a>
+            tools that offer useful data.
+    - name: "Continuous Delivery"
       description: |
-        DevOps. Deploy any time you want, or even after each check-in (which
-        is continuous deployment).
+        The idea behind Continuous Delivery is that you keep your code in a
+        state where you could release it at any time. You could even release
+        after every single check-in, which is known as Continuous Deployment.
       sublist:
         - name: "Multiple environments"
           description: |
-            Dev, Test, Prod
+            Most startups have a variety of environments for the code that they
+            must set up and manage: development, test, staging, and production.
         - name: "Hosting"
           description: |
-            Your own data center vs cloud hosting.
+            Where will your code run? Will you set up your own data center and
+            rack your own servers or use a cloud offering? See
+            <a href="http://www.hello-startup.net/resources/hosting/" target="_blank">Hosting Resources</a>
+            for more information.
         - name: "Configuration management"
           description: |
-            Checked into VCS, customizable per environment. App configuration,
-            VMs, containers, orchestration tools.
+            Most software exposes configuration settings that can be tweaked
+            outside of the code. All configuration should be checked into your
+            VCS, code reviewed, and tested, just as if it was code. You should
+            also bea ble to customizable configuration per environment
+            (development, test, staging, production). Configuration management
+            tools such as
+            <a href="https://www.chef.io/chef/" target="_blank">Chef</a>,
+            <a href="https://puppetlabs.com/" target="_blank">Puppet</a>,
+            and
+            <a href="http://www.ansible.com/" target="_blank">Ansible</a>
+            can help manage configuration across all environments. Tools like
+            <a href="https://www.docker.com/" target="_blank">Docker</a>
+            and
+            <a href="https://www.vagrantup.com/" target="_blank">Vagrant</a>
+            can help reduce the differences between environments.
         - name: "Automated deployment"
           description: |
-            Infrastructure as code. Use orchestration tools.
+            You should be able to deploy your code with a single click or
+            command. That means there are no manual steps involved and the
+            entire deployment is defined in code. That is, you should
+            treat infrastructure as code. For more information, see
+            <a href="http://www.hello-startup.net/resources/deployment/" target="_blank">Deployment Tools</a>.
           sublist:
             - name: "Canary releases"
-            - name: "Feature flags"
+              description: |
+                When deploying new code, first deploy it to just a single new
+                server (the "canary"), compare the canary with an old server
+                (the "control") and either roll the new code back if there are
+                any problems or roll it out to all servers if everything looks
+                OK.
             - name: "Backwards compatibility"
-        - name: "Change management"
-          description: |
-            Informed style dashboard
-        - name: "Logging"
-          sublist:
-            - name: "Log naming and levels"
-            - name: "Log format"
-            - name: "Log rotation"
-            - name: "Log aggregation"
+              description: |
+                In a service-oriented architecture, ensure that all public API
+                changes are backwards compatible. That is, you cannot delete
+                or modify an existing API until you know no clients are using it
+                any more.
+            - name: "Change management dashboard"
+              description: |
+                Create a dashboard that tracks all the changes happening to
+                production services, including new deployments, configuration
+                changes, hardware upgrades, feature flag changes, and so on.
+                When something goes wrong, this dashboard will be the first
+                place you turn to answer the question, "What changed?"
         - name: "Monitoring"
           description: |
-            Point to Quora post
+            The monitoring ecosystem is quite fragmented (see
+            <a href="https://github.com/monitoringsucks/blog-posts" target="_blank">monitoringsucks</a>), so you'll need different tools for
+            different types of monitoring. For more information, see
+            <a href="http://www.hello-startup.net/resources/monitoring/">Monitoring Resources</a>.
           sublist:
+            - name: "Logging"
+              description: |
+                Did you name your logs correctly? What log levels are you using?
+                Are you formatting each log entry so it's easy to read, both for
+                computers and humans? Did you configure log rotation so each
+                log file doesn't get too big? Did you set up log aggregation so
+                that log data from all of your servers visible and searchable in
+                a single place? Example tools:
+                <a href="https://www.elastic.co/products/logstash" target="_blank">logstash</a>,
+                <a href="https://www.loggly.com/" target="_blank">Loggly</a>,
+                <a href="https://papertrailapp.com/" target="_blank">Papertrail</a>.
             - name: "Availability metrics"
+              description: |
+                Can a user access your product or not? Example tools:
+                <a href="http://www.keynote.com/" target="_blank">Keynote</a>,
+                <a href="https://www.pingdom.com/" target="_blank">Pingdom</a>,
+                <a href="http://uptimerobot.com/" target="_blank">Uptime Robot</a>.
             - name: "Business metrics"
+              description: |
+                What are your users actually doing in your product? Example
+                metrics: page views, clicks, conversions, referrals. Example
+                tools:
+                <a href="http://www.google.com/analytics/" target="_blank">Google Analytics</a>,
+                <a href="https://www.kissmetrics.com/" target="_blank">KISSmetrics</a>,
+                <a href="https://mixpanel.com/" target="_blank">Mixpanel</a>.
             - name: "Application metrics"
+              description: |
+                What is your application code doing? Example metrics: QPS,
+                latency, error count, load time, payload size. Example tools:
+                <a href="https://newrelic.com/" target="_blank">New Relic</a>,
+                <a href="http://www.appdynamics.com/" target="_blank">AppDynamics</a>,
+                <a href="https://www.ruxit.com/" target="_blank">ruxit</a>.
             - name: "Process metrics"
-            - name: "Code metrics"
+              description: |
+                Are the right processes up and running on each server? Example
+                tools:
+                <a href="http://mmonit.com/monit/" target="_blank">Monit</a>,
+                <a href="http://godrb.com/" target="_blank">God</a>,
+                <a href="http://supervisord.org/" target="_blank">Supervisor</a>.
             - name: "Server metrics"
-        - name: "Alerting"
+              description: |
+                What is my server hardware doing? Example metrics: CPU usage,
+                memory usage, hard-disk space, network traffic. Example tools:
+                <a href="http://www.nagios.org/" target="_blank">Nagios</a>,
+                <a href="https://www.icinga.org/" target="_blank">Icinga</a>,
+                <a href="http://ganglia.sourceforge.net/" target="_blank">Ganglia</a>.
+            - name: "Alerting"
+              description: |
+                Monitoring is not enough. You also need tools that actively alert
+                the right person when something goes wrong. Check out
+                <a href="https://www.pagerduty.com/" target="_blank">PagerDuty</a>
+                and
+                <a href="https://victorops.com/" target="_blank">VictorOps</a>.
+        - name: "Feature flags and A/B testing"
           description: |
-            Rules when to notify, tools to manage on-call rotation and contact
-            information (PagerDuty, VictorOps).
-        - name: "A/B testing"
-          description: |
-            See data-driven development, feature flags. Use the following
-            tools to be able to do it.
+            Wrap new features with feature flags that are controlled by
+            configuration or a web UI. Enable or disable certain features for
+            specific subsets of users as a way to do A/B testing and to make
+            deployment safer. Useful tools to check out:
+            <a href="https://www.optimizely.com/" target="_blank">Optimizely</a>,
+            <a href="http://vanity.labnotes.org/" target="_blank">Vanity</a>,
+            <a href="https://developer.amazon.com/appsandservices/apis/manage/ab-testing" target="_blank">Amazon A/B testing</a>.
     - name: "Security"
       sublist:
         - name: "SSL"
+          description: |
+            Set up SSL certificates for your company so that you can use HTTPS.
+            Ideally, you encrypt all traffic with SSL. However, at a bare
+            minimum, you use it for all confidential data, including passwords
+            and credit card numbers.
         - name: "VPN"
-        - name: "Password and secret storage"
           description: |
-            How to store user passwords. How to store internal secrets.
-        - name: "User Authentication"
+            Set up VPN to allow employees to connect securely to your company's
+            intranet.
+        - name: "Secret storage"
           description: |
-            Login + session management
+            Make sure you know how to safely handle and store secrets such as
+            TLS certificates/keys, GPG keys, API tokens, and database
+            credentials. Useful tools:
+            <a href="https://www.vaultproject.io/" target="_blank">Vault</a>,
+            <a href="https://square.github.io/keywhiz/" target="_blank">Keywhiz</a>,
+            <a href="https://github.com/StackExchange/blackbox" target="_blank">BlackBox</a>.
+        - name: "User authentication"
+          description: |
+            Make sure you know how to safely authenticate users, manage
+            sessions, and store passwords. Useful resources:
+            <a href="https://www.owasp.org/index.php/Authentication_Cheat_Sheet" target="_blank">Authentication Cheat Sheet</a>,
+            <a href="https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet" target="_blank">Password Storage Cheat Sheet</a>,
+            <a href="https://www.owasp.org/index.php/Session_Management_Cheat_Sheet" target="_blank">Session Management Cheat Sheet</a>,
+            <a href="http://stackoverflow.com/questions/1054022/best-way-to-store-password-in-database" target="_blank">Best way to store password in database</a>,
+            <a href="https://auth0.com/" target="_blank">Auth0</a>.
         - name: "Server security"
           description: |
-            Limit production access; *nix permissions, user accounts, quotas.
-            Lock down login options (e.g., MongoDB not secure).
-        - name: "CSRF, XSS"
+            How do you access production servers (SSH, IAMA)? Did you disable
+            the default logins and users for your database software? Are you
+            running your server software as root or did you create a user with
+            limited permissions? What ports are you exposing? Have you isolated
+            your DMZ from your LAN?
+        - name: "CSRF"
+          description: |
+            See the
+            <a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet" target="_blank">CSRF Prevention Cheat Sheet</a>.
+        - name: "XSS"
+          description: |
+            See
+            <a href="https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet" target="_blank">XSS Prevention Cheat Sheet</a>.
         - name: "Injection attacks"
+          description: |
+            See
+            <a href="https://www.owasp.org/index.php/Code_Injection" target="_blank">Code Injection</a>,
+            <a href="https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet" target="_blank">SQL Injection Prevention Cheat Sheet</a>,
+            <a href="https://www.owasp.org/index.php/Direct_Dynamic_Code_Evaluation_(%27Eval_Injection%27)" target="_blank">Eval Injection</a>.
         - name: "Security headers"
-        - name: "Audits"
+          description: |
+            See
+            <a href="https://www.owasp.org/index.php/List_of_useful_HTTP_headers" target="_blank">List of useful HTTP Headers</a>.
+        - name: "Security audit"
+          description: |
+            Bring in a 3rd party to audit your product and look for security
+            vulnerabilities. They should review your code and perform
+            penetration testing on the live product.
         - name: "Security advisories"
+          description: |
+            For every commercial and open source piece of software your rely on,
+            including your operating system, programming language, web
+            framework, database, and client-side libraries, make sure you can
+            sign up for a security advisory mailing list that will notify you
+            when vulnerability is discovered. Make sure you have the ability
+            to update to a newer version of the software quickly, before hackers
+            can exploit it.
         - name: "Spam and fraud"
           description: |
-            Captcha, fraud team
+            Does your product have a lot of user-generated content? If so, you
+            may need a way to prevent fraud and spam. At the least, you need
+            something like CAPTCHA to protect against automated attacks. To
+            protect against manual attacks, you may have to hire a fraud team.
     - name: "Scalability"
       sublist:
         - name: "Scaling to a larger team"
           sublist:
-            - name: "Define coding standards"
+            - name: "Coding standards"
               description: |
-                Coding conventions, testing requirements, code ownership,
-                design reviews, code reviews, pair coding.
+                Define coding conventions for your project, including a style
+                guide, testing requirements, and documentation requirements.
+            - name: "Code ownership"
+              description: |
+                Identify an owner for each part of the code who is responsible
+                for deploying the code, keeping it working, and deciding what
+                changes can go in.
             - name: "Code reviews"
               description: |
-                Tools (GitHub, Phabricator, ReviewBoard).
+                Define a code review process for your project, including a
+                checklist of what to look for in a review. For more info, see
+                <a href="http://www.hello-startup.net/resources/code-review/" target="_blank">Code Review Resources</a>.
             - name: "Documentation"
               description: |
-                My blog post on documentation.
-            - name: "Versioned artifacts"
-            - name: "Microservices"
+                If you don't document it, it doesn't exist. Documentation
+                includes written documentation (README, tutorial, reference
+                guide), code documentation (API docs, comments, example code,
+                type system), and community documentation (blog posts, Q&A
+                sites, talks). For more info, see
+                <a href="http://www.ybrikman.com/writing/2014/05/05/you-are-what-you-document/" target="_blank">You Are What You Document</a>
+                and
+                <a href="http://tom.preston-werner.com/2010/08/23/readme-driven-development.html" target="_blank">Readme Driven Development</a>.
+            - name: "Split up the code"
+              description: |
+                It can be hard to reason and make changes to a single, giant,
+                monolithic codebase, especially when many people are making
+                changes to it at the same time. Two possible, orthogonal
+                solutions: one is to break the code up into separate
+                repositories. Another option is to break the code into separate
+                services (AKA <a href="http://martinfowler.com/articles/microservices.html" target="_blank">microservices</a>)
+                that can be developed and deployed completely in isolation.
         - name: "Scaling to more traffic"
+          description: |
+            See <a href="http://www.hello-startup.net/resources/scalability/" target="_blank">Scalability Resources</a>.
           sublist:
             - name: "Profiling"
-            - name: "Stress testing"
+              description: |
+                The first step when doing anything related to performance is
+                <em>always</em> to profile your code to identify the hot spots.
+                They are almost never where you expect. See
+                <a href="https://en.wikipedia.org/wiki/List_of_performance_analysis_tools" target="_blank">List of performance analysis tools</a>.
+            - name: "Performance testing"
+              description: |
+                Measuring performance once is not enough. You need to set up
+                automated performance tests that continuously test the code
+                to prevent regressions.
             - name: "Client-side optimizations"
-              description: |
-                Concat, minify, sprite, preload, stream, lazy load, YSlow and
-                PageSpeed, CDN
+              sublist:
+                - name: "Browser performance tools"
+                  description: |
+                    <a href="http://yslow.org/" target="_blank">YSlow</a>,
+                    <a href="https://developers.google.com/speed/pagespeed/?hl=en" target="_blank">PageSpeed</a>
+                - name: "Use a CDN"
+                - name: "Expires and ETag headers"
+                - name: "Use Gzip"
+                - name: "Concatenate static content"
+                - name: "Minify static content"
+                - name: "Stylesheets at the top"
+                - name: "Scripts at the bottom"
+                - name: "Lazy load as much as possible"
+                - name: "BigPipe streaming"
+                  description: |
+                    <a href="https://www.facebook.com/notes/facebook-engineering/bigpipe-pipelining-web-pages-for-high-performance/389414033919" target="_blank">BigPipe: Pipelining web pages for high performance</a>,
+                    <a href="http://www.ybrikman.com/writing/2015/06/30/ping-play-big-pipe-streaming-for-play-framework/" target="_blank">Ping-Play: Big Pipe Streaming for the Play Framework</a>.
+                - name: "HTML5 prefetch and prerender"
             - name: "Database optimizations"
-              description: |
-                Indices, query tuning, caching, vertical scaling, horizontal scaling
-                (replication, partitioning)
+              sublist:
+                - name: "Query tuning"
+                  description: |
+                    Use EXPLAIN, the query optimizer, indices, and hints. If
+                    absolutely necessary, denormalize the data.
+                - name: "Database tuning"
+                  description: |
+                    Tweak memory settings, CPU settings, I/O settings.
+                - name: "Caching"
+                  description: |
+                    Increase database cache settings or use a distributed cache
+                    in front of the database, such as memcached.
+                - name: "Vertical scaling"
+                  description: |
+                    Faster CPU, more RAM, faster hard-drive.
+                - name: "Replication"
+                  description: |
+                    Master-slave replication or multi-master replication.
+                - name: "Partitioning"
+                  description: |
+                    Vertical partioning or horizontal partioning (sharding).
             - name: "Server-side optimizations"
               description: |
-                Algorithm tuning, caching, non-blocking I/O, stateless, divide
-                and conquer (MapReduce), redundancy (replication), vertical
-                scaling (faster hardware)
+                See <a href="http://www.hello-startup.net/resources/scalability/" target="_blank">Scalability Resources</a>.
+              sublist:
+                - name: "Divide and conquer (MapReduce)"
+                  description: |
+                    Examples: multiple web servers, sharding, MapReduce.
+                - name: "Caching"
+                  description: |
+                    Examples: CDN, memoization, memcached.
+                - name: "Laziness"
+                  description: |
+                    Examples: optimistic locking, lazy-load images.
+                - name: "Approximate correctness"
+                  description: |
+                    Examples: eventual consistency, HyperLogLog.
+                - name: "Asynchrony"
+                  description: |
+                    Examples: non-blocking I/O, event loops, lock-free data
+                    structures.
+                - name: "Jitter and randomization"
+                  description: |
+                    Examples: random cache expiration, load-balancing.
+                - name: "Throttling"
+                  description: |
+                    Examples: rate-limiting a server.
+                - name: "Redundancy"
+                  description: |
+                    Examples: back-up or hedged requests.
+                - name: "Co-location"
+                  description: |
+                    Examples: CDNs, multiple data-centers, server racks.
+                - name: "Vertical scaling"
+                  description: |
+                    Examples: faster CPU, RAM, hard-drive, network.
+                - name: "Algorithm tuning"
+                  description: |
+                    Examples: find algorithms with a faster run-time.
     - name: "Common functionality"
+      description: |
+        A partial list of common features that almost every startup has to
+        build.
       sublist:
         - name: "Search"
         - name: "Email"
@@ -891,6 +1161,9 @@
             - name: "Printers, copiers, fax"
             - name: "Phones"
         - name: "Office communication"
+          description: |
+            See <a href="http://www.hello-startup.net/resources/collaboration/" target="_blank">Startup Collaboration Resources</a>
+            for more info.
           sublist:
             - name: "Email"
               description: |
@@ -927,39 +1200,74 @@
       sublist:
         - name: "Find co-founders"
           description: |
-            Paul Graham's post on why you need them. Look for people with opposite
-            skills. 2-3 works best. See my deck on hiring.
+            You need a co-founder to handle part of the workload, fill in your
+            weaknesses, and to talk you out of bad ideas. Startups are hard and
+            without the motivation of
+            <a href="http://paulgraham.com/startupmistakes.html" target="_blank">"I can't let my cofounder down"</a>,
+            you're not likely to succeed. A team of 2-3 co-founders works best.
+            For more information, see
+            <a href="http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>.
         - name: "Find advisors"
           description: |
-            Board of directors. Mentors. Technical & business advisors with
-            relevant experience.Different skills + network important. Trust very
-            important as they could fire you.
+            Everyone needs a mentor, coach, or advisor. All companies that are C
+            Corporations (i.e., almost all venture-backed startups) have a
+            board of directors. Find people who you can trust, who fill in the
+            gaps in your skills, and who have a network you can use.
         - name: "Hire employees"
           description: |
-            See my deck on startup hiring.
+            Stay small as long as you can. The more people you have, the more
+            <a href="https://en.wikipedia.org/wiki/Brooks%E2%80%99_law" target="_blank">communication overhead</a>
+            you'll have. Therefore, start hiring not when you find something a
+            new employee could do, but when you find a business-critical task
+            that you <em>couldn't</em> do unless you hired someone. See
+            <a href="http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>
+            for more information.
           sublist:
-            - name: "Employees vs contractors"
-            - name: "Compensation"
+            - name: "Referrals"
               description: |
-                Salary vs equity, benefits, vacation, hours.
+                The best way to hire people is to use your network. Referrals
+                <a href="https://www.sequoiacap.com/grove/posts/6bja/recruit-engineers-in-less-time" target="_blank">significantly reduce the amount of time it takes to hire someone</a>
+                and they lead to higher quality hires with lower turnover. Make
+                sure everyone at the company is regularly reaching out to their
+                network. Offer referral incentives.
+            - name: "Employer branding"
+              description: |
+                The next best way to hire people is through "inbound marketing"
+                in the form of blog posts, talks, and open source. If people
+                outside your company are regularly learning from your blog,
+                attending your talks, and best of all, using and contributing to
+                your open source projects, it'll be much easier to hire them.
+            - name: "Job boards"
+              description: |
+                <a href="http://talent.linkedin.com/blog/index.php/2013/12/recruiting-active-vs-passive-candidates" target="_blank">75% of people are <em>passive candidates</em>:</a>
+                they are interested in a new job opportunity if it comes along,
+                but they are not actively seeking it out. That means they do not
+                spend time looking at job boards. Therefore, the "post and pray"
+                technique of putting up a job posting and waiting doesn't work.
+                Moreover, <a href="http://www.ybrikman.com/writing/2011/04/26/your-job-posting-sucks/">your job posting sucks</a>.
+                A better option is to reach out to candidates yourself and to
+                post jobs in the places where even passive candidates are
+                looking. For more information, see
+                <a href="http://www.hello-startup.net/resources/jobs/" target="_blank">Startup Job Resources</a>.
+            - name: "The interview"
+              description: |
+                Are you still forcing candidates to code on a whiteboard and
+                solve tree traversal problems? There are better alternatives. See
+                <a href="http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>
+                for more information.
+            - name: "The offer"
+              description: |
+                How much salary should you offer? How much equity? What about
+                benefits like vacation and health insurance? Did you work with
+                a lawyer to craft an employment agreement that properly
+                specifies who owns the IP? See
+                <a href="http://www.hello-startup.net/resources/salary/" target="_blank">Startup Salary Resources</a>
+                and
+                <a href="http://www.hello-startup.net/resources/equity/" target="_blank">Startup Equity Resources</a>
+                for more info.
             - name: "Promotions"
               description: |
-                Avoid the Peter Principal. Equal career ladders. McKinley's post on
-                thoughts on the technical career track.
-        - name: "Referrals"
-          description: |
-            Best way to get new hires. Get the flywheel turning. Link to Sequoia
-            blog post.
-        - name: "Employer branding"
-          description: |
-            Blog, talks, open source. Do them regularly. Inbound marketing.
-        - name: "Job boards"
-          description: |
-            Mostly useless. Most candidates are passive, so reach out. Link to
-            your job posting sucks.
-        - name: "The interview"
-          description: |
-            White board coding sucks. Be kind.
-        - name: "Employment contracts"
-          description: |
-            offer, NDA, assign copyrights
+                How often do you give feedback on employee performance? How do
+                you reward good performers (new title, more money, more
+                responsibility)? Be wary of the
+                <a href="https://en.wikipedia.org/wiki/Peter_principle" target="_blank">Peter Principle</a>.
