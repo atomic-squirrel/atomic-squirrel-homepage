@@ -1,192 +1,144 @@
 - name: "Idea"
   sublist:
-    - name: "Find a problem"
+    - name: "Problem"
       description: |
         See <a href="http://www.hello-startup.net/resources/startup-ideas/?ref=startup-checklist" target="_blank">Startup Ideas</a>.
-    - name: "Validate the problem"
+    - name: "Validation"
       description: |
         See <a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705">The Four Steps to the Epiphany</a>.
-    - name: "Size the market"
+    - name: "Market sizing"
       description: |
         See <a href="http://www.hello-startup.net/resources/idea-validation/?ref=startup-checklist">Market Sizing Resources</a>.
-    - name: "Check viability"
+    - name: "Viability"
       description: |
         Can this problem be solved? Can this problem be solved by
         <em>you</em>? See
         <a href="http://pando.com/2013/02/20/sequoias-why-now/" target="_blank">Sequoia's Why Now?</a>
         and
         <a href="http://www.amazon.com/The-Start-up-You-Yourself-Transform-ebook/dp/B0050DIWHU" target="_blank">The Startup of You</a>.
-    - name: "Consider alternatives"
+    - name: "Alternatives"
       description: |
         See <a href="https://al3x.net/2013/05/23/letter-to-a-young-programmer.html" target="_blank">Letter To A Young Programmer Considering A Startup</a>.
-    - name: "Educate yourself"
+    - name: "Education"
       description: |
         How do you build a startup? How do you design products? How do you build
         the technology? How do you hire people? See
         <a href="http://www.hello-startup.net/?ref=startup-checklist" target="_blank">Hello, Startup</a>
         and the
         <a href="https://www.goodreads.com/list/show/88189.Hello_Startup_Reading_List" target="_blank">Hello, Startup Reading List</a>.
-    - name: "Talk to your friends and family"
+    - name: "Friends and family"
       description: |
         A startup is a big commitment. Make sure everyone is on board before
         you get started.
 - name: "Legal"
   sublist:
-    - name: "Hire a lawyer"
+    - name: "Lawyer"
       description: |
-        Running a company involves many tricky legal questions. How do I
-        incorporate? What should I include in a contract? What do I need to
-        do in terms of trademarks, copyrights, and patents? What are all of
-        these conditions on the term sheet? The best way to answer these
-        questions is to hire a lawyer who is experienced with helping startups.
-        If you can't afford that, services like
-        <a href="https://www.legalzoom.com" target="_blank">LegalZoom</a> and
-        <a href="http://www.rocketlawyer.com" target="_blank">RocketLawyer</a>
-        are your next best bet.
-    - name: "Register a name"
+        See <a href="https://www.themuse.com/advice/what-startups-should-know-about-hiring-a-lawyer" target="_blank">What Start-ups Should Know About Hiring a Lawyer</a>.
+    - name: "Company name"
       description: |
-        Pick a name that is unique: it should be memorable, stand out from the
-        competition, and there should be a matching domain name available. Make
-        sure the name isn't already registered in your state and that it does
-        not infringe on another company's trademark in the same industry. For
-        more information, see
-        <a href="https://www.sba.gov/content/how-name-business" target="_blank">How to Name a Business</a>.
-    - name: "Incorporate"
+        See <a href="https://www.sba.gov/content/how-name-business" target="_blank">How to Name a Business</a>.
+    - name: "Incorporation"
       description: |
-        Incorporating yoru business is important to protect your personal assets
-        from any law suits that come up against your startup. Startups that are
-        planning on raising money from VCs, issuing shares of stock, having an
-        IPO, or getting acquired should incorporate as Delaware C Corp. Other
-        types of startups should incorporate as an LLC or S Corp. See
-        <a href="http://www.amazon.com/The-Entrepreneurs-Guide-Business-Edition/dp/0538466464" target="_blank">The Entrepreneur's Guide to Business Law</a>
-        for more information.
-    - name: "Figure out equity"
+        See
+        <a href="http://mashable.com/2014/02/17/incorporate-your-startup/" target="_blank">When You Need to Incorporate Your Startup</a>
+        and
+        <a href="http://www.amazon.com/The-Entrepreneurs-Guide-Business-Edition/dp/0538466464" target="_blank">The Entrepreneur's Guide to Business Law</a>.
+    - name: "Equity"
       description: |
-        Split up ownership of the company amongst the founders. An equal split
-        is usually a good idea, and a vesting schedule is an absolute
-        requirement. This way, everyone is bought in for the long term.
-    - name: "Get licenses and permits"
+        See <a href="http://www.hello-startup.net/resources/equity/?ref=startup-checklist" target="_blank">Startup Equity Resources</a>.
+    - name: "Licenses and permits"
       description: |
-        Depending on the type of business you started and where you live, you
-        may have to apply for licenses and permits.
-    - name: "Get an EIN"
+        See <a href="https://www.sba.gov/content/what-state-licenses-and-permits-does-your-business-need" target="_blank">What State Licenses and Permits Does Your Business Need?</a>
+    - name: "Federal and state Employer ID Numbers"
       description: |
-        For tax purposes, you need to request a Federal Employer Identification
-        Number (EIN) from the IRS. Some states also have a separate state tax
-        identification number that you'll have to request.
-    - name: "Get insurance"
+        See <a href="http://www.irs.gov/Businesses/Small-Businesses-&-Self-Employed/Employer-ID-Numbers-EINs" target="_blank">Employer ID Numbers</a>.
+    - name: "Insurance"
       description: |
-        Most companies will need general liability insurance, workers comp,
-        unemployment insurance, disability insurance, and property insurance.
+        See
+        <a href="https://www.sba.gov/blogs/small-business-insurance-part-1-what-type-insurance-do-i-need" target="_blank">What Type of Insurance Do I Need?</a>
+        and
+        <a href="http://www.forbes.com/sites/thesba/2012/01/19/13-types-of-insurance-a-small-business-owner-should-have/" target="_blank">13 Types of Insurance a Small Business Owner Should Have</a>.
     - name: "Intellectual Property"
       description: |
-        Once you start working, you'll need to file for trademarks and patents.
+        See
+        <a href="http://www.ey.com/GL/en/Services/Strategic-Growth-Markets/Center-for-Entrepreneurship-and-Innovation---Intellectual-property-for-startups" target="_blank">Intellectual property for startups</a>
+        and
+        <a href="http://www.amazon.com/The-Entrepreneurs-Guide-Business-Edition/dp/0538466464" target="_blank">The Entrepreneur's Guide to Business Law</a>.
     - name: "Contracts"
       description: |
         Work with your lawyer to draft contracts for your customers, employees,
         contractors, partners, suppliers, and so on.
 - name: "Financial"
   sublist:
-    - name: "Hire an accountant"
+    - name: "Accountant"
       description: |
-        Running a company involves many tricky financial questions. How do I
-        pay corporate taxes? How do I write off business expenses? When will my
-        company be profitable? The best way to answer them is to hire an
-        accountant (CPA) who has experience working with startups. If you can't
-        afford that, your next best bet is a service like
-        <a href="http://www.hrblock.com/" target="_blank">H&R Block</a>.
+        See
+        <a href="http://www.caycon.com/blog/2012/07/why-startups-need-accountants/" target="_blank">Why Startups Need Accountants</a>
+        and
+        <a href="http://www.huffingtonpost.com/deborah-sweeney/five-reasons-why-your-accounting_b_5120911.html" target="_blank">5 Reasons Why Your Start-Up Needs an Accountant</a>.
     - name: "Accounting system"
       description: |
-        Every company needs to track its income, expenses, assets, liabilities,
-        and equity. Work with your accountant to figure out the best accounting
-        system for your business. For small companies, a tool like
-        <a href="http://quickbooks.intuit.com/" target="_blank">Quickbooks</a>
-        is usually your best bet. Use it to track all purchases, keep track of
-        all receipts, send invoices to customers, track services you're paying
-        for, and set up payroll. Make sure you learn and comply with all
-        government requirements around payroll taxes, self-employment taxes,
-        workers compensation, and so on.
+        See
+        <a href="https://www.waveapps.com/sitestatic/public/doc/accounting101forstartups.pdf" target="_blank">Accounting 101 for tech startups</a>,
+        <a href="https://www.shopify.com/blog/15334373-small-business-accounting-101-ten-steps-to-get-your-startup-on-track" target="_blank">Small Business Accounting 101</a>,
+        and
+        <a href="http://startupclass.samaltman.com/courses/lec18/" target="_blank">Legal and Accounting Basics for Startups</a>.
     - name: "Taxes and annual reports"
       description: |
         Every year, you must pay taxes and file annual reports to state and
         federal governments. These are due at different times throughout the
         year, so make sure to figure out the deadlines ahead of time and get
         them plugged into your calendar.
-    - name: "Get a business bank account"
+    - name: "Business bank account and credit card"
       description: |
-        It is essential to keep your personal finances separate from your
-        business finances. Apply for a business checking account and credit
-        card as soon as you've incorporated. See NerdWallet's
-        <a href="http://www.nerdwallet.com/business-checking-accounts/" target="_blank">Business Checking</a>
+        See
+        <a href="https://www.sba.gov/blogs/why-and-how-keep-your-business-and-personal-banking-separate" target="_blank">Why, and How to Keep Your Business and Personal Banking Separate</a>,
+        <a href="http://www.smartpassiveincome.com/why-you-need-a-business-banking-account-and-how-to-get-one/" target="_blank">Why You Need A Business Banking Account, And How To Get One</a>,
+        <a href="http://www.nerdwallet.com/business-checking-accounts/" target="_blank">Business Checking Accounts</a>,
         and
-        <a href="https://www.nerdwallet.com/business-credit-cards" target="_blank">Business Credit Card</a>
-        guides for more information.
-    - name: "Business plan"
+        <a href="https://www.nerdwallet.com/business-credit-cards" target="_blank">Business Credit Cards</a>.
+    - name: "Monetization"
       description: |
-        Writing out a business plan is a great way to force yourself to think
-        through many of the major questions of running a business. What does
-        your company do? How will people find it? Who are the competitors? How
-        will you build it? How much money do you need to get started? How will
-        you get this money? How will your business make money? When will you
-        break even? What is your backup plan in case things don't work out?
-        See <a href="http://www.hello-startup.net/resources/monetization/?ref=startup-checklist" target="_blank">Startup Monetization Resources</a>.
+        See
+        <a href="https://www.sequoiacap.com/grove/starting/business-plan" target="_blank">Developing a Business Plan</a>
+        and
+        <a href="http://www.hello-startup.net/resources/monetization/?ref=startup-checklist" target="_blank">Startup Monetization Resources</a>.
     - name: "Pitch deck"
       description: |
-        Before you can raise money from outsiders, you'll need not only a
-        business plan, but also a pitch deck. The pitch deck is a presentation
-        designed to convince investors that they should give you money. It will
-        include a brief overview of your business plan, but instead of a formal
-        and stuffy document, it should tell a story, engage the viewer
-        emotionally, show off the team you've built, and make it clear what
-        you're looking for. For more information, see
+        See
         <a href="http://www.amazon.com/The-Art-Pitch-Persuasion-Presentation/dp/0230120512" target="_blank">The Art of the Pitch</a>
         and
         <a href="http://www.amazon.com/Pitch-Anything-Innovative-Presenting-Persuading/dp/0071752854" target="_blank">Pitch Anything</a>.
     - name: "Raise money"
       description: |
-        How will you fund your company before it starts to bring in revenue and
-        pay for itself?
+        See
+        <a href="http://startupclass.samaltman.com/courses/lec09/" target="_blank">Lecture 9: How to Raise Money</a>,
+        <a href="http://paulgraham.com/fr.html" target="_blank">How to Raise Money</a>,
+        and
+        <a href="http://www.paulgraham.com/fundraising.html" target="_blank">A Fundraising Survival Guide</a>.
       sublist:
         - name: "Bootstrap"
           description: |
-            If you've got the money for it, you can fund the business out of
-            your own savings. This works best for businesses that have low
-            up-front costs and can start making money early in their lives,
-            such as a service business that can start charging clients
-            immediately.
+            Fund a startup with your own money and by generating revenue early
+            on.
         - name: "Loans"
           description: |
-            Raise money by promising to pay it back in the future, usually with
-            interest. The advantage of a loan versus equity financing is that you
-            keep control over your business. The disadvantage of a loan is that
-            you eventually have to pay it back, usually with interest, whether
-            or not your company is successful. If you're very confident your
-            business will be making enough money by the time the loan payments
-            are due, a loan can be great, but for many startups, equity
-            financing is a better option.
+            Fund a startup by borrowing money in exchange for paying it back
+            later, with interest.
         - name: "Equity financing"
           description: |
-            Raise money from investors in exchange for a part of the company.
-            The advantage of equity financing is that you can raise very large
-            amounts of money, which is important for businesses that have large
-            up-front costs (e.g., SpaceX) or cannot be monetized for a long time
-            (e.g., Facebok). The disadvantage of equity financing is that to
-            raise more money, you have to give up control of more of your
-            company. If you give up too much control, you may find the company
-            moving in a direction you don't like (e.g., the investors force you
-            to go public because they want to see a return on their investment)
-            or you may even get fired from your own business. See
+            Fund a startup by raising money from investors in exchange for part
+            ownership of the company. See
             <a href="http://www.amazon.com/Venture-Deals-Smarter-Lawyer-Capitalist/dp/1118443616" target="_blank">Venture Deals</a>
             and
-            <a href="http://www.amazon.com/Mastering-VC-Game-Venture-Start-up/dp/1591844444" target="_blank">Mastering the VC Game</a>
-            for more information.
+            <a href="http://www.amazon.com/Mastering-VC-Game-Venture-Start-up/dp/1591844444" target="_blank">Mastering the VC Game</a>.
         - name: "Crowdfunding"
           description: |
-            Instead of raising a large amount money from a small number of
-            investors, you can use crowdfunding platforms to raise a small
-            amount of money from a large number of people online. There are
-            three primary types of crowdfunding platforms: rewards-based, where
-            you offer rewards or the actual product in exchange for the money (e.g.,
+            Fund a startup by raising money from a large number of people
+            online. There are three primary types of crowdfunding: rewards-based,
+            where you offer rewards or the actual product in exchange for the
+            money (e.g.,
             <a href="https://www.kickstarter.com/" target="_blank">KickStarter</a>,
             <a href="https://www.indiegogo.com/" target="_blank">IndieGoGo</a>);
             debt-based, where you eventually pay the money back, similar to a
