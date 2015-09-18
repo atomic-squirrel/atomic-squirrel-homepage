@@ -152,118 +152,68 @@
 - name: "Product"
   sublist:
     - name: "Design"
+      description: |
+        See <a href="http://www.hello-startup.net/resources/design/?ref=startup-checklist" target="_blank">Design Resources</a>.
       sublist:
-        - name: "Personas"
-          description: |
-            Never design software for the average user. Instead, come up with
-            <a href="https://en.wikipedia.org/wiki/Persona_(user_experience)">personas</a>,
-            or fictional characters that represent specific users of your product.
-            Each persona should have a name, picture, and a list of behavior
-            patterns, goals, skills, and attitudes. Define several primary
-            personas who's goals <em>must</em> be met, or your product is a
-            failure. Design the software for those personas. For more info, see
-            <a href="http://www.amazon.com/The-Inmates-Are-Running-Asylum/dp/0672326140" target="_blank">The Inmates Are Running the Asylum</a>
-            and
-            <a href="http://www.ux-lady.com/diy-user-personas/" target="_blank">DIY User Personas</a>.
-        - name: "User stories"
-          description: |
-            Once you know who your users are (see personas), come up with a
-            list of user stories that captures what the user wants and why. In
-            other words, before you start working on features and get lost in
-            implementation details, clearly define the <em>goals</em> of your
-            users. As you design your product, frequently check to make sure
-            that you are meeting these goals.
-        - name: "Design reuse"
-          description: |
-            Good software developers reuse as much battle-tested code as
-            possible. Good designers reuse as many battle-tested designs as
-            possible. There are many web design templates, mobile templates,
-            stock photos, icons, fonts, and other design resources available
-            all over the Internet, both for free and for pay. See
-            <a href="http://www.hello-startup.net/resources/design/?ref=startup-checklist" target="_blank">Design Resources</a>
-            and
-            <a href="http://www.hello-startup.net/resources/images-photos-graphics/?ref=startup-checklist" target="_blank">Photos and Graphics Resources</a>
-            for more information.
-        - name: "Copywriting"
-          description: |
-            Most design is about the text and not the colors, borders, pictures,
-            and fancy animations. In fact, you could take away all the colors,
-            borders, pictures, and fancy animations, and as long as the text was
-            still there, the product is probably still usable. Your software
-            has a voice, and it's talking to your users all the time. What are
-            you telling them? What kind of voice will you use? What is the name
-            and tag line for your product that will make users click on it when
-            it comes up in a search or in their news feed? What is the call to
-            action on the landing page that will get them to click through?
-            Don't put off copywriting to the end and don't replace it with
-            lorem ipsum. See
-            <a href="https://gettingreal.37signals.com/" target="_blank">Getting Real</a>
-            for more information.
-        - name: "Usability testing"
-          description: |
-            Every few weeks, bring in real users, and observe them as they use
-            your product to solve problems. Watching outsiders interact with
-            your design is an eye-opening experience and one of the most best
-            bang-for-the-buck tools for improving a design. For more information, see
-            <a href="http://www.amazon.com/gp/product/0321965515/" target="_blank">Don't Make Me Think</a>.
         - name: "Platform"
           description: |
             What platforms will you need to support? Desktop web? Mobile web?
             Native mobile apps (iOS, Android, etc.)? IoT? Which form factors?
             Desktop? Phone? Tablet? Wearable? And what design philosophy will
             you use? Mobile first? Web first? Phone first?
-    - name: "MVP"
-      description: |
-        A Minimal Viable Product (MVP) is a version of a new product that allows
-        you to learn the most about your customers for the least amount of
-        effort. It's not a one-time activity, but a repeated philosophy of how
-        you approach every product: always validate your ideas as cheaply as
-        possible before investing further.
-      sublist:
-        - name: "Understand the MVP"
+        - name: "Personas and user stories"
           description: |
-            There are many misconceptions about what an MVP is. To learn how an
-            MVP really works, see
-            <a href="http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898" target="_blank">The Lean Startup</a>,
-            <a href="http://www.amazon.com/The-guide-Minimum-Viable-Product-ebook/dp/B00ORWJ0GC" target="_blank">The guide to Minimum Viable Product</a>,
+            See
+            <a href="https://en.wikipedia.org/wiki/Persona_(user_experience)" target="_blank">Personas</a>,
+            <a href="http://www.ux-lady.com/diy-user-personas/" target="_blank">DIY User Personas</a>,
+            <a href="https://en.wikipedia.org/wiki/User_story" target="_blank">User Stories</a>,
             and
-            <a href="http://blog.crisp.se/wp-content/uploads/2014/10/Screen-Shot-2014-10-07-at-08.20.00.png" target="_blank">this wonderful illustration</a>
-            by <a href="http://blog.crisp.se/2014/10/08/henrikkniberg/what-is-scrum" target="_blank">Henrik Kniberg</a>).
-        - name: "Pick the right type of MVP"
+            <a href="http://www.amazon.com/The-Inmates-Are-Running-Asylum/dp/0672326140" target="_blank">The Inmates Are Running the Asylum</a>.
+        - name: "Design reuse"
           description: |
-            An MVP does not have to be a full implementation of your product
-            idea. There are many types of MVPs that are simpler and cheaper to
-            build, but still do a great job of validating your hypothesis, such
-            as landing pages, explainer videos, crowdfunding campaigns, Wizard
-            of Oz MVPs, and Piecemeal MVPs. See
-            <a href="http://scalemybusiness.com/the-ultimate-guide-to-minimum-viable-products/" target="_blank">The Ultimate Guide to Minimum Viable Products</a>,
-            for more information.
+            Good software developers reuse as much battle-tested code as
+            possible. Good designers reuse as many battle-tested designs as
+            possible. See
+            <a href="http://www.hello-startup.net/resources/design/?ref=startup-checklist" target="_blank">Design Resources</a>
+            and
+            <a href="http://www.hello-startup.net/resources/images-photos-graphics/?ref=startup-checklist" target="_blank">Photos and Graphics Resources</a>.
+        - name: "Copywriting"
+          description: |
+            Copywriting is more important to a design than colors, borders,
+            pictures,and fancy animations. Don't put off copywriting to the end
+            and don't replace it with lorem ipsum. See
+            <a href="https://gettingreal.37signals.com/" target="_blank">Getting Real</a>.
+        - name: "Visual design"
+          description: |
+            See <a href="http://www.hello-startup.net/resources/design/?ref=startup-checklist" target="_blank">Design Resources</a>.
+        - name: "Usability testing"
+          description: |
+            See <a href="http://www.amazon.com/gp/product/0321965515/" target="_blank">Don't Make Me Think</a>.
+    - name: "Minimum Viable Product"
+      description: |
+        See
+        <a href="http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898" target="_blank">The Lean Startup</a>,
+        <a href="http://www.amazon.com/The-guide-Minimum-Viable-Product-ebook/dp/B00ORWJ0GC" target="_blank">The Guide to Minimum Viable Product</a>,
+        and
+        <a href="http://www.hello-startup.net/resources/mvp/" target="_blank">Minimum Viable Product Resources</a>.
+      sublist:
+        - name: "MVP Type"
+          description: |
+            Landing page, explainer video, crowdfunding campaign, Wizard
+            of Oz MVP, and Piecemeal MVP, etc. See
+            <a href="http://scalemybusiness.com/the-ultimate-guide-to-minimum-viable-products/" target="_blank">The Ultimate Guide to Minimum Viable Products</a>.
         - name: "Focus on the differentiators"
           description: |
-            For a product to be successful, it's can't be just a little better
-            than the alternatives; it needs to be 10x better. Your ideas must
-            be <a href="http://www.ted.com/talks/seth_godin_on_sliced_bread?language=en" target="_blank">remarkable</a>
-            if you want them to spread. And
-            <a href="http://paulbuchheit.blogspot.it/2010/02/if-your-product-is-great-it-doesnt-need.html" target="_blank">if your product is great, it doesn't need to be good</a>.
+            <a href="http://paulbuchheit.blogspot.it/2010/02/if-your-product-is-great-it-doesnt-need.html" target="_blank">If your product is great, it doesn't need to be good</a>.
         - name: "Target earlyvangelists"
           description: |
-            What kind of customer is going to trust a no-name startup with a
-            buggy, incomplete product? Steve Blank called them
-            <a href="https://en.wikipedia.org/wiki/Earlyvangelist">earlyvangelists</a>:
-            they have a problem, they are aware of the problem, they have been
-            actively looking for a solution, they have jury-rigged their own
-            workarounds, and they have the money to spend on a better solution.
-            In the early days of a startup, the only way to succeed early on is
-            to identify and target earlyvangelists. See
-            <a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705">The Four Steps to the Epiphany</a>
-            for more information.
+            See
+            <a href="https://en.wikipedia.org/wiki/Earlyvangelist">Earlyvangelists</a>
+            and
+            <a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705">The Four Steps to the Epiphany</a>.
         - name: "MVP tools and resources"
           description: |
-            There are many useful tools available for building your MVP: landing
-            page services, A/B testing tools, explainer video software, rapid
-            prototyping tools, and so on. See
-            <a href="http://www.hello-startup.net/resources/mvp/?ref=startup-checklist" target="_blank">Minimal Viable Product Resources</a>
-            for more information.
+            See <a href="http://www.hello-startup.net/resources/mvp/?ref=startup-checklist" target="_blank">Minimum Viable Product Resources</a>.
     - name: "Data"
       description: |
         It is the product manager's job to define
@@ -278,105 +228,28 @@
             <a href="http://500hats.typepad.com/500blogs/2007/09/startup-metrics.html" target="_blank">Start Metrics for Pirates</a>).
         - name: "The magic number"
           description: |
-            The magic number is a metric that represents the moment your users
-            have an "aha" experience with your product&mdash;that is, they
-            finally get the value and become highly engaged users. For Facebook,
-            it was connecting with 7 friends in the first 10 days; for Twitter,
-            it was 30 follows; for DropBox, it was 1 file upload (see
-            <a href="http://www.growhack.com/2012/12/04/discovering-your-aha-moment/">here</a>
-            for more). Find the magic number for your business, and suddenly,
-            decision making and priotization across the company becomes much
-            easier, as everyone can rally behind a single, simple concept.
-            For more information, see
-            <a href="http://www.quora.com/Growth-Hacking/How-do-you-find-insights-like-Facebooks-7-friends-in-10-days-to-grow-your-product-faster">How do you find insights like Facebook's "7 friends in 10 days" to grow your product faster?</a>.
+            See
+            <a href="http://www.growhack.com/2012/12/04/discovering-your-aha-moment/">Discovering your aha moment</a>
+            and
+            <a href="http://www.quora.com/Growth-Hacking/How-do-you-find-insights-like-Facebooks-7-friends-in-10-days-to-grow-your-product-faster" target="_blank">How do you find insights like Facebook's "7 friends in 10 days" to grow your product faster?</a>
         - name: "Data-driven development"
           description: |
-            Gathering data to see how past product decisions worked out is good.
-            Using data <em>drive</em> future product decisions is even better.
-            See <a href="http://mcfunley.com/data-driven-products-now">Data Driven Products Now!</a>
-            for a guide.
+            See <a href="http://mcfunley.com/data-driven-products-now" target="_blank">Data Driven Products Now!</a>
     - name: "Distribution"
       description: |
         The best product doesn't always win. It's the best product the customer
         knows about that wins. See
-        <a href="https://en.wikipedia.org/wiki/Browser_wars" target="_blank">browser wars</a>
-        and
-        <a href="http://thenumbersguru.blogspot.ca/2008/08/tivo-market-share.html" target="_blank">TiVo</a>.
-        Distribution is how you get customers to know about your product.
+        <a href="http://www.hello-startup.net/resources/distribution/?ref=startup-checklist">Startup Distribution Resources</a>.
       sublist:
-        - name: "Word-of-mouth"
-          description: |
-            Word-of-mouth marketing is where your current customers tell new
-            customers about your product. Products where interacting with other
-            users is an inherent part of the experience, such as social
-            networks and collaboration tools, can benefit from viral growth. See
-            <a href="http://www.amazon.com/Viral-Loop-Facebook-Businesses-Themselves/dp/1401323499" target="_blank">Viral Loop</a>
-            and
-            <a href="http://blog.adamnash.com/2012/04/04/user-acquisition-viral-factor-basics/" target="_blank">User Acquisition: Viral Factor Basics</a>
-            for more information.
         - name: "Marketing"
           description: |
-            Marketing is where you tell new users about your product. There are
-            many different ways to do this. See
-            <a href="https://github.com/mmccaff/PlacesToPostYourStartup" target="_blank">Places To Post Your Startup</a>
-            for a great list.
-          sublist:
-            - name: "Advertising"
-              description: |
-                There are many different advertising tools: TV ads, newspaper
-                ads, billboards, and, of course, countless digital ad networks,
-                such as
-                <a href="https://www.google.com/adwords/" target="_blank">Google Adwords</a>,
-                <a href="https://www.facebook.com/business/products/ads" target="_blank">Facebook ads</a>,
-                <a href="https://ads.twitter.com/" target="_blank">Twitter ads</a>,
-                <a href="https://www.linkedin.com/ads/" target="_blank">LinkedIn ads</a>,
-                and
-                <a href="https://www.google.com/admob/" target="_blank">AdMob</a>.
-            - name: "PR and media"
-              description: |
-                Form relationships with bloggers, journalists, and news agencies,
-                and get them to talk about your product. If you don't have those
-                connections already, see
-                <a href="http://www.quora.com/What-is-the-best-free-media-contact-database" target="_blank">best media contact databases</a>,
-                <a href="https://justreachout.io/" target="_blank">JustReachOut</a>,
-                <a href="http://buzzsumo.com/" target="_blank">BuzzSumo</a>,
-                and
-                <a href="https://www.hey.press/" target="_blank">hey.press</a>.
-            - name: "Search Engines"
-              description: |
-                Search Engine Optimization (SEO) is how you make your website
-                rank highly in search results. Google gets trillions of searches
-                per year, so you can build a massive business by carving out
-                just a small portion of this query volume. See
-                <a href="http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf" target="_blank">The Google Search Engine Optimization Starter Guide</a>,
-                <a href="https://moz.com/beginners-guide-to-seo" target="_blank">Moz Beginner's Guide to SEO</a>,
-                and
-                <a href="http://searchengineland.com/guide/seo" target="_blank">Search Engine Land’s Guide To SEO</a>.
-            - name: "Social media"
-              description: |
-                Social media sites offer a way to build a community around
-                your business. Put up company pages on Facebook, Twitter,
-                LinkedIn, Google Plus, Instagram, and Pinterest, and update
-                them frequently.
-            - name: "Inbound marketing"
-              description: |
-                Create valuable content that attracts your audience. This can
-                be a blog, YouTube channel, home page, talks at conferences,
-                and open source software. See
-                <a href="http://www.hubspot.com/inbound-marketing" target="_blank">What is Inbound Marketing?</a>
-                and
-                <a href="http://www.inboundmarketing.com/" target="_blank">Inbound Marketing</a>
-                for more information.
+            Word of mouth, advertising, public relations (PR), search engine
+            optimization (SEO), social media, inbound marketing. See
+            <a href="http://www.hello-startup.net/resources/distribution/?ref=startup-checklist">Startup Distribution Resources</a>.
         - name: "Sales"
           description: |
-            Marketing gets customers in the door. Sales is how you close the
-            deal. There are several different types of sales, including
-            automated sales (e.g., checkout page on an e-commerce website),
-            inside sales (e.g., a salesperson contacting customers via phone,
-            email, and chat), and outside sales (e.g., a salesperson going to
-            customer sites for demos and negotiations). Most startup founders
-            should do all the sales themselves in the early days of their
-            company (see <a href="http://paulgraham.com/ds.html" target="_blank">Do Things That Don't Scale</a>).
+            Automated sales, inbound sales, outbound sales. See
+            <a href="http://www.hello-startup.net/resources/distribution/?ref=startup-checklist">Startup Distribution Resources</a>.
         - name: "Branding"
           description: |
             Branding isn't about a single ad campaign or a logo or any one
