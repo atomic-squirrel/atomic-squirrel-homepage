@@ -1,7 +1,7 @@
 <div class="clearfix px2 pt1">
   <div class="col">
     <a href="#" class="btn h6 p1 js-check-all"><i class="fa fa-check-square-o"></i> Check All</a>
-    <a href="#" class="btn h6 p1 js-uncheck-all"><i class="fa fa-square-o"></i> Uncheck All</a>    
+    <a href="#" class="btn h6 p1 js-uncheck-all"><i class="fa fa-square-o"></i> Uncheck All</a>
   </div>
   <div class="col-right right-align">
     <a href="#" class="btn h6 p1 js-expand-all"><i class="fa fa-expand fa-rotate-135"></i> Expand All</a>
@@ -9,9 +9,9 @@
   </div>
 </div>
 <div class="px2">
-  {% include render-list.html list=site.data.checklist level="0" %}
+  {% include render-list.html list=site.data.checklist level="0" parent_checkbox_name="checklist" %}
 </div>
 <div class="clearfix py3 px3">
-  <div class="left more-bold"><i class="fa fa-check-square-o"></i> Unfinished tasks:</div> 
+  <div class="left more-bold"><i class="fa fa-check-square-o"></i> Unfinished tasks:</div>
   <div id="unchecked-items" class="right red more-bold"></div>
 </div>
