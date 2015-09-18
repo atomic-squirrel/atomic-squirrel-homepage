@@ -2,52 +2,27 @@
   sublist:
     - name: "Find a problem"
       description: |
-        Look for problems in your day-to-day life.
-        <a href="https://gettingreal.37signals.com/ch02_Whats_Your_Problem.php" target="_blank">Scratch your own itch</a>.
-        Keep an
-        <a href="http://inkwellscholars.org/4-reasons-to-keep-an-idea-journal/" target="_blank">idea journal</a>
-        of problems and solutions. Every time you think to yourself
-        "<a href="https://www.youtube.com/watch?v=bPwgkf1aZ9I" target="_blank">this is stupid, there must be a better way</a>,"
-        write it down. For more inspiration and tools, see
-        <a href="http://www.hello-startup.net/resources/startup-ideas/?ref=startup-checklist" target="_blank">Startup Ideas</a>.
+        See <a href="http://www.hello-startup.net/resources/startup-ideas/?ref=startup-checklist" target="_blank">Startup Ideas</a>.
     - name: "Validate the problem"
       description: |
-        Get out of the building, find real customers, and validate that this is
-        a problem they actually have and that they are willing to buy your
-        product to solve it. <a href="http://blog.asmartbear.com/customer-validation.html" target="_blank">
-        If you can’t find ten people who say they’ll buy it, your company is
-        bullshit</a>. For more information, see
-        <a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705">The Four Steps to the Epiphany</a>
-        by Steve Blank.
+        See <a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705">The Four Steps to the Epiphany</a>.
     - name: "Size the market"
       description: |
-        How big is the market for this idea? How many customers want this? How
-        many competitors are there? For more information, see
-        <a href="http://www.hello-startup.net/resources/idea-validation/?ref=startup-checklist">market sizing resources</a>.
+        See <a href="http://www.hello-startup.net/resources/idea-validation/?ref=startup-checklist">Market Sizing Resources</a>.
     - name: "Check viability"
       description: |
-        Answer two questions. The first question is, "Can this problem be
-        solved?" This is a question of market realities. Do the technologies
-        exist? Is there a market? Is it economically feasible? Or, as Sequoia likes to ask,
-        "<a href="http://pando.com/2013/02/20/sequoias-why-now/" target="_blank">Why now?</a>"
-        The second question is, "Can this problem be solved by <em>you</em>?
-        This is a question of both your personal assets (skills, money,
-        connections) and passions. Building a successful company takes on the
-        order of 10 years, so make sure this is an idea you want to work on for
-        a decade.
+        Can this problem be solved? Can this problem be solved by
+        <em>you</em>? See
+        <a href="http://pando.com/2013/02/20/sequoias-why-now/" target="_blank">Sequoia's Why Now?</a>
+        and
+        <a href="http://www.amazon.com/The-Start-up-You-Yourself-Transform-ebook/dp/B0050DIWHU" target="_blank">The Startup of You</a>.
     - name: "Consider alternatives"
       description: |
-        Are you sure you want to build a startup to solve this problem? Perhaps
-        you could solve it better by creating a lifestyle business? Or by
-        joining someone else's company? Or by doing research at a university?
-        Remember,
-        <a href="https://al3x.net/2013/05/23/letter-to-a-young-programmer.html" target="_blank">a startup is just a means to an end</a>.
+        See <a href="https://al3x.net/2013/05/23/letter-to-a-young-programmer.html" target="_blank">Letter To A Young Programmer Considering A Startup</a>.
     - name: "Educate yourself"
       description: |
         How do you build a startup? How do you design products? How do you build
-        the technology? How do you hire people? Before you dive in, do your
-        homework and learn everything you can. Using this checklist is a good
-        start! For more information, check out
+        the technology? How do you hire people? See
         <a href="http://www.hello-startup.net/?ref=startup-checklist" target="_blank">Hello, Startup</a>
         and the
         <a href="https://www.goodreads.com/list/show/88189.Hello_Startup_Reading_List" target="_blank">Hello, Startup Reading List</a>.
@@ -154,7 +129,7 @@
         will you build it? How much money do you need to get started? How will
         you get this money? How will your business make money? When will you
         break even? What is your backup plan in case things don't work out?
-        See <a href="http://www.hello-startup.net/resources/monetization/" target="_blank">Startup Monetization Resources</a>.
+        See <a href="http://www.hello-startup.net/resources/monetization/?ref=startup-checklist" target="_blank">Startup Monetization Resources</a>.
     - name: "Pitch deck"
       description: |
         Before you can raise money from outsiders, you'll need not only a
@@ -253,9 +228,9 @@
             possible. There are many web design templates, mobile templates,
             stock photos, icons, fonts, and other design resources available
             all over the Internet, both for free and for pay. See
-            <a href="http://www.hello-startup.net/resources/design/" target="_blank">Design Resources</a>
+            <a href="http://www.hello-startup.net/resources/design/?ref=startup-checklist" target="_blank">Design Resources</a>
             and
-            <a href="http://www.hello-startup.net/resources/images-photos-graphics/" target="_blank">Photos and Graphics Resources</a>
+            <a href="http://www.hello-startup.net/resources/images-photos-graphics/?ref=startup-checklist" target="_blank">Photos and Graphics Resources</a>
             for more information.
         - name: "Copywriting"
           description: |
@@ -335,7 +310,7 @@
             There are many useful tools available for building your MVP: landing
             page services, A/B testing tools, explainer video software, rapid
             prototyping tools, and so on. See
-            <a href="http://www.hello-startup.net/resources/mvp/" target="_blank">Minimal Viable Product Resources</a>
+            <a href="http://www.hello-startup.net/resources/mvp/?ref=startup-checklist" target="_blank">Minimal Viable Product Resources</a>
             for more information.
     - name: "Data"
       description: |
@@ -674,7 +649,7 @@
           description: |
             Where will your code run? Will you set up your own data center and
             rack your own servers or use a cloud offering? See
-            <a href="http://www.hello-startup.net/resources/hosting/" target="_blank">Hosting Resources</a>
+            <a href="http://www.hello-startup.net/resources/hosting/?ref=startup-checklist" target="_blank">Hosting Resources</a>
             for more information.
         - name: "Configuration management"
           description: |
@@ -699,7 +674,7 @@
             command. That means there are no manual steps involved and the
             entire deployment is defined in code. That is, you should
             treat infrastructure as code. For more information, see
-            <a href="http://www.hello-startup.net/resources/deployment/" target="_blank">Deployment Tools</a>.
+            <a href="http://www.hello-startup.net/resources/deployment/?ref=startup-checklist" target="_blank">Deployment Tools</a>.
           sublist:
             - name: "Canary releases"
               description: |
@@ -726,7 +701,7 @@
             The monitoring ecosystem is quite fragmented (see
             <a href="https://github.com/monitoringsucks/blog-posts" target="_blank">monitoringsucks</a>), so you'll need different tools for
             different types of monitoring. For more information, see
-            <a href="http://www.hello-startup.net/resources/monitoring/">Monitoring Resources</a>.
+            <a href="http://www.hello-startup.net/resources/monitoring/?ref=startup-checklist">Monitoring Resources</a>.
           sublist:
             - name: "Logging"
               description: |
@@ -882,7 +857,7 @@
               description: |
                 Define a code review process for your project, including a
                 checklist of what to look for in a review. For more info, see
-                <a href="http://www.hello-startup.net/resources/code-review/" target="_blank">Code Review Resources</a>.
+                <a href="http://www.hello-startup.net/resources/code-review/?ref=startup-checklist" target="_blank">Code Review Resources</a>.
             - name: "Documentation"
               description: |
                 If you don't document it, it doesn't exist. Documentation
@@ -902,7 +877,7 @@
                 that can be developed and deployed completely in isolation.
         - name: "Scaling to more traffic"
           description: |
-            See <a href="http://www.hello-startup.net/resources/scalability/" target="_blank">Scalability Resources</a>.
+            See <a href="http://www.hello-startup.net/resources/scalability/?ref=startup-checklist" target="_blank">Scalability Resources</a>.
           sublist:
             - name: "Profiling"
               description: |
@@ -959,7 +934,7 @@
                     Vertical partioning or horizontal partioning (sharding).
             - name: "Server-side optimizations"
               description: |
-                See <a href="http://www.hello-startup.net/resources/scalability/" target="_blank">Scalability Resources</a>.
+                See <a href="http://www.hello-startup.net/resources/scalability/?ref=startup-checklist" target="_blank">Scalability Resources</a>.
               sublist:
                 - name: "Divide and conquer (MapReduce)"
                   description: |
@@ -1040,7 +1015,7 @@
             <a href="https://github.com/tschellenbach/Stream-Framework" target="_blank">Stream-Framework</a>.
         - name: "Monetization"
           description: |
-            See <a href="http://www.hello-startup.net/resources/monetization/" target="_blank">Startup Monetization Resources</a>.
+            See <a href="http://www.hello-startup.net/resources/monetization/?ref=startup-checklist" target="_blank">Startup Monetization Resources</a>.
         - name: "Microservice management"
           description: |
             See
@@ -1210,7 +1185,7 @@
             - name: "Phones"
         - name: "Office communication"
           description: |
-            See <a href="http://www.hello-startup.net/resources/collaboration/" target="_blank">Startup Collaboration Resources</a>
+            See <a href="http://www.hello-startup.net/resources/collaboration/?ref=startup-checklist" target="_blank">Startup Collaboration Resources</a>
             for more info.
           sublist:
             - name: "Email"
@@ -1296,7 +1271,7 @@
                 A better option is to reach out to candidates yourself and to
                 post jobs in the places where even passive candidates are
                 looking. For more information, see
-                <a href="http://www.hello-startup.net/resources/jobs/" target="_blank">Startup Job Resources</a>.
+                <a href="http://www.hello-startup.net/resources/jobs/?ref=startup-checklist" target="_blank">Startup Job Resources</a>.
             - name: "The interview"
               description: |
                 Are you still forcing candidates to code on a whiteboard and
@@ -1309,9 +1284,9 @@
                 benefits like vacation and health insurance? Did you work with
                 a lawyer to craft an employment agreement that properly
                 specifies who owns the IP? See
-                <a href="http://www.hello-startup.net/resources/salary/" target="_blank">Startup Salary Resources</a>
+                <a href="http://www.hello-startup.net/resources/salary/?ref=startup-checklist" target="_blank">Startup Salary Resources</a>
                 and
-                <a href="http://www.hello-startup.net/resources/equity/" target="_blank">Startup Equity Resources</a>
+                <a href="http://www.hello-startup.net/resources/equity/?ref=startup-checklist" target="_blank">Startup Equity Resources</a>
                 for more info.
             - name: "Promotions"
               description: |
