@@ -23,9 +23,10 @@
       description: |
         How do you build a startup? How do you design products? How do you build
         the technology? How do you hire people? See
-        <a href="http://www.hello-startup.net/?ref=startup-checklist" target="_blank">Hello, Startup</a>
-        and the
-        <a href="https://www.goodreads.com/list/show/88189.Hello_Startup_Reading_List" target="_blank">Hello, Startup Reading List</a>.
+        <a href="http://www.hello-startup.net/?ref=startup-checklist" target="_blank">Hello, Startup</a>,
+        <a href="https://www.goodreads.com/list/show/88189.Hello_Startup_Reading_List" target="_blank">Hello, Startup Reading List</a>,
+        and
+        <a href="http://startupclass.samaltman.com/" target="_blank">How to Start a Startup</a>.
     - name: "Friends and family"
       description: |
         A startup is a big commitment. Make sure everyone is on board before
@@ -83,7 +84,7 @@
         <a href="https://www.waveapps.com/sitestatic/public/doc/accounting101forstartups.pdf" target="_blank">Accounting 101 for tech startups</a>,
         <a href="https://www.shopify.com/blog/15334373-small-business-accounting-101-ten-steps-to-get-your-startup-on-track" target="_blank">Small Business Accounting 101</a>,
         and
-        <a href="http://startupclass.samaltman.com/courses/lec18/" target="_blank">Legal and Accounting Basics for Startups</a>.
+        <a href="http://startupclass.samaltman.com/courses/lec18/" target="_blank">How to Start a Startup Lecture 18: Legal and Accounting Basics for Startups</a>.
     - name: "Taxes and annual reports"
       description: |
         Every year, you must pay taxes and file annual reports to state and
@@ -113,7 +114,7 @@
     - name: "Raise money"
       description: |
         See
-        <a href="http://startupclass.samaltman.com/courses/lec09/" target="_blank">Lecture 9: How to Raise Money</a>,
+        <a href="http://startupclass.samaltman.com/courses/lec09/" target="_blank">How to Startup a Startup Lecture 9: How to Raise Money</a>,
         <a href="http://paulgraham.com/fr.html" target="_blank">How to Raise Money</a>,
         and
         <a href="http://www.paulgraham.com/fundraising.html" target="_blank">A Fundraising Survival Guide</a>.
@@ -702,38 +703,30 @@
   sublist:
     - name: "Culture"
       description: |
-        Culture is not a soft, squishy topic that you can ignore. It is the very
-        essence of what it means to be a company and you need to figure it out
-        right at the start. Otherwise, it's a bit like launching a rocket:
-        <a href="https://www.linkedin.com/pulse/20121029044359-22330283-to-manage-hyper-growth-get-your-launch-trajectory-right" target="_blank">if your trajectory is off by inches at launch, you can be off by miles out in orbit</a>.
+        See
+        <a href="https://www.linkedin.com/pulse/20121029044359-22330283-to-manage-hyper-growth-get-your-launch-trajectory-right" target="_blank">From Vision to Values: The Importance of Defining Your Core</a>,
         <a href="https://hbr.org/2011/03/culture-trumps-strategy-every">Culture trumps strategy, every time</a>,
-        so while you can get a lot of things wrong in a startup, make sure you
-        <a href="https://medium.com/@bchesky/dont-fuck-up-the-culture-597cde9ee9d4" target="_blank">don't fuck up the culture</a>.
+        <a href="http://startupclass.samaltman.com/courses/lec10/">How to Start a Startup Lecture 10: Culture</a>,
+        <a href="http://startupclass.samaltman.com/courses/lec11/">How to Start a Startup Lecture 11: Hiring and Culture, Part II</a>,
+        and
+        <a href="https://medium.com/@bchesky/dont-fuck-up-the-culture-597cde9ee9d4" target="_blank">Don't Fuck up the Culture</a>.
       sublist:
         - name: "Mission and values"
           description: |
-            Your company's mission is it's destination&mdash;it explains
-            <em>why</em> you exist and where you are going. Your company's
-            values are the principles you use to decide <em>how</em> to get
-            there. Make sure to define both early in your company's existance
-            (the
-            <a href="http://www.slideshare.net/reed2001/culture-1798664" target="_blank">Netflix Culture Deck</a>
-            and
-            <a href="http://www.slideshare.net/HubSpot/the-hubspot-culture-code-creating-a-company-we-love" target="_blank">HubSpot Culture Code</a>
-            are great examples). Both are important, but remember, great leaders
-            always start with
-            <a href="http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en">why</a>,
-            and merely defining your culture is not enough: you also have to act
-            on it every day.
+            See
+            <a href="http://www.slideshare.net/reed2001/culture-1798664" target="_blank">Netflix Culture Deck</a>,
+            <a href="http://www.slideshare.net/HubSpot/the-hubspot-culture-code-creating-a-company-we-love" target="_blank">HubSpot Culture Code</a>,
+            <a href="http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en">How Great Leaders Inspire Action</a>.
         - name: "Organizational design"
           description: |
-            How will teams be organized? How will you priortize work, evaluate
-            performance, motivate and train, and hire and fire? What will your
-            <a href="http://www.bonkersworld.net/organizational-charts/" target="_blank">org chart</a>
-            look like: will you have a hierarchical organization with lots of
-            managers or a flat organization? Will you have titles? Will you have
-            a career ladder? Will you have a separate management track and
-            <a href="http://mcfunley.com/thoughts-on-the-technical-track" target="_blank">technical track</a>?
+            See
+            <a href="http://www.amazon.com/Management-Rev-Ed-Peter-Drucker/dp/0061252662" target="_blank">Management</a>,
+            <a href="http://www.amazon.com/The-Hard-Thing-About-Things/dp/0062273205" target="_blank">The Hard Thing About Hard Things</a>,
+            <a href="http://www.valvesoftware.com/company/Valve_Handbook_LowRes.pdf" target="_blank">Valve Handbook for New Employees</a>,
+            <a href="http://www.holacracy.org/" target="_blank">Holocracy</a>,
+            <a href="http://mcfunley.com/thoughts-on-the-technical-track" target="_blank">Thoughts on the Technical Track</a>,
+            and
+            <a href="http://www.bonkersworld.net/organizational-charts/" target="_blank">Organizational Charts</a>.
         - name: "Process"
           description: |
             Small startups don't need much process
@@ -754,36 +747,15 @@
             which has open salaries, open equity, open financials, and more.
         - name: "Motivation"
           description: |
-            How will you motivate employees? Offering competitive compensation
-            is important, but beyond a base level of income, it
-            <a href="http://content.time.com/time/magazine/article/0,9171,2019628,00.html" target="_blank">does not increase happiness</a>,
-            and in some cases, offering monetary rewards can actually
-            <a href="http://www.ted.com/talks/dan_pink_on_motivation?language=en" target="_blank"><em>decrease</em> motivation</a>.
-            Therefore, you instead have to focus on intrinsic motivators, such
-            as autonomy, mastery, and purpose.
-          sublist:
-            - name: "Autonomy"
-              description: |
-                Autonomy is the desire to control your own life. So as a
-                manager, quit bossing people around, and instead, let them
-                pick their own projects, determine their schedule, and even pick
-                their own teammates. Examples:
-                <a href="https://engineering.linkedin.com/tags/hackday" target="_blank">LinkedIn HackDays</a>,
-                <a href="http://googleblog.blogspot.it/2006/05/googles-20-percent-time-in-action.html" target="_blank">Google 20% time</a>,
-                and
-                <a href="http://www.valvesoftware.com/company/Valve_Handbook_LowRes.pdf" target="_blank">Valve's 100% time</a>.
-            - name: "Mastery"
-              description: |
-                Mastery is the desire to get better at things. To enable this,
-                host talks, reimburse classes, and let people take on new
-                projects and join new teams on a regular basis.
-            - name: "Purpose"
-              description: |
-                Purpose is the desire to work on something greater than
-                yourself. It's not about making money, but about accomplishing
-                a great mission. "If you want to build a ship, don't drum up
-                the men to gather wood, divide the work and give orders.
-                Instead, teach them to yearn for the vast and endless sea."
+            See
+            <a href="http://www.ted.com/talks/dan_pink_on_motivation" target="_blank">The puzzle of motivation</a>,
+            <a href="http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805" target="_blank">Drive: The Surprising Truth About What Motivates Us</a>,
+            <a href="http://www.wsj.com/articles/can-money-buy-happiness-heres-what-science-has-to-say-1415569538" target="_blank">Can Money Buy You Happiness?</a>,
+            <a href="http://www.inc.com/christina-desmarais/5-tips-on-how-to-give-employees-purpose.html" target="_blank">5 Tips on How to Give Employees Purpose</a>,
+            <a href="https://engineering.linkedin.com/tags/hackday" target="_blank">LinkedIn HackDays</a>,
+            <a href="http://googleblog.blogspot.it/2006/05/googles-20-percent-time-in-action.html" target="_blank">Google 20% time</a>,
+            and
+            <a href="http://www.valvesoftware.com/company/Valve_Handbook_LowRes.pdf" target="_blank">Valve 100% time</a>.
     - name: "Office"
       sublist:
         - name: "Type of office"
@@ -801,16 +773,14 @@
           sublist:
             - name: "Electrical"
               description: |
-                Make sure the building is wired for power, lighting, Internet
-                (Wi-Fi and ethernet), and phone. Make sure there is enough
-                power for the number of employees. Consider backup power so your
-                business remains operational despite a power outage.
+                Power, back-up power, lighting, Internet (Wi-Fi and ethernet),
+                phone.
             - name: "Temperature control"
               description: |
                 Heating, air conditioning, windows, shades.
             - name: "Bathroom facilities"
               description: |
-                Make sure there are enough for the number of employees.
+                Enough for the number of employees.
             - name: "Kitchen facilities"
               description: |
                 At the very least, you need easy access to water, coffee, and
@@ -825,8 +795,8 @@
                 exits.
             - name: "Space for focused work"
               description: |
-                Offices, cubicals, open floor plans. Beware of the
-                <a href="http://www.newyorker.com/business/currency/the-open-office-trap" target="_blank">Open-Office Trap</a>
+                Offices, cubicals, open floor plans. See
+                <a href="http://www.newyorker.com/business/currency/the-open-office-trap" target="_blank">The Open-Office Trap</a>
                 and
                 <a href="http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/" target="_blank">Why You Shouldn't Interrupt a Programmer</a>.
             - name: "Space for collaborative work"
@@ -855,38 +825,40 @@
           sublist:
             - name: "Email"
               description: |
-                <a href="https://www.google.com/work/apps/business/" target="_blank">Google Apps for Business</a>
-                is easy to setup and use.
+                See <a href="https://www.google.com/work/apps/business/" target="_blank">Google Apps for Business</a>.
             - name: "Chat"
               description: |
-                <a href="https://slack.com/" target="_blank">Slack</a> has
-                become very popular amongst startups.
+                See
+                <a href="https://slack.com/" target="_blank">Slack</a>,
+                <a href="https://campfirenow.com/" target="_blank">Campfire</a>,
+                and
+                <a href="https://www.yammer.com/" target="_blank">Yammer</a>.
             - name: "Phone & fax"
               description: |
-                Check out
+                See
                 <a href="http://grasshopper.com/" target="_blank">Grasshopper</a>,
                 <a href="https://www.google.com/voice" target="_blank">Google Voice</a>,
                 and
                 <a href="http://talkroute.com/" target="_blank">Talkroute</a>.
             - name: "Wiki"
               description: |
-                Check out
+                See
                 <a href="https://www.mediawiki.org/wiki/MediaWiki" target="_blank">MediaWiki</a>,
                 <a href="https://www.atlassian.com/software/confluence" target="_blank">Atlassian Confluence</a>,
                 and
                 <a href="https://slimwiki.com/" target="_blank">SlimWiki</a>,
             - name: "Project management & issue tracker"
               description: |
-                Check out
-                <a href="https://trello.com/">Trello</a> and
+                see
+                <a href="https://trello.com/">Trello</a>
+                and
                 <a href="https://asana.com/">Asana</a>.
             - name: "Business cards"
               description: |
-                Check out
-                <a href="http://www.vistaprint.com/" target="_blank">Vistaprint</a>.
+                See <a href="http://www.vistaprint.com/" target="_blank">Vistaprint</a>.
     - name: "Hiring"
       sublist:
-        - name: "Find co-founders"
+        - name: "Co-founders"
           description: |
             You need a co-founder to handle part of the workload, fill in your
             weaknesses, and to talk you out of bad ideas. Startups are hard and
@@ -895,67 +867,49 @@
             you're not likely to succeed. A team of 2-3 co-founders works best.
             For more information, see
             <a href="http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>.
-        - name: "Find advisors"
+        - name: "Advisors"
           description: |
             Everyone needs a mentor, coach, or advisor. All companies that are C
             Corporations (i.e., almost all venture-backed startups) have a
             board of directors. Find people who you can trust, who fill in the
             gaps in your skills, and who have a network you can use.
-        - name: "Hire employees"
+        - name: "Employees"
           description: |
-            Stay small as long as you can. The more people you have, the more
-            <a href="https://en.wikipedia.org/wiki/Brooks%E2%80%99_law" target="_blank">communication overhead</a>
-            you'll have. Therefore, start hiring not when you find something a
-            new employee could do, but when you find a business-critical task
-            that you <em>couldn't</em> do unless you hired someone. See
+            See
             <a href="http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>
-            for more information.
+            and
+            <a href="http://www.hello-startup.net/resources/jobs/?ref=startup-checklist" target="_blank">Startup Job Resources</a>.
           sublist:
             - name: "Referrals"
               description: |
-                The best way to hire people is to use your network. Referrals
-                <a href="https://www.sequoiacap.com/grove/posts/6bja/recruit-engineers-in-less-time" target="_blank">significantly reduce the amount of time it takes to hire someone</a>
-                and they lead to higher quality hires with lower turnover. Make
-                sure everyone at the company is regularly reaching out to their
-                network. Offer referral incentives.
+                See
+                <a href="http://theundercoverrecruiter.com/infographic-employee-referrals-hire/" target="_blank">Why Employee Referrals are the Best Source of Hire</a>
+                and
+                <a href="https://www.sequoiacap.com/grove/posts/6bja/recruit-engineers-in-less-time" target="_blank">Recruit Engineers in Less Time</a>.
             - name: "Employer branding"
               description: |
-                The next best way to hire people is through "inbound marketing"
-                in the form of blog posts, talks, and open source. If people
-                outside your company are regularly learning from your blog,
-                attending your talks, and best of all, using and contributing to
-                your open source projects, it'll be much easier to hire them.
+                See
+                <a href="https://hbr.org/2015/05/ceos-need-to-pay-attention-to-employer-branding" target="_blank">CEOs Need to Pay Attention to Employer Branding</a>
+                and
+                <a href="http://www.eremedia.com/ere/15-employer-branding-best-practices-you-need-to-know/" target="_blank">15 Employer Branding Best Practices You Need To Know</a>.
             - name: "Job boards"
               description: |
-                <a href="http://talent.linkedin.com/blog/index.php/2013/12/recruiting-active-vs-passive-candidates" target="_blank">75% of people are <em>passive candidates</em>:</a>
-                they are interested in a new job opportunity if it comes along,
-                but they are not actively seeking it out. That means they do not
-                spend time looking at job boards. Therefore, the "post and pray"
-                technique of putting up a job posting and waiting doesn't work.
-                Moreover, <a href="http://www.ybrikman.com/writing/2011/04/26/your-job-posting-sucks/">your job posting sucks</a>.
-                A better option is to reach out to candidates yourself and to
-                post jobs in the places where even passive candidates are
-                looking. For more information, see
+                See
+                <a href="http://www.ybrikman.com/writing/2011/04/26/your-job-posting-sucks/">Your Job Posting Sucks</a>
+                and
                 <a href="http://www.hello-startup.net/resources/jobs/?ref=startup-checklist" target="_blank">Startup Job Resources</a>.
             - name: "The interview"
               description: |
-                Are you still forcing candidates to code on a whiteboard and
-                solve tree traversal problems? There are better alternatives. See
-                <a href="http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>
-                for more information.
+                See <a href="http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>.
             - name: "The offer"
               description: |
-                How much salary should you offer? How much equity? What about
-                benefits like vacation and health insurance? Did you work with
-                a lawyer to craft an employment agreement that properly
-                specifies who owns the IP? See
+                See
                 <a href="http://www.hello-startup.net/resources/salary/?ref=startup-checklist" target="_blank">Startup Salary Resources</a>
                 and
-                <a href="http://www.hello-startup.net/resources/equity/?ref=startup-checklist" target="_blank">Startup Equity Resources</a>
-                for more info.
+                <a href="http://www.hello-startup.net/resources/equity/?ref=startup-checklist" target="_blank">Startup Equity Resources</a>.
             - name: "Promotions"
               description: |
-                How often do you give feedback on employee performance? How do
-                you reward good performers (new title, more money, more
-                responsibility)? Be wary of the
-                <a href="https://en.wikipedia.org/wiki/Peter_principle" target="_blank">Peter Principle</a>.
+                See
+                <a href="http://mcfunley.com/thoughts-on-the-technical-track" target="_blank">Thoughts on the Technical Track</a>
+                and
+                <a href="https://en.wikipedia.org/wiki/Peter_principle" target="_blank">The Peter Principle</a>.
