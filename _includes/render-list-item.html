@@ -22,14 +22,14 @@
           <div class="mt1 h5 display-none {{ item_more_class }}">{{ include.item.description }}</div>
         {% endif %}
       </div>
-      <div class="col-right right-align">
+      <div class="col-right right-align no-print">
         {% if include.item.description or include.item.sublist %}
           <a href="#" id="{{ item_id }}-expand-link" class="h3 monospace no-underline more-bold initial-line-height default-font-color js-expand" data-more-class="{{ item_more_class }}">+</a>
         {% endif %}
       </div>
     </div>
   </div>
-  <div class="{{ item_more_class }} display-none">
+  <div class="{{ item_more_class }} hide-checklist-item">
     {% if include.item.sublist %}
       {% capture next_level %}{{ include.level | plus: '1' }}{% endcapture %}
       {% include render-list.html list=include.item.sublist level=next_level parent_checkbox_name=item_id %}
