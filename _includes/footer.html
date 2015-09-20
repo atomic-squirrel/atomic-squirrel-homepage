@@ -1,23 +1,29 @@
 <footer class="container pb4 pt2 h6">
-  <div class="clearfix bg-translucent-white px2">
-    <div class="sm-col py2">
-      <div>Copyright {{ site.name_full }} {{ site.time | date: "%Y" }}.</div>
-      <div>All rights reserved.</div>
-      <div><a href="{{ site.contact_urls.email.url }}">{{ site.contact_urls.email.value }}</a></div>
-    </div>
-    <div class="sm-col-right py2 no-print">
-      <div>
-        Rocket photograph by
-        <a href="https://www.flickr.com/photos/13476480@N07/16711880381/" rel="nofollow" target="_blank">manhhai</a>.
-      </div>
-      <div>
-        Logo design by
-        <a href="https://thenounproject.com/search/?q=squirrel&amp;i=26718" rel="nofollow" target="_blank">Pirog tetyana</a>.
-      </div>
-      <div>
-        Website design by
-        <a href="http://html5up.net/highlights" rel="nofollow" target="_blank">HTML5 Up</a>.
-      </div>
-    </div>
+  <div class="clearfix bg-translucent-white px2 py2">
+    <table class="tight-table">
+      <tr>
+        <th class="align-top">Share:</th>
+        <td>{% include share-buttons.html %}</td>
+      </tr>
+      <tr>
+        <th class="align-top">Contact:</th>
+        <td><a href="{{ site.contact_urls.email.url }}">{{ site.contact_urls.email.value }}</a></td>
+      </tr>
+      <tr>
+        <th class="align-top">Credits:</th>
+        <td>
+          Rocket photograph by
+          <a href="https://www.flickr.com/photos/13476480@N07/16711880381/" rel="nofollow" target="_blank">manhhai</a>;
+          logo design by
+          <a href="https://thenounproject.com/search/?q=squirrel&amp;i=26718" rel="nofollow" target="_blank">Pirog tetyana</a>;
+          website design by
+          <a href="http://html5up.net/highlights" rel="nofollow" target="_blank">HTML5 Up</a>.
+        </td>
+      </tr>
+      <tr>
+        <th class="align-top">Copyright:</th>
+        <td>{{ site.name_full }} {{ site.time | date: "%Y" }}. All rights reserved.</td>
+      </tr>
+    </table>
   </div>
 </footer>
