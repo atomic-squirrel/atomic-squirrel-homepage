@@ -281,44 +281,6 @@
         - name: "Scalability & Performance"
           description: |
             See <a href="http://www.hello-startup.net/resources/scalability/?ref=startup-checklist" target="_blank">Scalability Resources</a>.
-          sublist:
-          - name: "Profiling"
-            description: |
-              See <a href="https://en.wikipedia.org/wiki/List_of_performance_analysis_tools" target="_blank">List of performance analysis tools</a>.
-          - name: "Divide and conquer (MapReduce)"
-            description: |
-              Examples: multiple web servers, sharding, MapReduce.
-          - name: "Caching"
-            description: |
-              Examples: CDN, memoization, memcached.
-          - name: "Laziness"
-            description: |
-              Examples: optimistic locking, lazy-load images.
-          - name: "Approximate correctness"
-            description: |
-              Examples: eventual consistency, HyperLogLog.
-          - name: "Asynchrony"
-            description: |
-              Examples: non-blocking I/O, event loops, lock-free data
-              structures.
-          - name: "Jitter and randomization"
-            description: |
-              Examples: random cache expiration, load-balancing.
-          - name: "Throttling"
-            description: |
-              Examples: rate-limiting a server.
-          - name: "Redundancy"
-            description: |
-              Examples: back-up or hedged requests.
-          - name: "Co-location"
-            description: |
-              Examples: CDNs, multiple data-centers, server racks.
-          - name: "Vertical scaling"
-            description: |
-              Examples: faster CPU, RAM, hard-drive, network.
-          - name: "Algorithm tuning"
-            description: |
-              Examples: find algorithms with a faster run-time.
     - name: "Client-side"
       description: |
         What clients do you support? Desktop web? Mobile web? Native mobile apps
@@ -379,43 +341,41 @@
             <a href="https://dev.windows.com/en-us/join" target="_blank">Windows App Developer</a>,
             and
             <a href="http://developer.blackberry.com/" target="_blank">BlackBerry Developer</a>.
-        - name: "Performance"
-          sublist:
-            - name: "Browser performance tools"
-              description: |
-                <a href="http://yslow.org/" target="_blank">YSlow</a>,
-                <a href="https://developers.google.com/speed/pagespeed/?hl=en" target="_blank">PageSpeed</a>
-            - name: "Use a CDN"
-              description: |
-                See
-                <a href="https://www.cloudflare.com/features-cdn" target="_blank">CloudFlare Free CDN</a>,
-                <a href="https://aws.amazon.com/cloudfront/" target="_blank">Amazon CloudFront</a>,
-                and
-                <a href="https://www.akamai.com/us/en/cdn.jsp" target="_blank">Akamai CDN</a>.
-            - name: "HTTP Caching"
-              description: |
-                See <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=en" target="_blank">HTTP caching</a>.
-            - name: "Use compression"
-              description: |
-                See <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer?hl=en" target="_blank">Optimizing encoding and transfer size of text-based assets</a>.
-            - name: "Concatenate static content"
-            - name: "Minify static content"
-            - name: "Stylesheets at the top"
-            - name: "Scripts at the bottom"
-            - name: "Lazy load as much as possible"
-              description: |
-                See
-                <a href="http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html" target="_blank">async vs defer attributes</a>
-                and
-                <a href="http://afarkas.github.io/lazysizes/" target="_blank">lazySizes</a>.
-            - name: "BigPipe streaming"
-              description: |
-                See <a href="https://www.facebook.com/notes/facebook-engineering/bigpipe-pipelining-web-pages-for-high-performance/389414033919" target="_blank">BigPipe: Pipelining web pages for high performance</a>
-                and
-                <a href="http://www.ybrikman.com/writing/2015/06/30/ping-play-big-pipe-streaming-for-play-framework/" target="_blank">Ping-Play: Big Pipe Streaming for the Play Framework</a>.
-            - name: "HTML5 preconnect, prefetch, prerender"
-              description: |
-                See <a href="https://docs.google.com/presentation/d/18zlAdKAxnc51y_kj-6sWLmnjl6TLnaru_WH0LJTjP-o/present?slide=id.p19" target="_blank">Preconnect, prefetch, prerender</a>.
+        - name: "Browser performance tools"
+          description: |
+            <a href="http://yslow.org/" target="_blank">YSlow</a>,
+            <a href="https://developers.google.com/speed/pagespeed/?hl=en" target="_blank">PageSpeed</a>
+        - name: "CDN"
+          description: |
+            See
+            <a href="https://www.cloudflare.com/features-cdn" target="_blank">CloudFlare Free CDN</a>,
+            <a href="https://aws.amazon.com/cloudfront/" target="_blank">Amazon CloudFront</a>,
+            and
+            <a href="https://www.akamai.com/us/en/cdn.jsp" target="_blank">Akamai CDN</a>.
+        - name: "HTTP Caching"
+          description: |
+            See <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=en" target="_blank">HTTP caching</a>.
+        - name: "Compression"
+          description: |
+            See <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer?hl=en" target="_blank">Optimizing encoding and transfer size of text-based assets</a>.
+        - name: "Static content"
+          description: |
+            Minify, concatentate, put stylesheets at the top, scripts at the
+            bottom, pre-compile, use versioning or fingerprinting.
+        - name: "Lazy load"
+          description: |
+            See
+            <a href="http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html" target="_blank">async vs defer attributes</a>
+            and
+            <a href="http://afarkas.github.io/lazysizes/" target="_blank">lazySizes</a>.
+        - name: "BigPipe"
+          description: |
+            See <a href="https://www.facebook.com/notes/facebook-engineering/bigpipe-pipelining-web-pages-for-high-performance/389414033919" target="_blank">BigPipe: Pipelining web pages for high performance</a>
+            and
+            <a href="http://www.ybrikman.com/writing/2015/06/30/ping-play-big-pipe-streaming-for-play-framework/" target="_blank">Ping-Play: Big Pipe Streaming for the Play Framework</a>.
+        - name: "HTML5 preconnect, prefetch, prerender"
+          description: |
+            See <a href="https://docs.google.com/presentation/d/18zlAdKAxnc51y_kj-6sWLmnjl6TLnaru_WH0LJTjP-o/present?slide=id.p19" target="_blank">Preconnect, prefetch, prerender</a>.
     - name: "Data storage"
       description: |
         See
@@ -437,28 +397,23 @@
             <a href="http://samza.apache.org/" target="_blank">Samza</a>,
             and
             <a href="http://spark.apache.org/" target="_blank">Spark</a>.
-        - name: "Scalability & performance"
-          sublist:
-            - name: "Query tuning"
-              description: |
-                Use EXPLAIN, the query optimizer, indices, hints,
-                precomputed views, denormalized data.
-            - name: "Database tuning"
-              description: |
-                Tweak memory settings, CPU settings, I/O settings.
-            - name: "Caching"
-              description: |
-                Increase database cache settings or use a distributed cache
-                in front of the database, such as memcached.
-            - name: "Vertical scaling"
-              description: |
-                Faster CPU, more RAM, faster hard-drive.
-            - name: "Replication"
-              description: |
-                See <a href="https://en.wikipedia.org/wiki/Replication_(computing)" target="_blank">Replication</a>.
-            - name: "Partitioning"
-              description: |
-                See <a href="https://en.wikipedia.org/wiki/Partition_(database)" target="_blank">Partioning</a>.
+        - name: "Query tuning"
+          description: |
+            Use EXPLAIN, the query optimizer, indices, hints,
+            precomputed views, denormalized data.
+        - name: "Database tuning"
+          description: |
+            Tweak memory settings, CPU settings, I/O settings.
+        - name: "Caching"
+          description: |
+            Tune database cache settings or use a distributed cache
+            in front of the database, such as memcached.
+        - name: "Replication"
+          description: |
+            See <a href="https://en.wikipedia.org/wiki/Replication_(computing)" target="_blank">Replication</a>.
+        - name: "Partitioning"
+          description: |
+            See <a href="https://en.wikipedia.org/wiki/Partition_(database)" target="_blank">Partioning</a>.
     - name: "Continuous Integration"
       description: |
         See <a href="http://www.martinfowler.com/articles/continuousIntegration.html" target="_blank">Continuous integration</a>.
@@ -740,11 +695,9 @@
           description: |
             How will you communicate with people within the company? How will
             you communicate with people outside? How transparent will you be?
-            What information will you reveal? Most startups should err on the
-            side of maximal transparency, as transparency breeds trust. For a
-            radical example, check out the startup
-            <a href="https://buffer.com/transparency" target="_blank">Buffer</a>,
-            which has open salaries, open equity, open financials, and more.
+            What information will you reveal? For a radical example, check out
+            the startup
+            <a href="https://buffer.com/transparency" target="_blank">Buffer</a>.
         - name: "Motivation"
           description: |
             See
@@ -769,94 +722,90 @@
             parking available? Are there places to eat nearby? Is there room
             for future growth? What are the zoning laws for this type of
             business?
-        - name: "Office basics"
-          sublist:
-            - name: "Electrical"
-              description: |
-                Power, back-up power, lighting, Internet (Wi-Fi and ethernet),
-                phone.
-            - name: "Temperature control"
-              description: |
-                Heating, air conditioning, windows, shades.
-            - name: "Bathroom facilities"
-              description: |
-                Enough for the number of employees.
-            - name: "Kitchen facilities"
-              description: |
-                At the very least, you need easy access to water, coffee, and
-                basic snacks.
-            - name: "Access control"
-              description: |
-                Keys and/or swipe cards at every exterior door. Consider if you
-                need to hire security guards.
-            - name: "Fire safety measures"
-              description: |
-                Fire extinguishers, smoke detectors, sprinklers, emergency
-                exits.
-            - name: "Space for focused work"
-              description: |
-                Offices, cubicals, open floor plans. See
-                <a href="http://www.newyorker.com/business/currency/the-open-office-trap" target="_blank">The Open-Office Trap</a>
-                and
-                <a href="http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/" target="_blank">Why You Shouldn't Interrupt a Programmer</a>.
-            - name: "Space for collaborative work"
-              description: |
-                Conference rooms and common areas.
-        - name: "Office furniture & supplies"
-          sublist:
-            - name: "Desks & chairs"
-            - name: "Cubicles"
-            - name: "Filing cabinets, folders"
-            - name: "Lamps"
-            - name: "Conference tables, chairs"
-            - name: "White boards, markers, erasers"
-            - name: "TVs, projectors"
-            - name: "Paper, notepads, sticky notes"
-            - name: "Pens, pencils"
-            - name: "Envelopes, stamps"
-            - name: "Computers, monitors, keyboards, mice"
-            - name: "Software: Google Apps, Microsoft Office, Adobe Photoshop, etc"
-            - name: "Printers, copiers, fax"
-            - name: "Phones"
-        - name: "Office communication"
+        - name: "Electrical"
           description: |
-            See <a href="http://www.hello-startup.net/resources/collaboration/?ref=startup-checklist" target="_blank">Startup Collaboration Resources</a>
-            for more info.
-          sublist:
-            - name: "Email"
-              description: |
-                See <a href="https://www.google.com/work/apps/business/" target="_blank">Google Apps for Business</a>.
-            - name: "Chat"
-              description: |
-                See
-                <a href="https://slack.com/" target="_blank">Slack</a>,
-                <a href="https://campfirenow.com/" target="_blank">Campfire</a>,
-                and
-                <a href="https://www.yammer.com/" target="_blank">Yammer</a>.
-            - name: "Phone & fax"
-              description: |
-                See
-                <a href="http://grasshopper.com/" target="_blank">Grasshopper</a>,
-                <a href="https://www.google.com/voice" target="_blank">Google Voice</a>,
-                and
-                <a href="http://talkroute.com/" target="_blank">Talkroute</a>.
-            - name: "Wiki"
-              description: |
-                See
-                <a href="https://www.mediawiki.org/wiki/MediaWiki" target="_blank">MediaWiki</a>,
-                <a href="https://www.atlassian.com/software/confluence" target="_blank">Atlassian Confluence</a>,
-                and
-                <a href="https://slimwiki.com/" target="_blank">SlimWiki</a>,
-            - name: "Project management & issue tracker"
-              description: |
-                see
-                <a href="https://trello.com/" target="_blank">Trello</a>
-                and
-                <a href="https://asana.com/" target="_blank">Asana</a>.
-            - name: "Business cards"
-              description: |
-                See <a href="http://www.vistaprint.com/" target="_blank">Vistaprint</a>.
+            Power, back-up power, lighting, Internet (Wi-Fi and ethernet),
+            phone.
+        - name: "Temperature control"
+          description: |
+            Heating, air conditioning, windows, shades.
+        - name: "Bathroom facilities"
+          description: |
+            Enough for the number of employees.
+        - name: "Kitchen facilities"
+          description: |
+            At the very least, you need easy access to water, coffee, and
+            basic snacks.
+        - name: "Access control"
+          description: |
+            Keys and/or swipe cards at every exterior door. Consider if you
+            need to hire security guards.
+        - name: "Fire safety measures"
+          description: |
+            Fire extinguishers, smoke detectors, sprinklers, emergency
+            exits.
+        - name: "Space for focused work"
+          description: |
+            Offices, cubicals, open floor plans. See
+            <a href="http://www.newyorker.com/business/currency/the-open-office-trap" target="_blank">The Open-Office Trap</a>
+            and
+            <a href="http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/" target="_blank">Why You Shouldn't Interrupt a Programmer</a>.
+        - name: "Space for collaborative work"
+          description: |
+            Conference rooms and common areas.
+        - name: "Furniture"
+          description: |
+            Desks, chairs, cubicles, filing cabinets, lamps, conference tables,
+            white boards, TVs, projectors, couches.
+        - name: "Supplies"
+          description: |
+            Pens, pencils, notepads, sticky notes, tape, printer paper, folders,
+            markers, erasers, envelopes, stamps.
+        - name: "IT"
+          description: |
+            Computers, monitors, keyboards, mice, printers, copiers, fax
+            machines, phones, software.
+    - name: "Communication"
+      description: |
+        See <a href="http://www.hello-startup.net/resources/collaboration/?ref=startup-checklist" target="_blank">Startup Collaboration Resources</a>
+        for more info.
+      sublist:
+        - name: "Email"
+          description: |
+            See <a href="https://www.google.com/work/apps/business/" target="_blank">Google Apps for Business</a>.
+        - name: "Chat"
+          description: |
+            See
+            <a href="https://slack.com/" target="_blank">Slack</a>,
+            <a href="https://campfirenow.com/" target="_blank">Campfire</a>,
+            and
+            <a href="https://www.yammer.com/" target="_blank">Yammer</a>.
+        - name: "Phone & fax"
+          description: |
+            See
+            <a href="http://grasshopper.com/" target="_blank">Grasshopper</a>,
+            <a href="https://www.google.com/voice" target="_blank">Google Voice</a>,
+            and
+            <a href="http://talkroute.com/" target="_blank">Talkroute</a>.
+        - name: "Wiki"
+          description: |
+            See
+            <a href="https://www.mediawiki.org/wiki/MediaWiki" target="_blank">MediaWiki</a>,
+            <a href="https://www.atlassian.com/software/confluence" target="_blank">Atlassian Confluence</a>,
+            and
+            <a href="https://slimwiki.com/" target="_blank">SlimWiki</a>,
+        - name: "Project management & issue tracker"
+          description: |
+            see
+            <a href="https://trello.com/" target="_blank">Trello</a>
+            and
+            <a href="https://asana.com/" target="_blank">Asana</a>.
+        - name: "Business cards"
+          description: |
+            See <a href="http://www.vistaprint.com/" target="_blank">Vistaprint</a>.
     - name: "Hiring"
+      description: |
+        See <a href="http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>
       sublist:
         - name: "Co-founders"
           description: |
@@ -873,43 +822,36 @@
             Corporations (i.e., almost all venture-backed startups) have a
             board of directors. Find people who you can trust, who fill in the
             gaps in your skills, and who have a network you can use.
-        - name: "Employees"
+        - name: "Referrals"
           description: |
             See
-            <a href="http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>
+            <a href="http://theundercoverrecruiter.com/infographic-employee-referrals-hire/" target="_blank">Why Employee Referrals are the Best Source of Hire</a>
+            and
+            <a href="https://www.sequoiacap.com/grove/posts/6bja/recruit-engineers-in-less-time" target="_blank">Recruit Engineers in Less Time</a>.
+        - name: "Employer branding"
+          description: |
+            See
+            <a href="https://hbr.org/2015/05/ceos-need-to-pay-attention-to-employer-branding" target="_blank">CEOs Need to Pay Attention to Employer Branding</a>
+            and
+            <a href="http://www.eremedia.com/ere/15-employer-branding-best-practices-you-need-to-know/" target="_blank">15 Employer Branding Best Practices You Need To Know</a>.
+        - name: "Job boards"
+          description: |
+            See
+            <a href="http://www.ybrikman.com/writing/2011/04/26/your-job-posting-sucks/" target="_blank">Your Job Posting Sucks</a>
             and
             <a href="http://www.hello-startup.net/resources/jobs/?ref=startup-checklist" target="_blank">Startup Job Resources</a>.
-          sublist:
-            - name: "Referrals"
-              description: |
-                See
-                <a href="http://theundercoverrecruiter.com/infographic-employee-referrals-hire/" target="_blank">Why Employee Referrals are the Best Source of Hire</a>
-                and
-                <a href="https://www.sequoiacap.com/grove/posts/6bja/recruit-engineers-in-less-time" target="_blank">Recruit Engineers in Less Time</a>.
-            - name: "Employer branding"
-              description: |
-                See
-                <a href="https://hbr.org/2015/05/ceos-need-to-pay-attention-to-employer-branding" target="_blank">CEOs Need to Pay Attention to Employer Branding</a>
-                and
-                <a href="http://www.eremedia.com/ere/15-employer-branding-best-practices-you-need-to-know/" target="_blank">15 Employer Branding Best Practices You Need To Know</a>.
-            - name: "Job boards"
-              description: |
-                See
-                <a href="http://www.ybrikman.com/writing/2011/04/26/your-job-posting-sucks/" target="_blank">Your Job Posting Sucks</a>
-                and
-                <a href="http://www.hello-startup.net/resources/jobs/?ref=startup-checklist" target="_blank">Startup Job Resources</a>.
-            - name: "The interview"
-              description: |
-                See <a href="http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>.
-            - name: "The offer"
-              description: |
-                See
-                <a href="http://www.hello-startup.net/resources/salary/?ref=startup-checklist" target="_blank">Startup Salary Resources</a>
-                and
-                <a href="http://www.hello-startup.net/resources/equity/?ref=startup-checklist" target="_blank">Startup Equity Resources</a>.
-            - name: "Promotions"
-              description: |
-                See
-                <a href="http://mcfunley.com/thoughts-on-the-technical-track" target="_blank">Thoughts on the Technical Track</a>
-                and
-                <a href="https://en.wikipedia.org/wiki/Peter_principle" target="_blank">The Peter Principle</a>.
+        - name: "The interview"
+          description: |
+            See <a href="http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>.
+        - name: "The offer"
+          description: |
+            See
+            <a href="http://www.hello-startup.net/resources/salary/?ref=startup-checklist" target="_blank">Startup Salary Resources</a>
+            and
+            <a href="http://www.hello-startup.net/resources/equity/?ref=startup-checklist" target="_blank">Startup Equity Resources</a>.
+        - name: "Promotions"
+          description: |
+            See
+            <a href="http://mcfunley.com/thoughts-on-the-technical-track" target="_blank">Thoughts on the Technical Track</a>
+            and
+            <a href="https://en.wikipedia.org/wiki/Peter_principle" target="_blank">The Peter Principle</a>.

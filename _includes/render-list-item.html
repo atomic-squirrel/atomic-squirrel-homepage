@@ -7,7 +7,7 @@
 <li class="ml{{ include.level | plus: '1' }} {% unless include.level == "0" %}{% unless include.is_last %}border-left{% endunless %}{% endunless %} {% unless include.is_last %}pt1{% endunless %}">
   <div class="clearfix">
     {% unless include.level == "0" %}
-      <div class="col" style="width: 2%;">
+      <div class="col" style="width: 3%;">
         <div class="border-bottom{% if include.is_last %} border-left pt1 {% endif %}">&nbsp;</div>
       </div>
     {% endunless %}
