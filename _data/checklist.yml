@@ -5,10 +5,10 @@
         See <a href="http://www.hello-startup.net/resources/startup-ideas/?ref=startup-checklist" target="_blank">Startup Ideas</a>.
     - name: "Validation"
       description: |
-        See <a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705">The Four Steps to the Epiphany</a>.
+        See <a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705" target="_blank">The Four Steps to the Epiphany</a>.
     - name: "Market sizing"
       description: |
-        See <a href="http://www.hello-startup.net/resources/idea-validation/?ref=startup-checklist">Market Sizing Resources</a>.
+        See <a href="http://www.hello-startup.net/resources/idea-validation/?ref=startup-checklist" target="_blank">Market Sizing Resources</a>.
     - name: "Viability"
       description: |
         Can this problem be solved? Can this problem be solved by
@@ -209,9 +209,9 @@
         - name: "Target earlyvangelists"
           description: |
             See
-            <a href="https://en.wikipedia.org/wiki/Earlyvangelist">Earlyvangelists</a>
+            <a href="https://en.wikipedia.org/wiki/Earlyvangelist" target="_blank">Earlyvangelists</a>
             and
-            <a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705">The Four Steps to the Epiphany</a>.
+            <a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705" target="_blank">The Four Steps to the Epiphany</a>.
         - name: "MVP tools and resources"
           description: |
             See <a href="http://www.hello-startup.net/resources/mvp/?ref=startup-checklist" target="_blank">Minimum Viable Product Resources</a>.
@@ -230,7 +230,7 @@
         - name: "The magic number"
           description: |
             See
-            <a href="http://www.growhack.com/2012/12/04/discovering-your-aha-moment/">Discovering your aha moment</a>
+            <a href="http://www.growhack.com/2012/12/04/discovering-your-aha-moment/" target="_blank">Discovering your aha moment</a>
             and
             <a href="http://www.quora.com/Growth-Hacking/How-do-you-find-insights-like-Facebooks-7-friends-in-10-days-to-grow-your-product-faster" target="_blank">How do you find insights like Facebook's "7 friends in 10 days" to grow your product faster?</a>
         - name: "Data-driven development"
@@ -240,17 +240,17 @@
       description: |
         The best product doesn't always win. It's the best product the customer
         knows about that wins. See
-        <a href="http://www.hello-startup.net/resources/distribution/?ref=startup-checklist">Startup Distribution Resources</a>.
+        <a href="http://www.hello-startup.net/resources/distribution/?ref=startup-checklist" target="_blank">Startup Distribution Resources</a>.
       sublist:
         - name: "Marketing"
           description: |
             Word of mouth, advertising, public relations (PR), search engine
             optimization (SEO), social media, inbound marketing. See
-            <a href="http://www.hello-startup.net/resources/distribution/?ref=startup-checklist">Startup Distribution Resources</a>.
+            <a href="http://www.hello-startup.net/resources/distribution/?ref=startup-checklist" target="_blank">Startup Distribution Resources</a>.
         - name: "Sales"
           description: |
             Automated sales, inbound sales, outbound sales. See
-            <a href="http://www.hello-startup.net/resources/distribution/?ref=startup-checklist">Startup Distribution Resources</a>.
+            <a href="http://www.hello-startup.net/resources/distribution/?ref=startup-checklist" target="_blank">Startup Distribution Resources</a>.
         - name: "Branding"
           description: |
             Branding isn't about a single ad campaign or a logo or any one
@@ -359,7 +359,7 @@
         - name: "Meta tags"
           description: |
             See
-            <a href="http://searchenginewatch.com/sew/how-to/2067564/how-to-use-html-meta-tags">How to Use HTML Meta Tags</a>,
+            <a href="http://searchenginewatch.com/sew/how-to/2067564/how-to-use-html-meta-tags" target="_blank">How to Use HTML Meta Tags</a>,
             <a href="https://developers.facebook.com/docs/sharing/webmasters#markup" target="_blank">Facebook Open Graph Markup</a>,
             <a href="https://dev.twitter.com/cards/overview" target="_blank">Twitter Cards</a>,
             and
@@ -458,7 +458,7 @@
                 See <a href="https://en.wikipedia.org/wiki/Replication_(computing)" target="_blank">Replication</a>.
             - name: "Partitioning"
               description: |
-                See <a href="https://en.wikipedia.org/wiki/Partition_(database)">Partioning</a>.
+                See <a href="https://en.wikipedia.org/wiki/Partition_(database)" target="_blank">Partioning</a>.
     - name: "Continuous Integration"
       description: |
         See <a href="http://www.martinfowler.com/articles/continuousIntegration.html" target="_blank">Continuous integration</a>.
@@ -537,7 +537,7 @@
             place you turn to answer the question, "What changed?"
     - name: "Monitoring"
       description: |
-        See <a href="http://www.hello-startup.net/resources/monitoring/?ref=startup-checklist">Monitoring Resources</a>.
+        See <a href="http://www.hello-startup.net/resources/monitoring/?ref=startup-checklist" target="_blank">Monitoring Resources</a>.
     - name: "Security"
       sublist:
         - name: "SSL"
@@ -705,9 +705,9 @@
       description: |
         See
         <a href="https://www.linkedin.com/pulse/20121029044359-22330283-to-manage-hyper-growth-get-your-launch-trajectory-right" target="_blank">From Vision to Values: The Importance of Defining Your Core</a>,
-        <a href="https://hbr.org/2011/03/culture-trumps-strategy-every">Culture trumps strategy, every time</a>,
-        <a href="http://startupclass.samaltman.com/courses/lec10/">How to Start a Startup Lecture 10: Culture</a>,
-        <a href="http://startupclass.samaltman.com/courses/lec11/">How to Start a Startup Lecture 11: Hiring and Culture, Part II</a>,
+        <a href="https://hbr.org/2011/03/culture-trumps-strategy-every" target="_blank">Culture trumps strategy, every time</a>,
+        <a href="http://startupclass.samaltman.com/courses/lec10/" target="_blank">How to Start a Startup Lecture 10: Culture</a>,
+        <a href="http://startupclass.samaltman.com/courses/lec11/" target="_blank">How to Start a Startup Lecture 11: Hiring and Culture, Part II</a>,
         and
         <a href="https://medium.com/@bchesky/dont-fuck-up-the-culture-597cde9ee9d4" target="_blank">Don't Fuck up the Culture</a>.
       sublist:
@@ -716,7 +716,7 @@
             See
             <a href="http://www.slideshare.net/reed2001/culture-1798664" target="_blank">Netflix Culture Deck</a>,
             <a href="http://www.slideshare.net/HubSpot/the-hubspot-culture-code-creating-a-company-we-love" target="_blank">HubSpot Culture Code</a>,
-            <a href="http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en">How Great Leaders Inspire Action</a>.
+            <a href="http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en" target="_blank">How Great Leaders Inspire Action</a>.
         - name: "Organizational design"
           description: |
             See
@@ -850,9 +850,9 @@
             - name: "Project management & issue tracker"
               description: |
                 see
-                <a href="https://trello.com/">Trello</a>
+                <a href="https://trello.com/" target="_blank">Trello</a>
                 and
-                <a href="https://asana.com/">Asana</a>.
+                <a href="https://asana.com/" target="_blank">Asana</a>.
             - name: "Business cards"
               description: |
                 See <a href="http://www.vistaprint.com/" target="_blank">Vistaprint</a>.
@@ -895,7 +895,7 @@
             - name: "Job boards"
               description: |
                 See
-                <a href="http://www.ybrikman.com/writing/2011/04/26/your-job-posting-sucks/">Your Job Posting Sucks</a>
+                <a href="http://www.ybrikman.com/writing/2011/04/26/your-job-posting-sucks/" target="_blank">Your Job Posting Sucks</a>
                 and
                 <a href="http://www.hello-startup.net/resources/jobs/?ref=startup-checklist" target="_blank">Startup Job Resources</a>.
             - name: "The interview"
