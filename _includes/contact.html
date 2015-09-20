@@ -1,17 +1,19 @@
 <section id="contact" class="mt4 mb4 py4">
   <h2 class="center caps">Contact</h2>
-  <hr class="col-6 mb3">  
+  <hr class="col-6 mb3">
   <p>
-    Stop reinventing the wheel and let Atomic Squirrel build your infrastructure
-    for you. Send an email to <a href="{{ site.contact_urls.email.url }}">{{ site.contact_urls.email.value }}</a>,
-    tell us what you're working on, and we'll help you launch your startup.
+    Do you need feedback on a startup idea? Did you build a prototype, but
+    you're not sure what to do next? Is your product already in production, but
+    no one seems to be using it? Fill out the
+    <a href="/startup-checklist">Startup Checklist</a> and we'll set up a
+    <strong>free 30 minute call</strong> to discuss your startup.
   </p>
   <div class="clearfix mxn2">
     {% for external_url_hash in site.contact_urls %}
       {% assign external_url = external_url_hash[1] %}
       <div class="md-col ml1 mr1">
-        {% include button.html url=external_url.url text=external_url.label icon=external_url.icon margin_top="2" custom_classes="left-align" %}        
+        {% include button.html url=external_url.url text=external_url.label icon=external_url.icon margin_top="2" custom_classes="left-align" %}
       </div>
-    {% endfor %}               
+    {% endfor %}
   </div>
 </section>

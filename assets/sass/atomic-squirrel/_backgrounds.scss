@@ -8,6 +8,16 @@
   background-image: url('/assets/images/rocket-launching.jpg');
 }
 
+.bg-checklist {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/checklist-screenshot.gif') no-repeat;
+  width: 432px;
+  height: 691px;
+}
+
+a.bg-checklist:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/images/checklist-screenshot.gif') no-repeat;
+}
+
 .bg-repeat {
   background-repeat: repeat;
 }
@@ -20,13 +30,13 @@
   background-attachment: fixed;
 }
 
-// Workaround because mobile browsers don't support background-attachment: 
+// Workaround because mobile browsers don't support background-attachment:
 // "fixed". See http://stackoverflow.com/a/19045667/483528
 @media screen and (max-width: 40em) {
   .bg-rocket-launch {
     background-size: 215% !important;
     background-attachment: scroll !important;
-    background-position: center 0 !important;    
+    background-position: center 0 !important;
   }
 }
 
