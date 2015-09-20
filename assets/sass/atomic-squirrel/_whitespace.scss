@@ -1,13 +1,13 @@
 @import 'atomic-squirrel/variables';
 
-@for $i from 0 through 8 {
+@for $i from 0 through 16 {
   .pt#{$i} { padding-top: $whitespaceAmount * $i; }
   .pr#{$i} { padding-right: $whitespaceAmount * $i; }
   .pb#{$i} { padding-bottom: $whitespaceAmount * $i; }
   .pl#{$i} { padding-left: $whitespaceAmount * $i; }
 }
 
-@for $i from 5 through 8 {
+@for $i from 5 through 16 {
   .mt#{$i} { margin-top: $whitespaceAmount * $i; }
   .mr#{$i} { margin-right: $whitespaceAmount * $i; }
   .mb#{$i} { margin-bottom: $whitespaceAmount * $i; }
