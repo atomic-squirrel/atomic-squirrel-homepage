@@ -1,3 +1,4 @@
+{% assign ref = "startup-checklist-intro" %}
 <div class="px3 pb3">
   <h2>About the Checklist</h2>
   <p>
@@ -6,8 +7,9 @@
     <a href="http://www.html5rocks.com/en/features/storage">Local Storage</a>.
     You can print it out at any time. The list doesn't go into much detail on
     each task, so for a deeper look, check out the book
-    <a href="{{ site.hello_startup_url }}?ref=startup-checklist-intro">Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams.</a>
+    <a href="{{ site.hello_startup_url }}?ref={{ ref }}">Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams.</a>
   </p>
+  {% include hello-startup-book-cover.html hello_startup_ref=ref %}
   <p>
     Bear in mind that this checklist is always a work in progress. It has grown
     over the years and now covers the most common tasks you'd need to do at
