@@ -1,6 +1,6 @@
 {% capture margin_top %}{% if include.margin_top %}{{ include.margin_top }}{% else %}4{% endif %}{% endcapture %}
 <div class="center">
-  <a href="{{ include.url }}"{% if include.url contains '#' %} data-scroll{% else %} target="_blank"{% endif %} class="btn btn-primary caps py2 mt{{ margin_top }}{% if include.custom_classes %} {{ include.custom_classes }}{% endif %}">
+  <a href="{{ include.url }}"{% if include.url contains '#' %} data-scroll{% else %} target="_blank"{% endif %} class="btn {% unless include.regular_button %}btn-primary{% endunless %} caps py2 mt{{ margin_top }}{% if include.custom_classes %} {{ include.custom_classes }}{% endif %}">
     {% if include.icon %}<i class="fa fa-{{ include.icon }} pr1 col-1"></i>{% endif %}
     {{ include.text }}
   </a>
