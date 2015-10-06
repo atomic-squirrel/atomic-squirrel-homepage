@@ -9,6 +9,7 @@ slogan: "Launch your startup"
 description: "Atomic Squirrel specializes in helping new startups get off the ground."
 thumbnail_path: "atomic-squirrel-logo.png"
 website_repo_url: "https://github.com/atomic-squirrel/atomic-squirrel-homepage"
+hello_startup_url: "http://www.hello-startup.net/"
 
 # URLs
 contact_urls:
