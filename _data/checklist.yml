@@ -495,6 +495,13 @@
         See <a href="http://www.hello-startup.net/resources/monitoring/?ref=startup-checklist" target="_blank">Monitoring Resources</a>.
     - name: "Security"
       sublist:
+        - name: "Network isolation"
+          description: |
+            Control which IPs and ports are accessible on all servers.
+            Segregate different parts of your stack into separate networks:
+            e.g., one for your corporate intranet, one for your backend
+            servers, one for your public-facing web servers. See
+            <a href="https://aws.amazon.com/vpc/" target="_blank">Amazon VPC</a>.
         - name: "SSL"
           description: |
             See
