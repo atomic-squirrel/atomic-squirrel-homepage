@@ -1,5 +1,5 @@
-web:  
-  image: atomic-squirrel/atomic-squirrel-homepage
+web:
+  image: brikis98/atomic-squirrel-homepage
   volumes:
     - .:/src
   ports:
