@@ -1,0 +1,92 @@
+- id: "docker-on-aws"
+  url: "http://www.ybrikman.com/writing/2015/11/11/running-docker-aws-ground-up/"
+  title: "Running Docker on AWS from the ground up"
+  date: "November 11, 2015"
+  image: "docker-on-aws.png"
+  description: |
+    A blog post where Jim introduces Docker deployment from the ground up,
+    using Amazon Web Services (AWS) for hosting, with the goal of making the
+    tutorial accessible to both AWS deployment newbies and Docker deployment
+    newbies.
+- id: "play-docker-circle-aws"
+  url: "https://joshpadnick.com/2015/11/11/play-framework-docker-circleci-aws-ec2-container-service/"
+  title: "Play Framework + Docker + CircleCI + AWS + EC2 Container Service"
+  date: "November 11, 2015"
+  image: "play-docker-circle-aws.png"
+  description: |
+    Josh's talk where he does a walkthrough of the Play Framework and explains
+    how to build a continuous deployment pipeline around it using Docker,
+    Circle CI, and AWS.
+- id: "hello-startup-release"
+  url: "http://www.hello-startup.net/"
+  title: "Hello, Startup has been released!"
+  date: "November 3, 2015"
+  image: "hello-startup-cover-small.png"
+  description: |
+    Yevgeniy Brikman's book, <em>Hello, Startup: A Programmer's Guide to
+    Building Products, Technologies, and Teams</em> has been published and is
+    now available online and in your local bookstores!
+- id: "crash-course-design"
+  url: "http://www.ybrikman.com/writing/2015/10/07/crash-course-design-for-developers/"
+  title: "A Crash Course on Design for Developers"
+  date: "October 7, 2015"
+  image: "crash-course-design-developers.png"
+  description: |
+    A talk where Jim introduces the basic tools of user-centered and visual
+    design. It's targeted at developers and any other design newbies who want
+    to improve the design of their websites, mobile apps, resumes, slide decks,
+    and so on.
+- id: "atomic-squirrel-checklist"
+  url: "http://www.ybrikman.com/writing/2015/09/21/introducing-atomic-squirrel-startup-checklist/"
+  title: "Introducing Atomic Squirrel and The Startup Checklist"
+  date: "September 21, 2015"
+  image: "atomic-squirrel-logo.png"
+  description: |
+    Jim introduces Atomic Squirrel to the world and unveils the Startup
+    Checklist, which is a comprehensive list of everything you need to do to
+    launch a startup.
+- id: "docker-framework-production"
+  url: "https://joshpadnick.com/2015/09/01/my-talk-on-choosing-the-right-framework-for-running-docker-containers-in-production/"
+  title: "Choosing the Right Framework for Running Docker Containers in Production"
+  date: "September 1, 2015"
+  image: "docker-production-framework.png"
+  description: |
+    Josh's talk on choosing the right framework for running docker containers
+    in production, with a special focus on the frameworks that allow you to
+    run multiple containers on a single VM.
+- id: "docker-development-osx"
+  url: "http://www.ybrikman.com/writing/2015/05/19/docker-osx-dev/"
+  title: "A productive development environment with Docker on OS X"
+  date: "May 19, 2015"
+  image: "docker-logo.png"
+  description: |
+    In this post, Jim explains why installing, configuring, and maintaining
+    software can be a complete nightmare, how to do it better using Docker,
+    and finally, how to productively use Docker on OS X.
+- id: "guide-to-startup-hiring"
+  url: "http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/"
+  title: "A Guide to Hiring for your Startup"
+  date: "May 7, 2015"
+  image: "guide-to-hiring.png"
+  description: |
+    Jim's talk on startup hiring, including what to look for in candidates,
+    where to find them, how to interview them, and how to make an offer they
+    can’t refuse.
+- id: "scalable-services-aws"
+  url: "https://www.airpair.com/aws/posts/building-a-scalable-web-app-on-amazon-web-services-p1/"
+  title: "A Comprehensive Guide to Building a Scalable Web App on Amazon Web Services - Part 1"
+  date: "January 21, 2015"
+  image: "scalable-services-aws.png"
+  description: |
+    Josh's 12,000+ word guide on how to build scalable web apps on Amazon Web
+    Services.
+- id: "you-are-what-you-document"
+  url: "http://www.ybrikman.com/writing/2014/05/05/you-are-what-you-document/"
+  title: "You Are What You Document"
+  date: "May 5, 2014"
+  image: "ha-ha-documentation.jpg"
+  description: |
+    Jim's guide on how, and why, to write documentation, including not just
+    a written manual, but all the pieces that go into making software learnable:
+    the coding practices, tutorials, white papers, marketing, the community,
+    and the user experience.

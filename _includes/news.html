@@ -1,0 +1,27 @@
+<section id="news">
+  <h2 class="center caps">Latest News</h2>
+  <hr class="col-6 mb4">
+  <p class="mb4">
+    Blog posts, talks, open source projects, and other updates from the Atomic
+    Squirrel team.
+  </p>
+  {% for news in site.data.news %}
+    {% capture url %}{{ news.url }}?ref=atomic-squirrel-news{% endcapture %}
+    <hr class="mb4">
+    <div class="clearfix mxn2 mb3">
+      <div class="col sm-col-4 pr2">
+        <a href="{{ url }}" target="_blank">
+          <img src="/assets/images/news/{{ news.image }}" alt="{{ news.title }}">
+        </a>
+      </div>
+      <div class="col sm-col-8">
+        <h4 class="mt0 mb0"><a href="{{ url }}" target="_blank">{{ news.title }}</a></h4>
+        <small class="block mb2 gray">{{ news.date }}</small>
+        <p>
+          {{ news.description }}
+        </p>
+      </div>
+    </div>
+  {% endfor %}
+  {% include button.html url="#book" text="Learn more" %}
+</section>
