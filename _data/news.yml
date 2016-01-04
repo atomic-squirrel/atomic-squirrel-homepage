@@ -1,3 +1,10 @@
+- id: "hakin9-interview"
+  url: "https://hakin9.org/startup-is-a-company-that-spends-most-of-its-time-searching-interview-with-yevgeniy-jim-brikman-founder-of-atomic-squirrel/"
+  title: "A startup is a company that spends most of its time searching"
+  date: "January 4, 2016"
+  image: "hakin9-magazine_logo_small.jpg"
+  description: |
+    Jim does an interview with Hakin9 on startups, agility, security, and more.
 - id: "docker-on-aws"
   url: "http://www.ybrikman.com/writing/2015/11/11/running-docker-aws-ground-up/"
   title: "Running Docker on AWS from the ground up"
