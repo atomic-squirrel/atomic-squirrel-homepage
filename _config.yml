@@ -5,7 +5,7 @@ url: "http://www.atomic-squirrel.net"
 # Bio settings
 name: "Atomic Squirrel"
 name_full: "Atomic Squirrel, LLC"
-slogan: "Launch your startup"
+slogan: "Launch and scale your startup"
 description: "Atomic Squirrel specializes in helping new startups get off the ground."
 thumbnail_path: "atomic-squirrel-logo.png"
 website_repo_url: "https://github.com/atomic-squirrel/atomic-squirrel-homepage"
