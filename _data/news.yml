@@ -1,3 +1,11 @@
+- id: "mvp-is-a-process"
+  url: "http://themacro.com/articles/2016/01/minimum-viable-product-process/"
+  title: "A Minimum Viable Product Is Not a Product, It's a Process"
+  date: "January 22, 2016"
+  image: "macro-mvp.png"
+  description: |
+    Jim published a blog post on The Macro, Y Combinator's blog, that discusses
+    one of the most common causes of startup failure.
 - id: "hakin9-interview"
   url: "https://hakin9.org/startup-is-a-company-that-spends-most-of-its-time-searching-interview-with-yevgeniy-jim-brikman-founder-of-atomic-squirrel/"
   title: "A startup is a company that spends most of its time searching"
