@@ -1,3 +1,12 @@
+- id: "splitting-up-codebase"
+  url: "https://engineering.linkedin.com/blog/2016/02/q-a-with-jim-brikman--splitting-up-a-codebase-into-microservices"
+  title: "Splitting up a Codebase into Microservices and Artifacts"
+  date: "February 24, 2016"
+  image: "splitting-up-code.png"
+  description: |
+    Jim's post on the LinkedIn Engineering Blog about techniques for splitting up a codebase. The key topics covered are
+    the tradeoffs between a single repository with source dependencies versus multiple repositories with artifact
+    dependencies and the tradeoffs between a single monolithic app and a microservice architecture.
 - id: "agility-requires-safety"
   url: "http://www.ybrikman.com/writing/2016/02/14/agility-requires-safety/"
   title: "Agility Requires Safety"
