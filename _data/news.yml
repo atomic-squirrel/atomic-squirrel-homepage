@@ -1,3 +1,11 @@
+- id: "infra-as-code"
+  url: "http://www.ybrikman.com/writing/2016/03/31/infrastructure-as-code-microservices-aws-docker-terraform-ecs/"
+  title: "Infrastructure as code: running microservices on AWS using Docker, Terraform, and ECS"
+  date: "Friday, April 1, 2016"
+  image: "infrastructure-as-code-screenshot-thumb.png"
+  description: |
+    Jim's talk from DevOps Italia on how to manage your software and infrastructure-as-code that walks through a
+    real-world example of deploying microservices on AWS using Docker, Terraform, and ECS.
 - id: "agility-requires-safety-macro"
   url: "http://themacro.com/articles/2016/03/agility-requires-safety/"
   title: "Agility Requires Safety"
