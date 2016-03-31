@@ -1,3 +1,10 @@
+- id: "agility-requires-safety-macro"
+  url: "http://themacro.com/articles/2016/03/agility-requires-safety/"
+  title: "Agility Requires Safety"
+  date: "Wednesday, March 30 2016"
+  image: "agility-requires-safety-iss.png"
+  description: |
+    Jim's post on The Macro on the safety mechanisms that power agile software companies.
 - id: "splitting-up-codebase"
   url: "https://engineering.linkedin.com/blog/2016/02/q-a-with-jim-brikman--splitting-up-a-codebase-into-microservices"
   title: "Splitting up a Codebase into Microservices and Artifacts"
