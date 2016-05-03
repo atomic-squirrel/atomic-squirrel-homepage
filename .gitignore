@@ -15,3 +15,6 @@ _site/
 
 # Vagrant
 .vagrant
+
+# IntelliJ
+*.iml
