@@ -2,13 +2,13 @@
   sublist:
     - name: "Problem"
       description: |
-        See <a href="http://www.hello-startup.net/resources/startup-ideas/?ref=startup-checklist" target="_blank">Startup Ideas</a>.
+        See <a href="https://www.hello-startup.net/resources/startup-ideas/?ref=startup-checklist" target="_blank">Startup Ideas</a>.
     - name: "Validation"
       description: |
         See <a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705" target="_blank">The Four Steps to the Epiphany</a>.
     - name: "Market sizing"
       description: |
-        See <a href="http://www.hello-startup.net/resources/idea-validation/?ref=startup-checklist" target="_blank">Market Sizing Resources</a>.
+        See <a href="https://www.hello-startup.net/resources/idea-validation/?ref=startup-checklist" target="_blank">Market Sizing Resources</a>.
     - name: "Viability"
       description: |
         Can this problem be solved? Can this problem be solved by
@@ -23,7 +23,7 @@
       description: |
         How do you build a startup? How do you design products? How do you build
         the technology? How do you hire people? See
-        <a href="http://www.hello-startup.net/?ref=startup-checklist" target="_blank">Hello, Startup</a>,
+        <a href="https://www.hello-startup.net/?ref=startup-checklist" target="_blank">Hello, Startup</a>,
         <a href="https://www.goodreads.com/list/show/88189.Hello_Startup_Reading_List" target="_blank">Hello, Startup Reading List</a>,
         and
         <a href="http://startupclass.samaltman.com/" target="_blank">How to Start a Startup</a>.
@@ -47,7 +47,7 @@
         <a href="http://www.amazon.com/The-Entrepreneurs-Guide-Business-Edition/dp/0538466464" target="_blank">The Entrepreneur's Guide to Business Law</a>.
     - name: "Equity"
       description: |
-        See <a href="http://www.hello-startup.net/resources/equity/?ref=startup-checklist" target="_blank">Startup Equity Resources</a>.
+        See <a href="https://www.hello-startup.net/resources/equity/?ref=startup-checklist" target="_blank">Startup Equity Resources</a>.
     - name: "Licenses and permits"
       description: |
         See <a href="https://www.sba.gov/content/what-state-licenses-and-permits-does-your-business-need" target="_blank">What State Licenses and Permits Does Your Business Need?</a>
@@ -104,7 +104,7 @@
         See
         <a href="https://www.sequoiacap.com/grove/starting/business-plan" target="_blank">Developing a Business Plan</a>
         and
-        <a href="http://www.hello-startup.net/resources/monetization/?ref=startup-checklist" target="_blank">Startup Monetization Resources</a>.
+        <a href="https://www.hello-startup.net/resources/monetization/?ref=startup-checklist" target="_blank">Startup Monetization Resources</a>.
     - name: "Pitch deck"
       description: |
         See
@@ -154,7 +154,7 @@
   sublist:
     - name: "Design"
       description: |
-        See <a href="http://www.hello-startup.net/resources/design/?ref=startup-checklist" target="_blank">Design Resources</a>.
+        See <a href="https://www.hello-startup.net/resources/design/?ref=startup-checklist" target="_blank">Design Resources</a>.
       sublist:
         - name: "Platform"
           description: |
@@ -175,9 +175,9 @@
             Good software developers reuse as much battle-tested code as
             possible. Good designers reuse as many battle-tested designs as
             possible. See
-            <a href="http://www.hello-startup.net/resources/design/?ref=startup-checklist" target="_blank">Design Resources</a>
+            <a href="https://www.hello-startup.net/resources/design/?ref=startup-checklist" target="_blank">Design Resources</a>
             and
-            <a href="http://www.hello-startup.net/resources/images-photos-graphics/?ref=startup-checklist" target="_blank">Photos and Graphics Resources</a>.
+            <a href="https://www.hello-startup.net/resources/images-photos-graphics/?ref=startup-checklist" target="_blank">Photos and Graphics Resources</a>.
         - name: "Copywriting"
           description: |
             Copywriting is more important to a design than colors, borders,
@@ -186,7 +186,7 @@
             <a href="https://gettingreal.37signals.com/" target="_blank">Getting Real</a>.
         - name: "Visual design"
           description: |
-            See <a href="http://www.hello-startup.net/resources/design/?ref=startup-checklist" target="_blank">Design Resources</a>.
+            See <a href="https://www.hello-startup.net/resources/design/?ref=startup-checklist" target="_blank">Design Resources</a>.
         - name: "Usability testing"
           description: |
             See <a href="http://www.amazon.com/gp/product/0321965515/" target="_blank">Don't Make Me Think</a>.
@@ -196,7 +196,7 @@
         <a href="http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898" target="_blank">The Lean Startup</a>,
         <a href="http://www.amazon.com/The-guide-Minimum-Viable-Product-ebook/dp/B00ORWJ0GC" target="_blank">The Guide to Minimum Viable Product</a>,
         and
-        <a href="http://www.hello-startup.net/resources/mvp/" target="_blank">Minimum Viable Product Resources</a>.
+        <a href="https://www.hello-startup.net/resources/mvp/" target="_blank">Minimum Viable Product Resources</a>.
       sublist:
         - name: "MVP Type"
           description: |
@@ -214,7 +214,7 @@
             <a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705" target="_blank">The Four Steps to the Epiphany</a>.
         - name: "MVP tools and resources"
           description: |
-            See <a href="http://www.hello-startup.net/resources/mvp/?ref=startup-checklist" target="_blank">Minimum Viable Product Resources</a>.
+            See <a href="https://www.hello-startup.net/resources/mvp/?ref=startup-checklist" target="_blank">Minimum Viable Product Resources</a>.
     - name: "Data"
       description: |
         It is the product manager's job to define
@@ -240,17 +240,17 @@
       description: |
         The best product doesn't always win. It's the best product the customer
         knows about that wins. See
-        <a href="http://www.hello-startup.net/resources/distribution/?ref=startup-checklist" target="_blank">Startup Distribution Resources</a>.
+        <a href="https://www.hello-startup.net/resources/distribution/?ref=startup-checklist" target="_blank">Startup Distribution Resources</a>.
       sublist:
         - name: "Marketing"
           description: |
             Word of mouth, advertising, public relations (PR), search engine
             optimization (SEO), social media, inbound marketing. See
-            <a href="http://www.hello-startup.net/resources/distribution/?ref=startup-checklist" target="_blank">Startup Distribution Resources</a>.
+            <a href="https://www.hello-startup.net/resources/distribution/?ref=startup-checklist" target="_blank">Startup Distribution Resources</a>.
         - name: "Sales"
           description: |
             Automated sales, inbound sales, outbound sales. See
-            <a href="http://www.hello-startup.net/resources/distribution/?ref=startup-checklist" target="_blank">Startup Distribution Resources</a>.
+            <a href="https://www.hello-startup.net/resources/distribution/?ref=startup-checklist" target="_blank">Startup Distribution Resources</a>.
         - name: "Branding"
           description: |
             Branding isn't about a single ad campaign or a logo or any one
@@ -270,7 +270,7 @@
             Go with what you know.
         - name: "Server-side framework"
           description: |
-            See <a href="http://www.ybrikman.com/writing/2014/09/29/nodejs-vs-play-framework/" target="_blank">Node.js vs Play Framework</a>
+            See <a href="https://www.ybrikman.com/writing/2014/09/29/nodejs-vs-play-framework/" target="_blank">Node.js vs Play Framework</a>
             for an example of how to compare frameworks.
         - name: "Architecture"
           description: |
@@ -280,7 +280,7 @@
             <a href="http://www.confluent.io/blog/making-sense-of-stream-processing/" target="_blank">stream processing, event sourcing, and CQRS</a>.
         - name: "Scalability & Performance"
           description: |
-            See <a href="http://www.hello-startup.net/resources/scalability/?ref=startup-checklist" target="_blank">Scalability Resources</a>.
+            See <a href="https://www.hello-startup.net/resources/scalability/?ref=startup-checklist" target="_blank">Scalability Resources</a>.
     - name: "Client-side"
       description: |
         What clients do you support? Desktop web? Mobile web? Native mobile apps
@@ -372,7 +372,7 @@
           description: |
             See <a href="https://www.facebook.com/notes/facebook-engineering/bigpipe-pipelining-web-pages-for-high-performance/389414033919" target="_blank">BigPipe: Pipelining web pages for high performance</a>
             and
-            <a href="http://www.ybrikman.com/writing/2015/06/30/ping-play-big-pipe-streaming-for-play-framework/" target="_blank">Ping-Play: Big Pipe Streaming for the Play Framework</a>.
+            <a href="https://www.ybrikman.com/writing/2015/06/30/ping-play-big-pipe-streaming-for-play-framework/" target="_blank">Ping-Play: Big Pipe Streaming for the Play Framework</a>.
         - name: "HTML5 preconnect, prefetch, prerender"
           description: |
             See <a href="https://docs.google.com/presentation/d/18zlAdKAxnc51y_kj-6sWLmnjl6TLnaru_WH0LJTjP-o/present?slide=id.p19" target="_blank">Preconnect, prefetch, prerender</a>.
@@ -464,13 +464,13 @@
             See <a href="https://en.wikipedia.org/wiki/Deployment_environment" target="_blank">Deployment Environment</a>.
         - name: "Hosting"
           description: |
-            See <a href="http://www.hello-startup.net/resources/hosting/?ref=startup-checklist" target="_blank">Startup Hosting Resources</a>.
+            See <a href="https://www.hello-startup.net/resources/hosting/?ref=startup-checklist" target="_blank">Startup Hosting Resources</a>.
         - name: "Configuration management"
           description: |
-            See <a href="http://www.hello-startup.net/resources/deployment/" target="_blank">Deployment Tools</a>.
+            See <a href="https://www.hello-startup.net/resources/deployment/" target="_blank">Deployment Tools</a>.
         - name: "Automated deployment"
           description: |
-            See <a href="http://www.hello-startup.net/resources/deployment/" target="_blank">Deployment Tools</a>.
+            See <a href="https://www.hello-startup.net/resources/deployment/" target="_blank">Deployment Tools</a>.
         - name: "Canary releases"
           description: |
             See <a href="http://martinfowler.com/bliki/CanaryRelease.html" target="_blank">Canary Release</a>.
@@ -492,7 +492,7 @@
             place you turn to answer the question, "What changed?"
     - name: "Monitoring"
       description: |
-        See <a href="http://www.hello-startup.net/resources/monitoring/?ref=startup-checklist" target="_blank">Monitoring Resources</a>.
+        See <a href="https://www.hello-startup.net/resources/monitoring/?ref=startup-checklist" target="_blank">Monitoring Resources</a>.
     - name: "Security"
       sublist:
         - name: "Network isolation"
@@ -585,10 +585,10 @@
             changes can go in.
         - name: "Code reviews"
           description: |
-            See <a href="http://www.hello-startup.net/resources/code-review/?ref=startup-checklist" target="_blank">Code Review Resources</a>.
+            See <a href="https://www.hello-startup.net/resources/code-review/?ref=startup-checklist" target="_blank">Code Review Resources</a>.
         - name: "Documentation"
           description: |
-            See <a href="http://www.ybrikman.com/writing/2014/05/05/you-are-what-you-document/" target="_blank">You Are What You Document</a>.
+            See <a href="https://www.ybrikman.com/writing/2014/05/05/you-are-what-you-document/" target="_blank">You Are What You Document</a>.
         - name: "Split up the code"
           description: |
             It can be hard to reason and make changes to a single, giant,
@@ -644,7 +644,7 @@
             <a href="https://github.com/tschellenbach/Stream-Framework" target="_blank">Stream-Framework</a>.
         - name: "Monetization"
           description: |
-            See <a href="http://www.hello-startup.net/resources/monetization/?ref=startup-checklist" target="_blank">Startup Monetization Resources</a>.
+            See <a href="https://www.hello-startup.net/resources/monetization/?ref=startup-checklist" target="_blank">Startup Monetization Resources</a>.
         - name: "Microservice management"
           description: |
             See
@@ -775,7 +775,7 @@
             machines, phones, software.
     - name: "Communication"
       description: |
-        See <a href="http://www.hello-startup.net/resources/collaboration/?ref=startup-checklist" target="_blank">Startup Collaboration Resources</a>
+        See <a href="https://www.hello-startup.net/resources/collaboration/?ref=startup-checklist" target="_blank">Startup Collaboration Resources</a>
         for more info.
       sublist:
         - name: "Email"
@@ -813,7 +813,7 @@
             See <a href="http://www.vistaprint.com/" target="_blank">Vistaprint</a>.
     - name: "Hiring"
       description: |
-        See <a href="http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>
+        See <a href="https://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>
       sublist:
         - name: "Co-founders"
           description: |
@@ -823,7 +823,7 @@
             <a href="http://paulgraham.com/startupmistakes.html" target="_blank">"I can't let my cofounder down"</a>,
             you're not likely to succeed. A team of 2-3 co-founders works best.
             For more information, see
-            <a href="http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>.
+            <a href="https://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>.
         - name: "Advisors"
           description: |
             Everyone needs a mentor, coach, or advisor. All companies that are C
@@ -845,18 +845,18 @@
         - name: "Job boards"
           description: |
             See
-            <a href="http://www.ybrikman.com/writing/2011/04/26/your-job-posting-sucks/" target="_blank">Your Job Posting Sucks</a>
+            <a href="https://www.ybrikman.com/writing/2011/04/26/your-job-posting-sucks/" target="_blank">Your Job Posting Sucks</a>
             and
-            <a href="http://www.hello-startup.net/resources/jobs/?ref=startup-checklist" target="_blank">Startup Job Resources</a>.
+            <a href="https://www.hello-startup.net/resources/jobs/?ref=startup-checklist" target="_blank">Startup Job Resources</a>.
         - name: "The interview"
           description: |
-            See <a href="http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>.
+            See <a href="https://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/" target="_blank">A Guide to Hiring for your Startup</a>.
         - name: "The offer"
           description: |
             See
-            <a href="http://www.hello-startup.net/resources/salary/?ref=startup-checklist" target="_blank">Startup Salary Resources</a>
+            <a href="https://www.hello-startup.net/resources/salary/?ref=startup-checklist" target="_blank">Startup Salary Resources</a>
             and
-            <a href="http://www.hello-startup.net/resources/equity/?ref=startup-checklist" target="_blank">Startup Equity Resources</a>.
+            <a href="https://www.hello-startup.net/resources/equity/?ref=startup-checklist" target="_blank">Startup Equity Resources</a>.
         - name: "Promotions"
           description: |
             See

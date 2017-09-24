@@ -1,6 +1,6 @@
 # Atomic Squirrel Homepage
 
-This is the code for the [Atomic Squirrel Home Page](http://www.atomic-squirrel.net).
+This is the code for the [Atomic Squirrel Home Page](https://www.atomic-squirrel.net).
 
 # Quick start
 
