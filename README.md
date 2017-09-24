@@ -16,23 +16,12 @@ documentation for more info.
 # Docker quick start
 
 As an alternative to installing Ruby and Jekyll, if you're a user of
-[Docker](https://www.docker.com/) and [Docker 
-Compose](https://docs.docker.com/compose/), you can run a Docker image of 
+[Docker](https://www.docker.com/), you can run a Docker image of 
 atomic-squirrel-homepage that has all the dependencies already setup for you.
-
-On Linux:
 
 1. `git clone` this repo
 2. `docker-compose up`
 3. Go to `http://localhost:4000` to test 
-
-On OS X, using the [docker-osx-dev](https://github.com/brikis98/docker-osx-dev)
-project:
-
-1. `git clone` this repo
-2. `docker-osx-dev`
-3. `docker-compose up`
-4. Go to `http://dockerhost:4000` to test
 
 # Technologies
 
@@ -42,6 +31,7 @@ project:
    [GitHub Pages Gem](https://help.github.com/articles/using-jekyll-with-pages/)
    and only Jekyll plugins that are 
    [available on GitHub Pages](https://help.github.com/articles/repository-metadata-on-github-pages/).
+1. Free SSL and CDN provided by [CloudFlare](https://www.cloudflare.com/).    
 1. [Basscss](http://www.basscss.com/), [Sass](http://sass-lang.com/),
    [Font Awesome Icons](http://fortawesome.github.io/Font-Awesome/icons/),
    and [Google Fonts](https://www.google.com/fonts) for styling.
