@@ -610,8 +610,9 @@
             <a href="https://www.elastic.co/" target="_blank">Elasticsearch</a>,
             <a href="https://www.algolia.com/" target="_blank">Algolia</a>,
             <a href="https://www.searchify.com/" target="_blank">Searchify</a>,
+            <a href="https://aws.amazon.com/cloudsearch/" target="_blank">Amazon CloudSearch</a>
             and
-            <a href="https://aws.amazon.com/cloudsearch/" target="_blank">Amazon CloudSearch</a>.
+            <a href="https://expertrec.com/" target="_blank">ExpertRec</a>.
         - name: "Email"
           description: |
             See
